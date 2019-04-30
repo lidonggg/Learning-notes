@@ -3,6 +3,8 @@
 ## 算法
 ### 链表
 - [单链表反转](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/linkedlist/LinkedListReserve.java)
+  - 非递归法
+  - 递归法
 ### 查找
 - [二分查找](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/search/BinarySearch.java)
   - 普通二分查找
