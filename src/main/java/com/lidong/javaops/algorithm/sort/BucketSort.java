@@ -12,7 +12,7 @@ import java.util.List;
  * 适合数据量比较大的场景，内存加载不了需要在外部磁盘中进行的外部排序等；数据分布也最好要比较均匀，否则极端情况下时间复杂度会退化成O(nlogn)
  * 下面是最基本的桶排序，当某个桶中的元素较多的时候，可以再次递归利用桶排序进一步划分
  */
-public class BucketSort implements SortFactory {
+public class BucketSort implements SortFactory<int[]> {
 
     @Override
     public void sort(int[] arr) {

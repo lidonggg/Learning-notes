@@ -5,7 +5,7 @@ package com.lidong.javaops.algorithm.sort;
  * @version 2019/4/29 15:17
  * 插入排序，时间复杂度O(n^2)，空间复杂度O(n)，稳定，原地排序
  */
-public class InsertSort implements SortFactory {
+public class InsertSort implements SortFactory<int[]> {
 
     @Override
     public void sort(int[] arr) {

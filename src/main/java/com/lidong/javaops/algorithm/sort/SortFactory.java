@@ -5,11 +5,12 @@ package com.lidong.javaops.algorithm.sort;
  * @version 2019/4/29 15:40
  * 排序工厂
  */
-public interface SortFactory {
+public interface SortFactory<T> {
 
     /**
      * 排序
+     *
      * @param arr 待排序数组
      */
-    void sort(int[] arr);
+    void sort(T arr);
 }

@@ -7,7 +7,7 @@ import com.lidong.javaops.algorithm.util.ArrayUtil;
  * @version 2019/4/29 15:20
  * 冒泡排序，时间复杂度O(n^2)，稳定，原地排序
  */
-public class BubbleSort implements SortFactory {
+public class BubbleSort implements SortFactory<int[]> {
 
     @Override
     public void sort(int[] arr) {

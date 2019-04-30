@@ -8,7 +8,7 @@ package com.lidong.javaops.algorithm.sort;
  * 要求：数据的分布范围不是很大，而且所有的元素都应该是非负整数或者说能转变成非负整数，
  * 比如数组中最小值是-1，此时我们可以把每一项分别+1让其变成一个非负整数数组
  */
-public class CountingSort implements SortFactory {
+public class CountingSort implements SortFactory<int[]> {
 
     @Override
     public void sort(int[] arr) {

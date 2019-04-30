@@ -6,7 +6,7 @@ package com.lidong.javaops.algorithm.sort;
  * 归并排序，时间复杂度O(nlogn)，空间复杂度O(nlogn)，稳定，非原地排序
  * 递推公式：merge_sort(p...r) = merge(merge_sort(p...q),merge_sort(q...r))
  */
-public class MergeSort implements SortFactory {
+public class MergeSort implements SortFactory<int[]> {
 
     @Override
     public void sort(int[] arr) {

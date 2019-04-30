@@ -7,7 +7,7 @@ import com.lidong.javaops.algorithm.util.ArrayUtil;
  * @version 2019/4/29 16:26
  * 选择排序，时间复杂度O(n^2)，空间复杂度O(1)，不稳定，原地排序
  */
-public class SelectSort implements SortFactory {
+public class SelectSort implements SortFactory<int[]> {
 
     @Override
     public void sort(int[] arr) {

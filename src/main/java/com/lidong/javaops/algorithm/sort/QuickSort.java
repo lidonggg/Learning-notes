@@ -7,7 +7,7 @@ import com.lidong.javaops.algorithm.util.ArrayUtil;
  * @version 2019/4/29 16:00
  * 快速排序，时间复杂度O(nlogn)，不稳定，可以代码控制为原地排序
  */
-public class QuickSort implements SortFactory {
+public class QuickSort implements SortFactory<int[]> {
 
     @Override
     public void sort(int[] arr) {
