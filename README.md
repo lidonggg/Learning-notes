@@ -14,3 +14,4 @@
 - [选择排序](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/sort/SelectSort.java)
 - [归并排序](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/sort/MergeSort.java)
 - [快速排序](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/sort/QuickSort.java)
+- [计数排序](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/sort/CountingSort.java)
