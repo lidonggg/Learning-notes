@@ -39,6 +39,7 @@ public class CountingSort implements SortFactory {
 
         // 依次累加
         // 累加完之后，counts[i]的值代表小于等于 i 的元素个数
+        // 也可以只使counts[i]的值代表小于 i 的元素个数，这样插入操作就可以从前往后便利，每次在counts[arr[i]]的位置插入
         for (int i = 1; i <= max; i++) {
             counts[i] += counts[i - 1];
         }
