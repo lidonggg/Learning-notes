@@ -5,7 +5,7 @@ import com.lidong.javaops.algorithm.util.ArrayUtil;
 import com.lidong.javaops.algorithm.common.impl.ArrayForSort;
 
 /**
- * @author dlif
+ * @author Ls J
  * @version 2019/4/29 15:01
  * 归并排序，时间复杂度O(nlogn)，空间复杂度O(nlogn)，稳定，非原地排序
  * 递推公式：merge_sort(p...r) = merge(merge_sort(p...q),merge_sort(q...r))

@@ -3,7 +3,7 @@ package com.lidong.javaops.algorithm.common.impl;
 import com.lidong.javaops.algorithm.common.ArrayFactory;
 
 /**
- * @author dlif
+ * @author Ls J
  * @version 2019/4/29 15:03
  */
 public class ArrayForSort implements ArrayFactory {

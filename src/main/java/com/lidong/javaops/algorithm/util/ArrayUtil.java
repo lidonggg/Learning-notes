@@ -1,7 +1,7 @@
 package com.lidong.javaops.algorithm.util;
 
 /**
- * @author dlif
+ * @author Ls J
  * @version 2019/4/29 15:09
  */
 public class ArrayUtil {

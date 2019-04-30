@@ -5,7 +5,7 @@ import com.lidong.javaops.algorithm.util.ArrayUtil;
 import com.lidong.javaops.algorithm.common.impl.ArrayForSearch;
 
 /**
- * @author dlif
+ * @author Ls J
  * @version 2019/4/29 13:57
  * 二分查找的各种变形，时间复杂度O(logn)
  */

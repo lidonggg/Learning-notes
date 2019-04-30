@@ -1,7 +1,7 @@
 package com.lidong.javaops.algorithm.sort;
 
 /**
- * @author dlif
+ * @author Ls J
  * @version 2019/4/29 15:40
  * 排序工厂
  */

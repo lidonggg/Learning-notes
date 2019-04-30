@@ -5,7 +5,7 @@ import com.lidong.javaops.algorithm.common.impl.ArrayForSort;
 import com.lidong.javaops.algorithm.util.ArrayUtil;
 
 /**
- * @author dlif
+ * @author Ls J
  * @version 2019/4/29 16:00
  * 快速排序，时间复杂度O(nlogn)，不稳定，可以代码控制为原地排序
  */

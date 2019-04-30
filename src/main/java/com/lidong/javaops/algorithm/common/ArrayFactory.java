@@ -1,7 +1,7 @@
 package com.lidong.javaops.algorithm.common;
 
 /**
- * @author dlif
+ * @author Ls J
  * @version 2019/4/29 15:01
  */
 public interface ArrayFactory {
