@@ -9,6 +9,7 @@ import com.lidong.javaops.algorithm.util.ArrayUtil;
  */
 public class BubbleSort implements SortFactory {
 
+    @Override
     public void sort(int[] arr) {
         bubbleSort(arr);
     }

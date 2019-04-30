@@ -10,6 +10,7 @@ package com.lidong.javaops.algorithm.sort;
  */
 public class CountingSort implements SortFactory {
 
+    @Override
     public void sort(int[] arr) {
         countingSort(arr);
     }

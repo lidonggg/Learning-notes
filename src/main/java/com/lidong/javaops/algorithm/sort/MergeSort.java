@@ -8,6 +8,7 @@ package com.lidong.javaops.algorithm.sort;
  */
 public class MergeSort implements SortFactory {
 
+    @Override
     public void sort(int[] arr) {
         int[] tmp = new int[arr.length];
         mergeSort(arr, 0, arr.length, tmp);

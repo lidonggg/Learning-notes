@@ -7,6 +7,7 @@ package com.lidong.javaops.algorithm.sort;
  */
 public class InsertSort implements SortFactory {
 
+    @Override
     public void sort(int[] arr) {
         insertSort(arr);
     }

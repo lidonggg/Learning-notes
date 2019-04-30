@@ -9,8 +9,9 @@ import com.lidong.javaops.algorithm.util.ArrayUtil;
  */
 public class SelectSort implements SortFactory {
 
+    @Override
     public void sort(int[] arr) {
-
+        selectSort(arr);
     }
 
     private static void selectSort(int[] arr) {

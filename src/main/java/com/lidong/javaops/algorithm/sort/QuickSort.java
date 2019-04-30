@@ -9,8 +9,9 @@ import com.lidong.javaops.algorithm.util.ArrayUtil;
  */
 public class QuickSort implements SortFactory {
 
+    @Override
     public void sort(int[] arr) {
-
+        quickSort(arr, 0, arr.length - 1);
     }
 
     private static void quickSort(int[] arr, int start, int end) {
