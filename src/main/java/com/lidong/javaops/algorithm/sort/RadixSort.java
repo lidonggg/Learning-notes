@@ -21,13 +21,9 @@ public class RadixSort implements SortFactory<String[]> {
      * @param index  当前供排序的索引，要从最后一位往前
      */
     private static void radixSort(String[] strArr, int index) {
-        int len = strArr.length;
-        String[] tmp = new String[len];
-
-        int m = 3;
-        while (m >= 0) {
-            countingSort(strArr, m);
-            m--;
+        while (index >= 0) {
+            countingSort(strArr, index);
+            index--;
         }
     }
 
