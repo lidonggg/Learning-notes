@@ -1,7 +1,5 @@
 package com.lidong.javaops.algorithm.sort;
 
-import com.lidong.javaops.algorithm.common.ArrayFactory;
-import com.lidong.javaops.algorithm.common.impl.ArrayForSort;
 import com.lidong.javaops.algorithm.util.ArrayUtil;
 
 /**
@@ -50,11 +48,6 @@ public class SelectSort implements SortFactory {
     }
 
     public static void main(String[] args) {
-        ArrayFactory arrayFactory = new ArrayForSort();
-        int[] arr = arrayFactory.createArray();
-        ArrayUtil.printArray(arr);
-        selectSort(arr);
-        System.out.println("排序后的数组为：");
-        ArrayUtil.printArray(arr);
+        SortTest.sortTest(new SelectSort());
     }
 }

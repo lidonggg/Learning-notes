@@ -1,9 +1,5 @@
 package com.lidong.javaops.algorithm.sort;
 
-import com.lidong.javaops.algorithm.common.ArrayFactory;
-import com.lidong.javaops.algorithm.util.ArrayUtil;
-import com.lidong.javaops.algorithm.common.impl.ArrayForSort;
-
 /**
  * @author Ls J
  * @version 2019/4/29 15:17
@@ -36,11 +32,6 @@ public class InsertSort implements SortFactory {
     }
 
     public static void main(String[] args) {
-        ArrayFactory arrayFactory = new ArrayForSort();
-        int[] arr = arrayFactory.createArray();
-        ArrayUtil.printArray(arr);
-        insertSort(arr);
-        System.out.println("排序后的数组为：");
-        ArrayUtil.printArray(arr);
+        SortTest.sortTest(new InsertSort());
     }
 }

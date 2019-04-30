@@ -1,9 +1,5 @@
 package com.lidong.javaops.algorithm.sort;
 
-import com.lidong.javaops.algorithm.common.ArrayFactory;
-import com.lidong.javaops.algorithm.util.ArrayUtil;
-import com.lidong.javaops.algorithm.common.impl.ArrayForSort;
-
 /**
  * @author Ls J
  * @version 2019/4/29 15:01
@@ -73,12 +69,6 @@ public class MergeSort implements SortFactory {
     }
 
     public static void main(String[] args) {
-        ArrayFactory arrayFactory = new ArrayForSort();
-        int[] arr = arrayFactory.createArray();
-        ArrayUtil.printArray(arr);
-        int[] tmp = new int[arr.length];
-        mergeSort(arr, 0, arr.length - 1, tmp);
-        System.out.println("排序后的数组为：");
-        ArrayUtil.printArray(arr);
+        SortTest.sortTest(new MergeSort());
     }
 }

@@ -1,13 +1,10 @@
 package com.lidong.javaops.algorithm.sort;
 
-import com.lidong.javaops.algorithm.common.ArrayFactory;
-import com.lidong.javaops.algorithm.common.impl.ArrayForSort;
-import com.lidong.javaops.algorithm.util.ArrayUtil;
-
 /**
  * @author Ls J
  * @date 2019/4/30 8:39 AM
- * 计数排序，时间复杂度O(n)，稳定的，非原地的
+ * 计数排序，时间复杂度O(n)，稳定的，非原地排序
+ * 差不多是桶排序的一种特殊情况(桶排序是以某个范围划分，计数排序是以值来划分)
  * 要求：数据的分布范围不是很大，而且所有的元素都应该是非负整数或者说能转变成非负整数，
  * 比如数组中最小值是-1，此时我们可以把每一项分别+1让其变成一个非负整数数组
  */
@@ -63,11 +60,6 @@ public class CountingSort implements SortFactory {
     }
 
     public static void main(String[] args) {
-        ArrayFactory arrayFactory = new ArrayForSort();
-        int[] arr = arrayFactory.createArray();
-        ArrayUtil.printArray(arr);
-        countingSort(arr);
-        System.out.println("排序后的数组为：");
-        ArrayUtil.printArray(arr);
+        SortTest.sortTest(new CountingSort());
     }
 }
