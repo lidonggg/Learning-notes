@@ -4,22 +4,40 @@ package com.lidong.javaops.algorithm.linkedlist;
  * @author Ls J
  * @date 2019/4/30 3:00 PM
  */
-public class ListNode {
-    protected int n;
-    protected ListNode next;
+class ListNode {
 
-    ListNode() {
-        this.n = 0;
+    private int data;
+
+    private ListNode next;
+
+    public ListNode() {
+        this.data = 0;
         this.next = null;
     }
 
-    ListNode(int n) {
-        this.n = n;
+    public ListNode(int n) {
+        this.data = n;
         this.next = null;
     }
 
-    ListNode(int n, ListNode next) {
-        this.n = n;
+    public ListNode(int n, ListNode next) {
+        this.data = n;
+        this.next = next;
+    }
+
+    public int getData() {
+        return data;
+    }
+
+    public void setData(int data) {
+        this.data = data;
+    }
+
+    public ListNode getNext() {
+        return next;
+    }
+
+    public void setNext(ListNode next) {
         this.next = next;
     }
 }

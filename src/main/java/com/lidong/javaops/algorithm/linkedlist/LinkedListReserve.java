@@ -23,9 +23,9 @@ public class LinkedListReserve {
         ListNode next;
 
         while (head != null) {
-            next = head.next;
+            next = head.getNext();
             // 原地更新参数
-            head.next = pre;
+            head.setNext(pre);
             pre = head;
             head = next;
         }
@@ -41,14 +41,14 @@ public class LinkedListReserve {
      * @return 最后返回原链表最后一个节点
      */
     private static ListNode reserve2(ListNode node) {
-        if (node == null || node.next == null) {
+        if (node == null || node.getNext() == null) {
             return node;
         }
 
-        ListNode next = node.next;
-        node.next = null;
+        ListNode next = node.getNext();
+        node.setNext(null);
         ListNode reserveRest = reserve2(next);
-        next.next = node;
+        next.setNext(node);
 
         return reserveRest;
     }
@@ -58,16 +58,16 @@ public class LinkedListReserve {
         ListNode node2 = new ListNode(2);
         ListNode node3 = new ListNode(3);
         ListNode node4 = new ListNode(4);
-        node1.next = node2;
-        node2.next = node3;
-        node3.next = node4;
+        node1.setNext(node2);
+        node2.setNext(node3);
+        node3.setNext(node4);
 
         ListNode head = reserve1(node1);
 
         while (head != null) {
             // 4 3 2 1
-            System.out.print(head.n + " ");
-            head = head.next;
+            System.out.print(head.getData() + " ");
+            head = head.getNext();
         }
     }
 }

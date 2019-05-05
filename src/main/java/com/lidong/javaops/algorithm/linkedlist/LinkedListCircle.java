@@ -17,9 +17,9 @@ public class LinkedListCircle {
     private static boolean testLinkedListCircle(ListNode head) {
         ListNode fast = head, slow = head;
 
-        while (fast != null && fast.next != null) {
-            fast = fast.next.next;
-            slow = slow.next;
+        while (fast != null && fast.getNext() != null) {
+            fast = fast.getNext().getNext();
+            slow = slow.getNext();
 
             if (fast == slow) {
                 return true;
@@ -39,9 +39,9 @@ public class LinkedListCircle {
         ListNode fast = head, slow = head;
 
         int cLen = 0;
-        while (fast != null && fast.next != null) {
-            fast = fast.next.next;
-            slow = slow.next;
+        while (fast != null && fast.getNext() != null) {
+            fast = fast.getNext().getNext();
+            slow = slow.getNext();
 
             // 如果快慢指针相遇了，暂停本while循环，让fast不动，slow继续
             if (fast == slow) {
@@ -50,14 +50,14 @@ public class LinkedListCircle {
         }
 
         // fast不等于null，代表上一个while是循环提前退出的，存在环
-        if (fast != null && fast.next != null) {
+        if (fast != null && fast.getNext() != null) {
             // 相遇的时候特殊处理
-            slow = slow.next;
+            slow = slow.getNext();
             // 第一次相遇开始记录cLen
             cLen = 1;
             // slow继续移动，直到下次与fast相遇，此时slow每走一步，cLen就+1
             while (slow != fast) {
-                slow = slow.next;
+                slow = slow.getNext();
                 cLen++;
             }
         }
@@ -81,9 +81,9 @@ public class LinkedListCircle {
     public static ListNode getLinkedListCircleEntrance(ListNode head) {
         ListNode slow = head, fast = head;
 
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
+        while (fast != null && fast.getNext() != null) {
+            slow = slow.getNext();
+            fast = fast.getNext().getNext();
             // 第一次相遇，退出while循环
             if (fast == slow) {
                 break;
@@ -91,7 +91,7 @@ public class LinkedListCircle {
         }
 
         // 此时代表不存在环，直接退出
-        if (fast == null || fast.next == null) {
+        if (fast == null || fast.getNext() == null) {
             return null;
         }
 
@@ -99,8 +99,8 @@ public class LinkedListCircle {
         slow = head;
         // 相遇则停止while循环，此时就是在入口处
         while (slow != fast) {
-            slow = slow.next;
-            fast = fast.next;
+            slow = slow.getNext();
+            fast = fast.getNext();
         }
 
         return fast;
@@ -114,13 +114,13 @@ public class LinkedListCircle {
         ListNode node5 = new ListNode(5);
         ListNode node6 = new ListNode(6);
         ListNode node7 = new ListNode(7);
-        node1.next = node2;
-        node2.next = node3;
-        node3.next = node4;
-        node4.next = node5;
-        node5.next = node6;
-        node6.next = node7;
-        node7.next = node4;
+        node1.setNext(node2);
+        node2.setNext(node3);
+        node3.setNext(node4);
+        node4.setNext(node5);
+        node5.setNext(node6);
+        node6.setNext(node7);
+        node7.setNext(node4);
 
         System.out.println(getLinkedListCircleLength(node1));
     }
