@@ -53,8 +53,9 @@ public class TreeTraverse {
     private static void preTraverseWithoutRecursive(TreeNode root){
         Stack<TreeNode> stack = new Stack<>();
         TreeNode node = root;
-        // 将所有左孩子压栈
+
         while (node != null || stack.size() > 0) {
+            // 将所有左孩子压栈
             // 压栈之前先访问
             if (node != null) {
                 System.out.print(node.getData() + " ");
@@ -86,13 +87,14 @@ public class TreeTraverse {
     private static void midTraverseWithoutRecursive(TreeNode root){
         Stack<TreeNode> stack = new Stack<>();
         TreeNode node = root;
+
         while (node != null || stack.size() > 0) {
             if (node != null) {
                 // 压栈
                 stack.push(node);
                 node = node.getLeft();
             } else {
-                // 出栈并打印
+                // 出栈并打印、访问
                 node = stack.pop();
                 System.out.print(node.getData() + " ");
                 node = node.getRight();
@@ -121,6 +123,7 @@ public class TreeTraverse {
         // 构造一个中间栈来存储逆后序遍历的结果
         Stack<TreeNode> output = new Stack<>();
         TreeNode node = root;
+
         while (node != null || stack.size() > 0) {
             if (node != null) {
                 output.push(node);
