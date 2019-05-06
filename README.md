@@ -10,7 +10,7 @@
   - 环的长度
   - 环的入口节点
 ### 树
-- [二叉树遍历(前中后序递归/非递归共6种)](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/tree/binarytree/TreeTraverse.java)
+- [二叉树遍历(前中后序递归/非递归遍历共6种)](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/tree/binarytree/TreeTraverse.java)
 ### 查找
 - [二分查找](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/search/BinarySearch.java)
   - 普通二分查找
