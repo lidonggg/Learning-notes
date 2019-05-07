@@ -61,8 +61,8 @@ public class MergeSort implements SortFactory<int[]> {
         while (j <= end) {
             tmp[t++] = arr[j++];
         }
-        t = 0;
 
+        t = 0;
         // 将tmp中的元素全部拷贝到原数组中
         while (start <= end) {
             arr[start++] = tmp[t++];
