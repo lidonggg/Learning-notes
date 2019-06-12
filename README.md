@@ -1,4 +1,4 @@
-# java-learning-notes
+# Learning-notes
 
 ## 算法
 ### 链表
