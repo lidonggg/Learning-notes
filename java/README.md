@@ -12,7 +12,7 @@
 ### 树
 - [二叉树遍历(前中后序递归/非递归遍历共6种)](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/tree/binarytree/TreeTraverse.java)
 ### 查找
-- [二分查找](https://github.com/lidonggg/java-learning-notes/blob/master/src/main/java/com/lidong/javaops/algorithm/search/BinarySearch.java)
+- [二分查找](https://github.com/lidonggg/Learning-notes/blob/master/notes/二分查找.md)
   - 普通二分查找
   - 变形一：查找第一个与某值相等的元素的位置
   - 变形二：查找最后一个与某值相等的元素的位置
