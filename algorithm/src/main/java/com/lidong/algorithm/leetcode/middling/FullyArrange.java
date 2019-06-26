@@ -1,4 +1,4 @@
-package com.lidong.algorithm.leetcode;
+package com.lidong.algorithm.leetcode.middling;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.List;
  * @author ls J
  * @date 2019/6/26 10:30 AM
  *
- * 数组全排列
+ * 数组全排列（中等）
  * 问题描述：给定一个没有重复数字的序列，返回其所有可能的全排列。
  * 示例：
  * 输入：[1,2,3]

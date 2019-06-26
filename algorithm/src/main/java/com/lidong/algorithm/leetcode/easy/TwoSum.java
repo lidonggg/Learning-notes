@@ -1,4 +1,4 @@
-package com.lidong.algorithm.leetcode;
+package com.lidong.algorithm.leetcode.easy;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,7 @@ import java.util.Map;
  * @author Ls J
  * @date 2019/6/26 4:00 PM
  *
- * 两数之和
+ * 两数之和（简单）
  * 问题描述：给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
  */
 public class TwoSum {
