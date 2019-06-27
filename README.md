@@ -32,5 +32,5 @@
 - [1.两数之和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/TwoSum.java)
 - [7.整数反转](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseSignedInt.java)
 #### 中等
-- [46.数组全排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middle/FullyArrange.java)
+- [46.数组全排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/FullyArrange.java)
 #### 困难
