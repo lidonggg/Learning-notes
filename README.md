@@ -34,3 +34,7 @@
 #### 中等
 - [46.数组全排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/FullyArrange.java)
 #### 困难
+
+## java
+### 多线程
+- [生产者-消费者模型](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/procon)
