@@ -37,4 +37,4 @@
 
 ## java
 ### 多线程
-- [生产者-消费者模型](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/procon)
+- [生产者-消费者模型](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/producer-consumer.md)
