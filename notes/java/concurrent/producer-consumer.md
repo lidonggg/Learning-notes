@@ -9,7 +9,7 @@
 
 为此，除了生产者和消费者，我们应该还需要一个中间商，负责管理库存，以及通知消费者消费或暂停消费、生产者生产或暂停生产，如下图所示：
 
-<img src='https://github.com/lidonggg/Learning-notes/blob/master/imgs/producer-consumer.png' align='center' />
+<div align=center>![producer-comsumer](https://github.com/lidonggg/Learning-notes/blob/master/imgs/producer-consumer.png)
 
 #### 中间商
 
