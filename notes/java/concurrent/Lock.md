@@ -1,12 +1,5 @@
-﻿**java** 提供了非常完备的并发功能，这些知识学起来却不是特别容易。在学习过程中，我主要通过如下途径来理解 **java** 的并发能力：
-
-- 王宝令老师在极客时间开设的 "java并发编程实战专栏"，这也是我花心思最多的一个途径；
-- Brian Goetz 出版的《java并发编程实战》;
-- 并发大师 Doun Lea 的《java并发编程：设计原则与模式》。
-
-以下的一些知识点是我对于在学习过程中的总结。
-
-## Lock
+## [Lock](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/lock)
+[源码](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/lock)
 #### 1. **synchronized** 关键字的缺陷
 **synchronized** 关键字在 **java** 1.6版本之后，性能获得了显著提升，那么在这种情况下，为什么还要有Lock的存在呢？这不得不从 **synchronized** 的缺陷来谈起。
 一个代码块被 **synchronized**  关键字修饰之后，当一个线程获得了锁并且执行该代码块的时候，其他的线程便只能一直等待下去。而如果此线程在申请资源的时候申请不到，则线程直接进入了阻塞状态，并不能去主动释放已经占有的资源，在这种情况下，死锁问题便产生了。
