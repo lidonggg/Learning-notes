@@ -37,4 +37,7 @@
 
 ## java
 ### 多线程
+#### 1.java并发理论基础知识
+#### 2.java并发工具类
+#### 3.并发设计模式
 - [生产者-消费者模型](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/producer-consumer.md)
