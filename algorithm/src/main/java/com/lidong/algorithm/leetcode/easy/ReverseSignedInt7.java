@@ -11,7 +11,7 @@ package com.lidong.algorithm.leetcode.easy;
  * -123 --> -321
  * 120 --> 21
  */
-public class ReverseSignedInt {
+public class ReverseSignedInt7 {
 
     /**
      * 我们可以一次构建反转整数的一位数字。在这样做的时候，我们可以预先检查向原整数附加另一位数字是否会导致溢出。
