@@ -1,7 +1,7 @@
 ## [生产者消费者模型](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/procon)
 
-[源码](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/procon)
-
+[synchronized实现](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/procon)
+[Lock实现](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/proconlock)
 生产者-消费者模型在多线程领域算是一个最经典的模型之一。其关键思想大致如下：
 
 - 生产者生产商品，直到库存已满，生产过程中通知消费者进行消费
