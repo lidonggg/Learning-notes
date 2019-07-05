@@ -1,6 +1,6 @@
 ﻿## [**ReadWriteLock**](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/readwritelock)
-[demo](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/readwritelock/ReadWriteLockDemo.java)
-[CacheDemo](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/readwritelock/CacheDemo.java)
+- [demo](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/readwritelock/ReadWriteLockDemo.java)
+- [CacheDemo](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/readwritelock/CacheDemo.java)
 ### 三大原则
 读写锁作为一个通用技术，遵循以下三大原则：
 
