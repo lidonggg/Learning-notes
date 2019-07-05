@@ -51,5 +51,7 @@ java 提供了非常完备的并发功能，这些知识学起来却不是特别
 #### 1.java并发理论基础知识
 #### 2.java并发工具类
 - [Lock](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Lock.md)
+- [ReadWriteLock](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/ReadWriteLock.md)
+- [Semaphore](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Semaphore.md)
 #### 3.并发设计模式
 - [生产者-消费者模型](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/producer-consumer.md)
