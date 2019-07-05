@@ -2,6 +2,7 @@
 
 [synchronized实现](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/procon)
 [Lock实现](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/proconlock)
+
 生产者-消费者模型在多线程领域算是一个最经典的模型之一。其关键思想大致如下：
 
 - 生产者生产商品，直到库存已满，生产过程中通知消费者进行消费
@@ -11,7 +12,7 @@
 
 <div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/imgs/producer-consumer.png"/></div>
 
-#### 中间商
+### 中间商
 
 中间商核心代码如下：
 
@@ -68,7 +69,7 @@ public class Middleman {
 
 其中，主要有两个方法： ``put()`` 方法负责接收生产数据，并对库存是否已满进行判断；``take()`` 方法负责消费数据，并对库存是否为空进行判断。唤醒方法我们采用了 ``notifyAll()`` 方法，它可以唤醒所以在对象上等待的生产者和消费者线程，从而避免出现生产者或者消费者线程饥饿（比如在库存已满的时候，如果采用 ``notify()`` 方法，很有可能会继续唤醒一个生产者线程，这样的话则无法进行消费）。
 
-#### 生产者消费者
+### 生产者消费者
 
 核心代码如下：
 
