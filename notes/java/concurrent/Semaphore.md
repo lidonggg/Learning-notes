@@ -1,6 +1,6 @@
-﻿## **Semaphore**
-[demo]
-[限流器demo]
+﻿## [**Semaphore**](https://github.com/lidonggg/Learning-notes/tree/master/notes/java/concurrent/Semaphore.md)
+- [demo](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/semaphore/SemaphoreDemo.java)
+- [限流器demo](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/semaphore/CurrentLimiterDemo.java)
 除了管程之外，**Semaphore** 也是并发编程的另一选择。
 
 ### 信号量模型
