@@ -1,6 +1,7 @@
 ﻿## [**Semaphore**](https://github.com/lidonggg/Learning-notes/tree/master/notes/java/concurrent/Semaphore.md)
 - [demo](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/semaphore/SemaphoreDemo.java)
 - [限流器demo](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/semaphore/CurrentLimiterDemo.java)
+
 除了管程之外，**Semaphore** 也是并发编程的另一选择。
 
 ### 信号量模型
@@ -47,4 +48,4 @@ public class SemaphoreDemo {
 
 ```
 ### 使用场景
-由于 **Semaphore** 支持多个线程同时访问一个临界区，因此它可以实现很多 **Lock** 不容易实现的功能，例如通过使用 **Semaphore** 初始化不同的计数器，我们可以快速实现一个简单的限流器。[代码在这]
+由于 **Semaphore** 支持多个线程同时访问一个临界区，因此它可以实现很多 **Lock** 不容易实现的功能，例如通过使用 **Semaphore** 初始化不同的计数器，我们可以快速实现一个简单的限流器。[代码在这](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/semaphore/CurrentLimiterDemo.java)
