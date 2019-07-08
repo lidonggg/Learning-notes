@@ -1,5 +1,5 @@
-﻿## **StampedLock**
-[demo]()
+﻿## [**StampedLock**](https://github.com/lidonggg/Learning-notes/blob/master/java/src/main/java/com/lidong/java/concurrent/stampedlock/StampedLockDemo.java)
+[demo](https://github.com/lidonggg/Learning-notes/blob/master/java/src/main/java/com/lidong/java/concurrent/stampedlock/StampedLockDemo.java)
 
 在读多写少的应用场景中，**java 1.8** 提供了一种更高效的读写锁。
 
