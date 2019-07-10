@@ -1,5 +1,6 @@
 ﻿## **CountDownLatch**
 [demo](https://github.com/lidonggg/Learning-notes/blob/master/java/src/main/java/com/lidong/java/concurrent/countdownlatch/CountDownLatchDemo.java)
+
 设想以下场景：有三个线程A、B、C，其中A、B线程互不相关，而C线程则依赖A、B线程所产生的的结果，此时我们可以让这三个线程串行化工作，更高效率的做法是让A、B线程并行工作，都完成之后再执行C线程，通过 ``thread.join()`` 方法我们可以实现上述要求：
 ```java
 Thread threadA = new Thread(()->{
