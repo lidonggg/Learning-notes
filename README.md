@@ -31,9 +31,13 @@
 #### 简单
 - [1.两数之和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/TwoSum1.java)
 - [7.整数反转](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseSignedInt7.java)
+- [237.删除链表中的节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/DeleteNode237.java)
+- [617.合并二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/MergeTrees617.java)
 - [709.转换成小写字母](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ToLowerCase709.java)
 - [771.转换成小写字母](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/NumJewelsInStones771.java)
+- [832.翻转图像](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/FlipAndInvertImage832.java)
 - [1021.转换成小写字母](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/RemoveOuterParentheses1021.java)
+- [1108.IP地址无效化](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/InvalidateIpAddr1108.java)
 #### 中等
 - [46.数组全排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/FullyArrange.java)
 #### 困难
@@ -54,5 +58,6 @@ java 提供了非常完备的并发功能，这些知识学起来却不是特别
 - [ReadWriteLock](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/ReadWriteLock.md)
 - [Semaphore](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Semaphore.md)
 - [StampedLock](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/StampedLock.md)
+- [CountDownLatch](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/CountDownLatch.md)
 #### 3.并发设计模式
 - [生产者-消费者模型](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/producer-consumer.md)
