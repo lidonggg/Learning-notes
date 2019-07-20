@@ -65,5 +65,6 @@ java 提供了非常完备的并发功能，这些知识学起来却不是特别
 - [Semaphore](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Semaphore.md)
 - [StampedLock](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/StampedLock.md)
 - [CountDownLatch](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/CountDownLatch.md)
+- [并发容器](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/并发容器.md)
 #### 3.并发设计模式
 - [生产者-消费者模型](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/producer-consumer.md)
