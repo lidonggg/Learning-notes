@@ -7,7 +7,7 @@ import java.util.List;
  * @author ls J
  * @date 2019/6/26 10:30 AM
  *
- * 数组全排列（中等）
+ * 数组全排列（中等-46）
  * 问题描述：给定一个没有重复数字的序列，返回其所有可能的全排列。
  * 示例：
  * 输入：[1,2,3]
@@ -23,7 +23,7 @@ import java.util.List;
  *
  * 效率一般，内存消耗一般
  */
-public class FullyArrange {
+public class FullyArrange46 {
 
     /**
      * 解决方案
