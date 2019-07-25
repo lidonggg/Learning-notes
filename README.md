@@ -28,6 +28,8 @@
 - [计数排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/sort/CountingSort.java)
 - [基数排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/sort/RadixSort.java)
 ### leetcode
+[按照考点排序](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/by-knowledge.md)
+
 #### 简单
 - [1.两数之和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/TwoSum1.java)
 - [7.整数反转](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseSignedInt7.java)
