@@ -31,6 +31,7 @@
 #### 简单
 - [1.两数之和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/TwoSum1.java)
 - [7.整数反转](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseSignedInt7.java)
+- [70.爬楼梯](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/ClimbStairs70.java)
 - [237.删除链表中的节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/DeleteNode237.java)
 - [344.反转字符串](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseString344.java)
 - [461.汉明距离](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/HamMingDistance461.java)
@@ -46,6 +47,7 @@
 - [46.数组全排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/FullyArrange46.java)
 - [77.组合](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/Combine77.java)
 - [78.子集](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/Subsets78.java)
+- [120.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/MinimumTotal120.java)
 #### 困难
 
 ## java
