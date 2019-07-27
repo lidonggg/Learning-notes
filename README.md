@@ -51,6 +51,8 @@
 - [77.组合](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/Combine77.java)
 - [78.子集](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/Subsets78.java)
 - [120.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/120-三角形最小路径和.md)
+- [1115.交替打印FooBar](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/concurrent/FooBar1115.java)
+- [1116.打印零与奇偶数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/concurrent/ZeroEvenOdd1116.java)
 #### 困难
 
 ## java
