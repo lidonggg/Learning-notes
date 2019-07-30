@@ -86,6 +86,9 @@ Java 在 1.6 版本还增加了 allowCoreThreadTimeOut(boolean value) 方法，�
     - workerCount为0；
     - 设置TIDYING状态成功。
 
+这几种状态之间的转换如下图所示：
+<div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/imgs/ThreadPoolExector_status.png"/></div>
+
 **2. execute()**
 通过 new 创建线程池时，除非调用 prestartAllCoreThreads 方法初始化核心线程数，否则此时线程池中有 0 个线程，即使工作队列中存在多个任务，同样不会执行。
 
