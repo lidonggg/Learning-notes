@@ -47,5 +47,8 @@ public ReentrantLock(boolean fair){
 
 对于最后一条规则，主要是因为在其他对象的方法里，可能会有一些比较耗时的操作，例如 I/O 操作，或者调用 sleep() 方法休眠等，这些会严重影响性能。而且，其他的类的方法也可能会加锁，双重锁会导致死锁。
 
+### 在 synchronized 与 ReentrantLock 之间做选择
+虽然 ReentrantLock 具有许多 synchronized 所不具有的功能，但是 synchronized 仍然具有很大优势。内置锁简洁紧凑，ReentrantLock 则危险性更高，可能会发生锁没有得到释放等危险。由于 synchronized 是 JVM 的内置属性，它在未来会被执行一些优化，因此 synchronized 的性能将会再进一步提高。在不需要 ReentrantLock 的一些独有的特性的时候，最好还是选用 synchronized 。
+
 ### 总结
 **Lock** 为我们写出安全、健壮的并发代码提供了很好的帮助，它刚好弥补了 **sychronized** 在某些方面的缺陷。但需要注意的是，在使用 **Lock** 的过程中，要注意手动释放所持有的锁。
