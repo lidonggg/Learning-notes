@@ -1,6 +1,5 @@
 ﻿## **Future**：烧水泡茶
 [利用 FutureTask 实现最优“烧水泡茶”](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/future/BoilTeaWithFutureTask.java)
-
 [含有 result 参数的 submit() 方法](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/future/SubmitWithResultDemo.java)
 
 ### 如何完成“烧水泡茶”的工序
