@@ -57,6 +57,7 @@
 #### 困难
 
 ## java
+### [common](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/common)
 ### 多线程
 java 提供了非常完备的并发功能，这些知识学起来却不是特别容易。在学习过程中，我主要通过如下途径来理解 java 的并发能力：
 
