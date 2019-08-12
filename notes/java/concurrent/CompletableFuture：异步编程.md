@@ -5,6 +5,10 @@
 
 为了充分了解它，我们这里将再次实现在 **Future** 一节中的“烧水泡茶”的例子，为了充分体现出 CompletableFuture 的优势，这次我们会用三个线程来将其分成三个任务，分工方法如下图所示：
 
+<div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/imgs/boilteaWithCompletableFuture.png"/></div>
+<br>
+<div align=center>烧水泡茶工序图</div>
+<br>
 
 ### 创建 CompletableFuture 对象
 
