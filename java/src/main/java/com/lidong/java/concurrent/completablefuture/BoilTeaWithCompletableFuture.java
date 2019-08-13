@@ -4,8 +4,8 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author dlif
- * @date 2019/8/6 9:33
+ * @author ls J
+ * @date 2019/8/6 9:33 AM
  */
 public class BoilTeaWithCompletableFuture {
 
