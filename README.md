@@ -78,6 +78,7 @@ java 提供了非常完备的并发功能，这些知识学起来却不是特别
 - [原子类-无锁工具类](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/原子类-无锁工具类.md)
 - [Executor与线程池](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Executor与线程池.md)
 - [Future：烧水泡茶](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Future-烧水泡茶.md)
-- [CompletableFuture：异步编程](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/CompletableFuture：异步编程.md)
+- [CompletableFuture：异步编程](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/CompletionService：批量执行异步任务.md)
+- [CompletionService：批量执行异步任务](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/CompletableFuture：异步编程.md)
 #### 3.并发设计模式
 - [生产者-消费者模型](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/producer-consumer.md)
