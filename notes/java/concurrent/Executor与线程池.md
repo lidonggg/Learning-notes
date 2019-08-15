@@ -95,7 +95,7 @@ Java 在 1.6 版本还增加了 allowCoreThreadTimeOut(boolean value) 方法，�
 我们假设任务数为 x：
 
 - 当 x <= corePoolSize 时，只启动 x 个线程；
-- 当 x >= corePoolSize && x < nWorks + corePoolSize 时，会启动 <= cSize 个线程，其他任务放到工作队列中；
+- 当 x >= corePoolSize && x < nWorks + corePoolSize 时，会启动 <= corePoolSize 个线程，其他任务放到工作队列中；
 - 当 x > corePoolSize && x > nWorks + corePoolSize 时，分为两种情况：
     - 当 x - nWorks <= maximumPoolSize 时，会启动 (x - nWorks) 个线程;
     - 当 x - nWorks > maximumPoolSize，会启动mSize个线程来执行任务，其余的执行相应的拒绝策略。
