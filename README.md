@@ -69,12 +69,14 @@ java 提供了非常完备的并发功能，这些知识学起来却不是特别
 以下的一些知识点是我对于在学习过程中的总结。
 
 #### 1.java并发理论基础知识
+- [线程的生命周期](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/线程的生命周期.md)
 #### 2.java并发工具类
 - [Lock](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Lock.md)
 - [ReadWriteLock](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/ReadWriteLock.md)
 - [Semaphore](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Semaphore.md)
 - [StampedLock](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/StampedLock.md)
 - [CountDownLatch](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/CountDownLatch.md)
+- [CyclicBarrier](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/CyclicBarrier.md)
 - [并发容器](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/并发容器.md)
 - [原子类-无锁工具类](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/原子类-无锁工具类.md)
 - [Executor与线程池](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Executor与线程池.md)
