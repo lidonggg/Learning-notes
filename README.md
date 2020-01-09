@@ -27,6 +27,10 @@
 - [桶排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/sort/BucketSort.java)
 - [计数排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/sort/CountingSort.java)
 - [基数排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/sort/RadixSort.java)
+
+### 回溯算法
+- [八皇后](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/backtracking/EightQueens.java)
+
 ### leetcode
 [按照考点排序](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/by-knowledge.md)
 
