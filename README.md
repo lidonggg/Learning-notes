@@ -27,6 +27,10 @@
 - [桶排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/sort/BucketSort.java)
 - [计数排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/sort/CountingSort.java)
 - [基数排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/sort/RadixSort.java)
+
+### 回溯算法
+- [八皇后](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/backtracking/EightQueens.java)
+
 ### leetcode
 [按照考点排序](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/by-knowledge.md)
 
@@ -90,3 +94,6 @@ java 提供了非常完备的并发功能，这些知识学起来却不是特别
 - [Fork-Join：并行计算框架](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Fork-Join：并行计算框架.md)
 #### 3.并发设计模式
 - [生产者-消费者模型](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/producer-consumer.md)
+
+## [设计模式](https://github.com/lidonggg/Learning-notes/blob/master/notes/designpattern/designpattern.md)
+
