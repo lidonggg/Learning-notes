@@ -1,4 +1,4 @@
-package com.lidong.algorithm.designpattern.structure.proxy;
+package com.lidong.algorithm.designpattern.structure.decorator;
 
 /**
  * @author ls J
