@@ -40,6 +40,7 @@
 - [27.移除元素](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/RemoveElement27.java)
 - [53.最大子序和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/MaxSubArray53.java)
 - [70.爬楼梯](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/ClimbStairs70.java)
+- [101.对称二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/IsSymmetric101.java)
 - [237.删除链表中的节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/DeleteNode237.java)
 - [344.反转字符串](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseString344.java)
 - [461.汉明距离](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/HamMingDistance461.java)
@@ -72,13 +73,7 @@
 ## java
 ### [common](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/common)
 ### 多线程
-java 提供了非常完备的并发功能，这些知识学起来却不是特别容易。在学习过程中，我主要通过如下途径来理解 java 的并发能力：
-
-- 王宝令老师在极客时间开设的 "java并发编程实战专栏"，这也是我花心思最多的一个途径；
-- Brian Goetz 出版的《java并发编程实战》;
-- 并发大师 Doun Lea 的《java并发编程：设计原则与模式》。
-
-以下的一些知识点是我对于在学习过程中的总结。
+java 提供了非常完备的并发功能，这些知识学起来却不是特别容易。
 
 #### 1.java并发理论基础知识
 - [线程的生命周期](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/线程的生命周期.md)
