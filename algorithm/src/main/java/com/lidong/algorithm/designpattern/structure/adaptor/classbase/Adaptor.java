@@ -26,6 +26,6 @@ public class Adaptor extends Adaptee implements ITarget {
 
     @Override
     public void f4() {
-        // 。 。。。
+        // 。。。。
     }
 }
