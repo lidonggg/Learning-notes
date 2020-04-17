@@ -1,7 +1,7 @@
 # Learning-notes
 
 ## 算法
-### 链表 
+### 链表
 - [单链表反转](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/linkedlist/LinkedListReserve.java)
   - 非递归法
   - 递归法
