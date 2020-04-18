@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var a = {};
+    var b = {key: 'b'};
+    var c = {key: 'c'};
+    var d = [3,5,6];
+    a[b] = 123;   // Object.prototype.toString
+    a[c] = 345;   // Object.prototype.toString
+    a[d] = 333;
+    console.log(a);
+    console.log(a[b]);  // 345
+    console.log(a[c]);  // 345
+    console.log(a[d]);  //333
+</script>
+</html>

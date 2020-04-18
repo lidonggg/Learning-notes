@@ -1,5 +1,13 @@
 ## 按考点排序
 
+### 链表
+
+#### 简单
+
+#### 中等
+
+#### 困难
+- [146.LRU缓存机制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/Lruache146.java)
 
 
 ### 动态规划

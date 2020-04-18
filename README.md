@@ -73,6 +73,7 @@
 - [1115.交替打印FooBar](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/concurrent/FooBar1115.java)
 - [1116.打印零与奇偶数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/concurrent/ZeroEvenOdd1116.java)
 #### 困难
+- [146.LRU缓存机制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/Lruache146.java)
 
 ## java
 ### [common](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/common)
