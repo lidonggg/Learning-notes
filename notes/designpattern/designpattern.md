@@ -7,6 +7,7 @@
 - [观察者模式](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/designpattern/behavior/observer) 
 - [访问者模式](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/designpattern/behavior/visitor) 
 - [备忘录模式](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/designpattern/behavior/memento) 
+- [命令模式](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/designpattern/behavior/command)
 
 ### structure
 - [代理模式](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/designpattern/structure/proxy) 
