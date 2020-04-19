@@ -7,8 +7,16 @@
 #### 中等
 
 #### 困难
-- [146.LRU缓存机制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/Lruache146.java)
+- [146.LRU缓存机制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/list/Lruache146.java)
 
+### 栈
+
+#### 简单
+- [20.有效的括号](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/stack/ValidParentheses20.java)
+
+#### 中等
+
+#### 困难
 
 ### 动态规划
 

@@ -1,4 +1,4 @@
-package com.lidong.algorithm.leetcode.hard;
+package com.lidong.algorithm.leetcode.hard.list;
 
 import java.util.HashMap;
 

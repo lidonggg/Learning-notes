@@ -37,6 +37,7 @@
 #### 简单
 - [1.两数之和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/TwoSum1.java)
 - [7.整数反转](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseSignedInt7.java)
+- [20.有效的括号](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/stack/ValidParentheses20.java)
 - [27.移除元素](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/RemoveElement27.java)
 - [53.最大子序和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/MaxSubArray53.java)
 - [70.爬楼梯](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/ClimbStairs70.java)
@@ -73,7 +74,7 @@
 - [1115.交替打印FooBar](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/concurrent/FooBar1115.java)
 - [1116.打印零与奇偶数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/concurrent/ZeroEvenOdd1116.java)
 #### 困难
-- [146.LRU缓存机制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/Lruache146.java)
+- [146.LRU缓存机制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/list/Lruache146.java)
 
 ## java
 ### [common](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/common)
