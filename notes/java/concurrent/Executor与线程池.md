@@ -137,3 +137,4 @@ ScheduledExecutorService scheduledExecutorService1 = Executors.newSingleThreadSc
 
 ### 参考
 [1] [深入理解java线程池：ThreadPoolExecutor](https://www.jianshu.com/p/d2729853c4da)
+[2] [Java 线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
