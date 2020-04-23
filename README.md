@@ -1,5 +1,6 @@
 # Learning-notes
 
+## [设计模式](https://github.com/lidonggg/Learning-notes/blob/master/notes/designpattern/designpattern.md)
 ## 算法
 ### 链表
 - [单链表反转](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/linkedlist/LinkedListReserve.java)
@@ -58,6 +59,4 @@ java 提供了非常完备的并发功能，这些知识学起来却不是特别
 - [Fork-Join：并行计算框架](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/Fork-Join：并行计算框架.md)
 #### 3.并发设计模式
 - [生产者-消费者模型](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/producer-consumer.md)
-
-## [设计模式](https://github.com/lidonggg/Learning-notes/blob/master/notes/designpattern/designpattern.md)
 
