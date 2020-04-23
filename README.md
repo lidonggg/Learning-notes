@@ -32,11 +32,11 @@
 ### 回溯算法
 - [八皇后](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/backtracking/EightQueens.java)
 
-### leetcode
+## leetcode
 - [按照难度排序](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/by-difficulty.md)
 - [按照考点排序](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/by-knowledge.md)
 
 ## java
-### [基础知识](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/common)
-### [多线程](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent)
+- [基础知识](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/common)
+- [多线程](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent)
 
