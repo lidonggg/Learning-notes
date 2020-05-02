@@ -45,14 +45,13 @@ public class CountSquares1277 {
     public static int countSquares(int[][] matrix) {
         int m = matrix.length - 1;
         int n = matrix[0].length - 1;
-        int ans = 0;
+        int res = 0;
         for (int i = 0; i <= m; i++) {
             for (int j = 0; j <= n; j++) {
-                int res = countMaxSquaresWithLtx(matrix, i, j, m, n);
-                ans += res;
+                res += countMaxSquaresWithLtx(matrix, i, j, m, n);
             }
         }
-        return ans;
+        return res;
     }
 
     /**
@@ -73,6 +72,7 @@ public class CountSquares1277 {
             return matrix[x][y] == 1 ? 1 : 0;
         }
         // 最大勘测深度
+        // 找出以当前点为左上顶点所能构成的最大正方形
         int maxLen = Math.min(m - x, n - y);
         int res = 1;
         // 检查边长为 i 时，最外层是否全为 1 ，如果全是 1 ，那么边长加一，继续检查最外层

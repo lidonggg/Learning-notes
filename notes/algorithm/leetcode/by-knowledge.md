@@ -33,6 +33,7 @@
 - [120.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/120-三角形最小路径和.md)
 - [264.丑数Ⅱ](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/NthUglyNumber264.java)
 - [413.等差数列划分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/NumberOfArithmeticSlices413.java)
+- [650.只有两个键的键盘](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/KeyboardWith2Keys650.java)
 - [931.下降路径最小和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/MinFallingPathSum931.java)
 - [967.连续差相同的数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/NumsSameConsecDiff967.java)
 - [1227.连续差相同的数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/CountSquares1277.java)
