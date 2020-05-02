@@ -1,11 +1,11 @@
-﻿## CompletableFuture：异步编程
+## CompletableFuture：异步编程
 [烧水泡茶](https://github.com/lidonggg/Learning-notes/tree/master/java/src/main/java/com/lidong/java/concurrent/completablefuture/BoilTeaWithCompletableFuture.java)
 
 异步编程就是利用多线程的优势，把串行的任务并行化，java 从 1.8 版本提供了 CompletableFuture 这个工具类来支持异步编程，它的内部实现很复杂（包含 50 多个方法 ），但是使用起来却很简单。
 
 为了充分了解它，我们这里将再次实现在 **Future** 一节中的“烧水泡茶”的例子，为了充分体现出 CompletableFuture 的优势，这次我们会用三个线程来将其分成三个任务，分工方法如下图所示：
 
-<div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/imgs/boilteaWithCompletableFuture.png"/></div>
+<div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/images/boilteaWithCompletableFuture.png"/></div>
 <br>
 <div align=center>烧水泡茶工序图</div>
 <br>

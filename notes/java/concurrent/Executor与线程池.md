@@ -1,4 +1,4 @@
-﻿## **Executor** 与线程池
+## **Executor** 与线程池
 
 创建线程，需要调用操作系统内核的 API，然后操作系统为线程分配一系列资源，这样的话，创建线程的成本会非常高，因此线程是一个重量级的对象，应该避免频繁地创建和销毁。通过使用线程池，可以有效地避免上述情况的发生。并且，由于当请求到达时线程已经存在，因此无意中也消除了由于创建线程所带来的的延迟，从而降低了请求的响应时间。通过合理地控制线程池中的线程数目，可以有效地避免资源不足的情况，防止由于线程过多地创建而产生 OOM 等。
 
@@ -87,7 +87,7 @@ Java 在 1.6 版本还增加了 allowCoreThreadTimeOut(boolean value) 方法，�
     - 设置TIDYING状态成功。
 
 这几种状态之间的转换如下图所示：
-<div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/imgs/ThreadPoolExector-status.png"/></div>
+<div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/images/ThreadPoolExector-status.png"/></div>
 
 **2. execute()**
 通过 new 创建线程池时，除非调用 prestartAllCoreThreads 方法初始化核心线程数，否则此时线程池中有 0 个线程，即使工作队列中存在多个任务，同样不会执行。
