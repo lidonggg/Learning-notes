@@ -117,7 +117,7 @@ RPC 框架包含服务提供方和服务调用方，因此我们可用从提供�
 
 下面贴出以上两种限流策略的对比图（来自“分布式技术原理与算法解析”中的分布式高可用之流量控制篇）：
 
-<div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/notes/RPC/images/boiltea.png"/></div>
+<div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/notes/RPC/images/%E6%BC%8F%E6%A1%B6%E5%92%8C%E4%BB%A4%E7%89%8C%E6%A1%B6%E9%99%90%E6%B5%81%E7%AD%96%E7%95%A5%E5%AF%B9%E6%AF%94.jpg"/></div>
 <br>
 <div align=center>漏桶策略和令牌桶策略的对比</div>
 <br>
