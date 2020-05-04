@@ -66,6 +66,7 @@ public class LinkedListCircle {
     }
 
     /**
+     * 中文地址：https://leetcode-cn.com/problems/linked-list-cycle-ii/
      * 获取环的入口点
      * 如果单链表有环，按照判断是否有环的思路，当快指针和慢指针相遇时，slow指针肯定没有遍历完链表，而fast指针已经在环内循环了n圈。假设slow指针走了s步，则fast指针走了2*s步，设环长为r，则：
      * 2*s=s+n*r;
@@ -84,7 +85,7 @@ public class LinkedListCircle {
         while (fast != null && fast.getNext() != null) {
             slow = slow.getNext();
             fast = fast.getNext().getNext();
-            // 第一次相遇，退出while循环
+            // 第一次相遇，退出 while 循环
             if (fast == slow) {
                 break;
             }
@@ -97,7 +98,7 @@ public class LinkedListCircle {
 
         // 将其中一个指针指向链表头部，然后一起步进
         slow = head;
-        // 相遇则停止while循环，此时就是在入口处
+        // 相遇则停止 while 循环，此时就是在入口处
         while (slow != fast) {
             slow = slow.getNext();
             fast = fast.getNext();
