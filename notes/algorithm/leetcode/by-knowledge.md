@@ -13,6 +13,17 @@
 #### 困难
 - [146.LRU缓存机制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/list/Lruache146.java)
 
+### 树
+
+#### 简单
+
+- [226.翻转二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/tree/InvertBinaryTree226.java)
+
+#### 中等
+
+
+#### 困难
+
 ### 栈
 
 #### 简单
