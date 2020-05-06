@@ -17,7 +17,7 @@
     <!-- 经过合并后 GenericBeanDefinition 变成 RootBeanDefinition -->
     <bean id="user" class="com.lidong.spring.ioc.overview.domain.User">
         <property name="id" value="1"/>
-        <property name="name" value="小马哥"/>
+        <property name="name" value="dongdong"/>
         <property name="city" value="HANGZHOU"/>
         <property name="workCities" value="BEIJING,HANGZHOU"/>
         <property name="lifeCities">
