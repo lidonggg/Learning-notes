@@ -1,4 +1,4 @@
-package com.lidong.spring.ioc.overview.constant;
+package com.lidong.spring.ioc.overview.constants;
 
 /**
  * @author Ls J

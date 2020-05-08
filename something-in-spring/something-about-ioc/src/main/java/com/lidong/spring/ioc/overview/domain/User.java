@@ -1,6 +1,6 @@
 package com.lidong.spring.ioc.overview.domain;
 
-import com.lidong.spring.ioc.overview.constant.City;
+import com.lidong.spring.ioc.overview.constants.City;
 
 import java.util.List;
 
