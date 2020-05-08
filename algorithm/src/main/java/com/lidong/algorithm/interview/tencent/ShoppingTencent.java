@@ -3,7 +3,7 @@ package com.lidong.algorithm.interview.tencent;
 import java.util.Stack;
 
 /**
- * @author dlif
+ * @author ls J
  * @date 2020/5/7 16:53
  * <p>
  * 逛街
