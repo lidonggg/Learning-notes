@@ -1,9 +1,10 @@
 package com.lidong.algorithm.designpattern.behavior.memento;
 
 /**
+ * 快照，本身不可变，只提供 get 方法
+ *
  * @author ls J
  * @date 2020/4/13 10:14
- * 快照，本身不可变，只提供 get 方法
  */
 public class Snapshot {
 

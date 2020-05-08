@@ -1,9 +1,10 @@
 package com.lidong.algorithm.designpattern.behavior.memento;
 
 /**
+ * 输入的内容
+ *
  * @author ls J
  * @date 2020/4/13 10:22
- * 输入的内容
  */
 public class InputText {
 

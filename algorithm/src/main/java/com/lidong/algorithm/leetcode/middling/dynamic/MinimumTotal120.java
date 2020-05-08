@@ -3,8 +3,6 @@ package com.lidong.algorithm.leetcode.middling.dynamic;
 import java.util.List;
 
 /**
- * @author ls J
- * @date 2019/7/25 8:34 AM
  * 三角形最小路径和（中等-120）
  * 问题描述：
  * 给定一个三角形，找出自顶向下的最小路径和。每一步只能移动到下一行中相邻的结点上。
@@ -21,6 +19,9 @@ import java.util.List;
  * <p>
  * 说明：
  * 如果你可以只使用 O(n) 的额外空间（n 为三角形的总行数）来解决这个问题，那么你的算法会很加分。
+ *
+ * @author ls J
+ * @date 2019/7/25 8:34 AM
  */
 public class MinimumTotal120 {
 
@@ -77,7 +78,7 @@ public class MinimumTotal120 {
                 // 中间的部分，分别计算两条路径，取其中较短的一条
                 int left = triangle.get(i).get(j) + triangle.get(i - 1).get(j - 1);
                 int right = triangle.get(i).get(j) + triangle.get(i - 1).get(j);
-                triangle.get(i).set(j, Math.min(left,right));
+                triangle.get(i).set(j, Math.min(left, right));
             }
         }
 

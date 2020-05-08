@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.middling.dfs;
 
 /**
- * @author ls J
- * @date 2020/4/23 21:18
  * 打家劫舍III（中等-337）
  * 问题描述：
  * 在上次打劫完一条街道之后和一圈房屋后，小偷又发现了一个新的可行窃的地区。
@@ -32,6 +30,9 @@ package com.lidong.algorithm.leetcode.middling.dfs;
  *  1   3   1
  * 输出: 9
  * 解释: 小偷一晚能够盗取的最高金额 = 4 + 5 = 9.
+ *
+ * @author ls J
+ * @date 2020/4/23 21:18
  */
 public class HouseRobberIII337 {
 

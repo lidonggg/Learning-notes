@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.middling.dynamic;
 
 /**
- * @author ls J
- * @date 2019/9/2 4:50 PM
  * 等差数列划分（中等-413）
  * 问题描述：
  * 如果一个数列至少有三个元素，并且任意两个相邻元素之差相同，则称该数列为等差数列。
@@ -23,6 +21,9 @@ package com.lidong.algorithm.leetcode.middling.dynamic;
  * 示例:
  * A = [1, 2, 3, 4]
  * 返回: 3, A 中有三个子等差数组: [1, 2, 3], [2, 3, 4] 以及自身 [1, 2, 3, 4]。
+ *
+ * @author ls J
+ * @date 2019/9/2 4:50 PM
  */
 public class NumberOfArithmeticSlices413 {
 

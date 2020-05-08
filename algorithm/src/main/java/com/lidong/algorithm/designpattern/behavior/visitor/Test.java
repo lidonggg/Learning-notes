@@ -4,9 +4,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 访问者模式：允许一个或者多个操作应用到同一组对象上，解耦操作和对象本身
+ *
  * @author ls J
  * @date 2020/4/8 11:07
- * 访问者模式：允许一个或者多个操作应用到同一组对象上，解耦操作和对象本身
  */
 public class Test {
 

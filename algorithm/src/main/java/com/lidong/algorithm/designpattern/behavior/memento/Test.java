@@ -3,9 +3,10 @@ package com.lidong.algorithm.designpattern.behavior.memento;
 import java.util.Scanner;
 
 /**
+ * 备忘录模式：在不违背封装原则的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态，以便之后恢复对象为先前的状态。
+ *
  * @author ls J
  * @date 2020/4/13 10:13
- * 备忘录模式：在不违背封装原则的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态，以便之后恢复对象为先前的状态。
  */
 public class Test {
 

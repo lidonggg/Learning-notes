@@ -1,9 +1,10 @@
 package com.lidong.algorithm.designpattern.structure.chain.listmethod;
 
 /**
+ * 职责链模式 -- 链表实现
+ *
  * @author ls J
  * @date 2020/3/25 13:33
- * 职责链模式 -- 链表实现
  */
 public class HandlerChain {
 

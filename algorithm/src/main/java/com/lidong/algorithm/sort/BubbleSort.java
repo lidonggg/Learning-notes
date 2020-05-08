@@ -3,9 +3,10 @@ package com.lidong.algorithm.sort;
 import com.lidong.algorithm.util.ArrayUtil;
 
 /**
+ * 冒泡排序，时间复杂度O(n^2)，稳定，原地排序
+ *
  * @author Ls J
  * @version 2019/4/29 15:20
- * 冒泡排序，时间复杂度O(n^2)，稳定，原地排序
  */
 public class BubbleSort implements SortFactory<int[]> {
 

@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.easy;
 
 /**
- * @author ls J
- * @date 2019/7/3 3:20 PM
  * 删除最外层的括号（简单-1021）
  * 问题描述：
  * 有效括号字符串为空 ("")、"(" + A + ")" 或 A + B，其中 A 和 B 都是有效的括号字符串，+ 代表字符串的连接。例如，""，"()"，"(())()" 和 "(()(()))" 都是有效的括号字符串。
@@ -13,6 +11,9 @@ package com.lidong.algorithm.leetcode.easy;
  * 示例：
  * 输入："(()())(())"
  * 输出："()()()"
+ *
+ * @author ls J
+ * @date 2019/7/3 3:20 PM
  */
 public class RemoveOuterParentheses1021 {
 

@@ -3,8 +3,6 @@ package com.lidong.algorithm.leetcode.easy.bfs;
 import java.util.*;
 
 /**
- * @author Ls J
- * @date 2020/4/5 11:53 PM
  * N叉树的最大深度（简单-559）
  * 问题描述：
  * 给定一个 N 叉树，找到其最大深度。
@@ -13,6 +11,9 @@ import java.util.*;
  * 说明:
  * 树的深度不会超过 1000。
  * 树的节点总不会超过 5000。
+ *
+ * @author Ls J
+ * @date 2020/4/5 11:53 PM
  */
 public class MaxDepth559 {
 
@@ -50,7 +51,7 @@ public class MaxDepth559 {
     }
 
     public int maxDepth1(Node root) {
-        return dfs(root,0);
+        return dfs(root, 0);
     }
 
     /**
@@ -69,7 +70,7 @@ public class MaxDepth559 {
         }
         List<Integer> heights = new ArrayList<>();
         for (Node child : children) {
-            heights.add(dfs(child,curDepth));
+            heights.add(dfs(child, curDepth));
         }
         return Collections.max(heights);
     }

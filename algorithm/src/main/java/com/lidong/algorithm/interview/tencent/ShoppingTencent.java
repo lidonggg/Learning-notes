@@ -3,8 +3,6 @@ package com.lidong.algorithm.interview.tencent;
 import java.util.Stack;
 
 /**
- * @author ls J
- * @date 2020/5/7 16:53
  * <p>
  * 逛街
  * 问题描述：
@@ -20,6 +18,9 @@ import java.util.Stack;
  * 说明
  * 当小Q处于位置 3 时，他可以向前看到位置 2,1 处的楼，向后看到位置 4,6 处的楼，加上第3栋楼，共可看到 5 栋楼。
  * 当小Q处于位置 4 时，他可以向前看到位置 3 处的楼，向后看到位置 5,6 处的楼，加上第4栋楼，共可看到 4 栋楼。
+ *
+ * @author ls J
+ * @date 2020/5/7 16:53
  */
 public class ShoppingTencent {
 

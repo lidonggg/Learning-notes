@@ -1,9 +1,10 @@
 package com.lidong.algorithm.tree.binarytree;
 
 /**
+ * 二叉树节点
+ *
  * @author Ls J
  * @date 2019/5/2 11:19 PM
- * 二叉树节点
  */
 class TreeNode {
 
@@ -13,9 +14,10 @@ class TreeNode {
 
     private TreeNode right;
 
-    public TreeNode(){}
+    public TreeNode() {
+    }
 
-    public TreeNode(int data){
+    public TreeNode(int data) {
         this.data = data;
         this.left = null;
         this.right = null;

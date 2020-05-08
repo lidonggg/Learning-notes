@@ -16,9 +16,10 @@ import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 
 /**
+ * 定义拦截器，做参数校验
+ *
  * @author ls J
  * @date 2020/5/8 10:00
- * 定义拦截器，做参数校验
  */
 public class SourceAccessInterceptor implements HandlerInterceptor {
 

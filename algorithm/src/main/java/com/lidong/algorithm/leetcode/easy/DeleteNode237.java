@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.easy;
 
 /**
- * @author ls J
- * @date 2019/7/10 2:34 PM
  * 删除链表中的节点（简单-237）
  * 问题描述：
  * 编写一个函数，使其可以删除某个链表中给定的（非末尾）节点，你将只被给定要求被删除的节点。
@@ -12,6 +10,9 @@ package com.lidong.algorithm.leetcode.easy;
  * <li>给定的节点为非末尾节点且是一个有效的节点；</li>
  * <li>不要有返回值</li>
  * </ul>
+ *
+ * @author ls J
+ * @date 2019/7/10 2:34 PM
  */
 public class DeleteNode237 {
 

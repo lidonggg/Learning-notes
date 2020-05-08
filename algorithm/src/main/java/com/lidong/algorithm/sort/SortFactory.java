@@ -1,9 +1,10 @@
 package com.lidong.algorithm.sort;
 
 /**
+ * 排序工厂
+ *
  * @author Ls J
  * @version 2019/4/29 15:40
- * 排序工厂
  */
 public interface SortFactory<T> {
 

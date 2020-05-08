@@ -4,8 +4,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @author Ls J
- * @date 2020/4/5 11:09 AM
  * 二叉树的最小深度（简单-111）
  * 问题描述：
  * 给定一个二叉树，找出其最小深度。
@@ -22,6 +20,9 @@ import java.util.Queue;
  * /  \
  * 15   7
  * 返回它的最小深度  2.
+ *
+ * @author Ls J
+ * @date 2020/4/5 11:09 AM
  */
 public class MinDepth111 {
 

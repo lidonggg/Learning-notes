@@ -6,11 +6,12 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.IntConsumer;
 
 /**
- * @author ls J
- * @date 2019/7/27 3:19 PM
  * 打印零与奇偶数（中等-1116）
  * 问题描述：
  * 交替打印01020304
+ *
+ * @author ls J
+ * @date 2019/7/27 3:19 PM
  */
 public class ZeroEvenOdd1116 {
 

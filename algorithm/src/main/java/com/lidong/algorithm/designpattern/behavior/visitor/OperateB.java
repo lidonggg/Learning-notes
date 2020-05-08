@@ -1,9 +1,10 @@
 package com.lidong.algorithm.designpattern.behavior.visitor;
 
 /**
+ * 操作 B
+ *
  * @author ls J
  * @date 2020/4/8 10:58
- * 操作 B
  */
 public class OperateB implements Visitor {
     @Override

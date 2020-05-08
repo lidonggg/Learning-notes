@@ -4,9 +4,10 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 /**
+ * 自定义简单的加密
+ *
  * @author Ls J
  * @date 2019/7/11 9:45 PM
- * 自定义简单的加密
  */
 public class EncryptUtil {
 

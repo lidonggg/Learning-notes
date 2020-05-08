@@ -5,8 +5,6 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * @author ls J
- * @date 2020/5/7 10:30
  * <p>
  * 链表中下一个更大节点（中等-1019）
  * 中文链接：https://leetcode-cn.com/problems/next-greater-node-in-linked-list/
@@ -32,6 +30,9 @@ import java.util.Stack;
  * 提示：
  * 对于链表中的每个节点，1 <= node.val <= 10^9
  * 给定列表的长度在 [0, 10000] 范围内
+ *
+ * @author ls J
+ * @date 2020/5/7 10:30
  */
 public class NextGreaterNodeInLinkedList1019 {
 

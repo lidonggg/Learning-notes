@@ -5,8 +5,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author ls J
- * @date 2019/7/15 1:52 PM
  * 组合
  * 问题描述：
  * 给定两个整数 n 和 k，返回 1 ... n 中所有可能的 k 个数的组合。
@@ -22,6 +20,9 @@ import java.util.List;
  * [1,3],
  * [1,4],
  * ]
+ *
+ * @author ls J
+ * @date 2019/7/15 1:52 PM
  */
 public class Combine77 {
 

@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * @author dlif
- * @version 2019/6/26 10:35
  * <p>
  * 有重复元素的数组全排列（中等-47）
  * 问题描述：给定一个可包含重复数字的序列，返回所有不重复的全排列。
@@ -19,6 +17,9 @@ import java.util.Stack;
  * [1,2,1],
  * [2,1,1]
  * ]
+ *
+ * @author ls J
+ * @date 2019/6/26 10:35
  */
 public class FullyArrange47 {
 

@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * @author Ls J
- * @date 2020/4/5 10:30 AM
  * 二叉树的层次遍历II（简单-107）
  * 问题描述：
  * 给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
@@ -27,6 +25,9 @@ import java.util.Queue;
  * [9,20],
  * [3]
  * ]
+ *
+ * @author Ls J
+ * @date 2020/4/5 10:30 AM
  */
 public class LevelOrderBottom107 {
 

@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.middling.dynamic;
 
 /**
- * @author Ls J
- * @date 2020/5/2 12:22 PM
  * 只有两个键的键盘（中等-650）
  * 中文链接：https://leetcode-cn.com/problems/2-keys-keyboard/
  * 问题描述：
@@ -23,6 +21,9 @@ package com.lidong.algorithm.leetcode.middling.dynamic;
  * <p>
  * 说明:
  * n 的取值范围是 [1, 1000] 。
+ *
+ * @author Ls J
+ * @date 2020/5/2 12:22 PM
  */
 public class KeyboardWith2Keys650 {
 

@@ -1,15 +1,15 @@
 package com.lidong.algorithm.leetcode.easy;
 
 /**
- * @author Ls J
- * @date 2019/6/26 4:18 PM
- *
  * 整数反转（简单）
  * 问题描述：给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
  * 示例：
  * 123 --> 321
  * -123 --> -321
  * 120 --> 21
+ *
+ * @author Ls J
+ * @date 2019/6/26 4:18 PM
  */
 public class ReverseSignedInt7 {
 

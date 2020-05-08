@@ -3,9 +3,10 @@ package com.lidong.algorithm.sort;
 import com.lidong.algorithm.util.ArrayUtil;
 
 /**
+ * 快速排序，时间复杂度O(nlogn)，不稳定，可以代码控制为原地排序
+ *
  * @author Ls J
  * @version 2019/4/29 16:00
- * 快速排序，时间复杂度O(nlogn)，不稳定，可以代码控制为原地排序
  */
 public class QuickSort implements SortFactory<int[]> {
 

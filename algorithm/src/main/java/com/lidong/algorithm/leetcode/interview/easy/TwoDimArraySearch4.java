@@ -1,12 +1,13 @@
 package com.lidong.algorithm.leetcode.interview.easy;
 
 /**
- * @author ls J
- * @date 2020/4/27 10:37
  * 二维数组的查找（简单-04）
  * 问题描述：
  * 在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。
  * 请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
+ *
+ * @author ls J
+ * @date 2020/4/27 10:37
  */
 public class TwoDimArraySearch4 {
 
@@ -42,10 +43,10 @@ public class TwoDimArraySearch4 {
             return new int[]{-1, -1};
         }
         int rows = arr.length;
-        for(int i = 0;i<rows;++i) {
-            int theCol = binarySearch(arr[i],target);
-            if(theCol > -1) {
-                return new int[] {i,theCol};
+        for (int i = 0; i < rows; ++i) {
+            int theCol = binarySearch(arr[i], target);
+            if (theCol > -1) {
+                return new int[]{i, theCol};
             }
         }
         return new int[]{-1, -1};

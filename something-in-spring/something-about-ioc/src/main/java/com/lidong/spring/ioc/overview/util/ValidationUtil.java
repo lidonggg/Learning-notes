@@ -13,9 +13,10 @@ import java.util.List;
 import java.util.Set;
 
 /**
+ * validation util
+ *
  * @author ls J
  * @date 2020/5/8 12:03
- * validation util
  */
 public class ValidationUtil {
 

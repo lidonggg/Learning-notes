@@ -1,9 +1,10 @@
 package com.lidong.algorithm.linkedlist;
 
 /**
+ * 检测链表中环的存在
+ *
  * @author Ls J
  * @date 2019/4/30 3:08 PM
- * 检测链表中环的存在
  */
 public class LinkedListCircle {
 

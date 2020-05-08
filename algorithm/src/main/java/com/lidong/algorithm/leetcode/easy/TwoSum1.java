@@ -4,11 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Ls J
- * @date 2019/6/26 4:00 PM
- *
  * 两数之和（简单）
  * 问题描述：给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
+ *
+ * @author Ls J
+ * @date 2019/6/26 4:00 PM
  */
 public class TwoSum1 {
 
@@ -34,7 +34,7 @@ public class TwoSum1 {
 
     /**
      * 方法2 哈希映射
-     *
+     * <p>
      * 遍历数组 nums，i 为当前下标，每个值都判断map中是否存在 target-nums[i] 的 key 值
      * 如果存在则找到了两个值，如果不存在则将当前的 (nums[i],i) 存入 map 中，继续遍历直到找到为止
      *

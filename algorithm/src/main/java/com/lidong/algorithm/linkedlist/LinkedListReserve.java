@@ -1,9 +1,10 @@
 package com.lidong.algorithm.linkedlist;
 
 /**
+ * 单链表反转
+ *
  * @author Ls J
  * @date 2019/4/30 3:01 PM
- * 单链表反转
  */
 public class LinkedListReserve {
 

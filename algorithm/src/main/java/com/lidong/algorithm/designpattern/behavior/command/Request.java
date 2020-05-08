@@ -1,9 +1,10 @@
 package com.lidong.algorithm.designpattern.behavior.command;
 
 /**
+ * request data
+ *
  * @author ls J
  * @date 2020/4/15 13:35
- * request data
  */
 public class Request {
 

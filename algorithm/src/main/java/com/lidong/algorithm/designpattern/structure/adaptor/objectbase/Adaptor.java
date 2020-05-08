@@ -4,9 +4,10 @@ import com.lidong.algorithm.designpattern.structure.adaptor.Adaptee;
 import com.lidong.algorithm.designpattern.structure.adaptor.ITarget;
 
 /**
+ * 对象适配器：基于组合
+ *
  * @author Ls J
  * @date 2020/4/5 3:55 PM
- * 对象适配器：基于组合
  */
 public class Adaptor implements ITarget {
 

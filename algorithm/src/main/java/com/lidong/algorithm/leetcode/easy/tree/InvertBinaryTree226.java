@@ -1,12 +1,13 @@
 package com.lidong.algorithm.leetcode.easy.tree;
 
 /**
- * @author Ls J
- * @date 2020/5/4 4:56 PM
  * 翻转二叉树（简单-226）
  * 中文链接：https://leetcode-cn.com/problems/invert-binary-tree/
  * 问题描述：
  * 翻转一棵二叉树
+ *
+ * @author Ls J
+ * @date 2020/5/4 4:56 PM
  */
 public class InvertBinaryTree226 {
 
@@ -16,7 +17,7 @@ public class InvertBinaryTree226 {
     }
 
     private void invert(TreeNode node) {
-        if(node == null){
+        if (node == null) {
             return;
         }
         TreeNode tmp = node.left;

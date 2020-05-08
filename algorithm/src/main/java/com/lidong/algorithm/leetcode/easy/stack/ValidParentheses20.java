@@ -5,8 +5,6 @@ import java.util.Map;
 import java.util.Stack;
 
 /**
- * @author Ls J
- * @date 2020/4/19 3:25 PM
  * 有效的括号（简单-20）
  * 问题描述：
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
@@ -34,6 +32,9 @@ import java.util.Stack;
  * 示例 5:
  * 输入: "{[]}"
  * 输出: true
+ *
+ * @author Ls J
+ * @date 2020/4/19 3:25 PM
  */
 public class ValidParentheses20 {
 

@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.middling.dynamic;
 
 /**
- * @author ls J
- * @date 2019/8/1 9:49 AM
  * 丑数Ⅱ（中等-264）
  * 问题描述：
  * 编写一个程序，找出第 n 个丑数。
@@ -16,6 +14,9 @@ package com.lidong.algorithm.leetcode.middling.dynamic;
  * 说明:  
  * 1 是丑数。
  * n 不超过1690。
+ *
+ * @author ls J
+ * @date 2019/8/1 9:49 AM
  */
 public class NthUglyNumber264 {
 

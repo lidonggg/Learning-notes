@@ -1,6 +1,7 @@
 package com.lidong.spring.ioc.overview.filter;
 
-import com.ctrip.communication.config.RequestWrapper;
+
+import com.lidong.spring.ioc.overview.constants.RequestWrapper;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

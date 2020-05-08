@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.easy;
 
 /**
- * @author ls J
- * @date 2019/7/10 3:01 PM
  * 翻转图像（简单-832）
  * 问题描述：
  * 给定一个二进制矩阵 A，我们想先水平翻转图像，然后反转图像并返回结果。
@@ -14,6 +12,9 @@ package com.lidong.algorithm.leetcode.easy;
  * 输出：[[1,0,0],[0,1,0],[1,1,1]]
  * 说明：水平翻转：[[0,1,1],[1,0,1],[0,0,0]]；
  * 反转：[[1,0,0],[0,1,0],[1,1,1]]
+ *
+ * @author ls J
+ * @date 2019/7/10 3:01 PM
  */
 public class FlipAndInvertImage832 {
 

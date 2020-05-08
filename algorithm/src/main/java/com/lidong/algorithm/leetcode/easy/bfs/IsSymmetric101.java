@@ -4,8 +4,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @author ls J
- * @date 2020/4/3 13:34
  * 对称二叉树（简单-101）
  * 问题描述：
  * 给定一个二叉树，检查它是否是镜像对称的。
@@ -26,6 +24,9 @@ import java.util.Queue;
  * <p>
  * 说明:
  * 如果你可以运用递归和迭代两种方法解决这个问题，会很加分。
+ *
+ * @author ls J
+ * @date 2020/4/3 13:34
  */
 public class IsSymmetric101 {
 

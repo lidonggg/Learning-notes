@@ -6,11 +6,12 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * @author ls J
- * @date 2020/4/9 14:17
  * 二叉树的层次遍历（中等-102）
  * 问题描述：
  * 给你一个二叉树，请你返回其按 层序遍历 得到的节点值。 （即逐层地，从左到右访问所有节点）。
+ *
+ * @author ls J
+ * @date 2020/4/9 14:17
  */
 public class LevelOrder102 {
 

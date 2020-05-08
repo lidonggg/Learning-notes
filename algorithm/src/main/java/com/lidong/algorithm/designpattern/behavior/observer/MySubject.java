@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 被观察者
+ *
  * @author ls J
  * @date 2020/3/11 11:00
- * 被观察者
  */
 public class MySubject implements Subject {
 

@@ -7,10 +7,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.env.Environment;
 
 /**
+ * 依赖依赖注入
+ *
  * @author Ls J
  * @date 2020/5/5 4:07 PM
- * <p>
- * 依赖依赖注入：
  */
 public class DependencyInjectionDemo {
 
@@ -47,7 +47,7 @@ public class DependencyInjectionDemo {
 
         // ConfigurableApplicationContext#getBeanFactory()
 
-        // 这个表达式为什么不会成立
+        // 这个表达式为什么不会成立？
         System.out.println(userRepository.getBeanFactory() == applicationContext);
 
         // ApplicationContext is BeanFactory

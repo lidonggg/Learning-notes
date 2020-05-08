@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.interview.easy;
 
 /**
- * @author ls J
- * @date 2020/3/24 13:31
  * 按摩师（简单--面试题17.16）
  * 题目描述：
  * 一个有名的按摩师会收到源源不断的预约请求，每个预约都可以选择接或不接。在每次预约服务之间要有休息时间，因此她不能接受相邻的预约。
@@ -23,6 +21,9 @@ package com.lidong.algorithm.leetcode.interview.easy;
  * 输入： [2,1,4,5,3,1,1,3]
  * 输出： 12
  * 解释： 选择 1 号预约、 3 号预约、 5 号预约和 8 号预约，总时长 = 2 + 4 + 3 + 3 = 12。
+ *
+ * @author ls J
+ * @date 2020/3/24 13:31
  */
 public class Massage1716 {
 

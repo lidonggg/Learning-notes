@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.easy.dynamic;
 
 /**
- * @author ls J
- * @date 2019/7/25 2:02 PM
  * 爬楼梯（简单-70）
  * 问题描述：
  * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
@@ -24,6 +22,9 @@ package com.lidong.algorithm.leetcode.easy.dynamic;
  * 1.  1 阶 + 1 阶 + 1 阶
  * 2.  1 阶 + 2 阶
  * 3.  2 阶 + 1 阶
+ *
+ * @author ls J
+ * @date 2019/7/25 2:02 PM
  */
 public class ClimbStairs70 {
 

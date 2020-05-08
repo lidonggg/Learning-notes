@@ -1,15 +1,10 @@
 package com.lidong.algorithm.leetcodetmp;
 
 /**
- * @author Ls J
- * @date 2020/5/4 10:56 AM
- *
- *
- *
  * 动态规划
- *
- *
- *
+ * <p>
+ * <p>
+ * <p>
  * 填充书架（中等-1105）
  * 中文链接：https://leetcode-cn.com/problems/filling-bookcase-shelves/
  * 问题描述：
@@ -32,6 +27,9 @@ package com.lidong.algorithm.leetcodetmp;
  * 1 <= books.length <= 1000
  * 1 <= books[i][0] <= shelf_width <= 1000
  * 1 <= books[i][1] <= 1000
+ *
+ * @author Ls J
+ * @date 2020/5/4 10:56 AM
  */
 public class FillingBookcaseShelves1105 {
 
@@ -43,7 +41,7 @@ public class FillingBookcaseShelves1105 {
 
     /**
      * 动态规划
-     *
+     * <p>
      * dp[i] = min()
      *
      * @param books      books
@@ -56,7 +54,6 @@ public class FillingBookcaseShelves1105 {
         }
 
         int[] dp = new int[books.length + 1];
-
 
 
         return 0;

@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.middling.dynamic;
 
 /**
- * @author ls J
- * @date 2019/8/29 1:39 PM
  * 不同的二叉搜索树（中等-96）
  * 问题描述：
  * 给定一个整数 n，求以 1 ... n 为节点组成的二叉搜索树有多少种？
@@ -18,6 +16,9 @@ package com.lidong.algorithm.leetcode.middling.dynamic;
  * 3     2      1      1   3      2
  * /     /       \                 \
  * 2     1        2                 3
+ *
+ * @author ls J
+ * @date 2019/8/29 1:39 PM
  */
 public class NumSearchTrees96 {
 

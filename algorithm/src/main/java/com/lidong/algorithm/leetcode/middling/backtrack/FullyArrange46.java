@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author dlif
- * @version 2019/6/26 10:30
  * <p>
  * 数组全排列（中等）
  * 问题描述：给定一个没有重复数字的序列，返回其所有可能的全排列。
@@ -21,6 +19,9 @@ import java.util.List;
  * [3,2,1]
  * ]
  * 效率一般，内存消耗一般
+ *
+ * @author dlif
+ * @version 2019/6/26 10:30
  */
 public class FullyArrange46 {
 

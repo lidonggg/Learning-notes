@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author ls J
- * @date 2020/5/6 15:00
  * 重排链表（中等-143）
  * 中文链接：https://leetcode-cn.com/problems/reorder-list/
  * 问题描述：
@@ -18,6 +16,9 @@ import java.util.List;
  * <p>
  * 示例 2:
  * 给定链表 1->2->3->4->5, 重新排列为 1->5->2->4->3.
+ *
+ * @author ls J
+ * @date 2020/5/6 15:00
  */
 public class ReorderList143 {
 

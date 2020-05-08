@@ -5,12 +5,13 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author Ls J
- * @date 2019/4/30 9:14 AM
  * 桶排序，时间复杂度O(n)，稳定的，非原地排序
  * 将数据分成n个桶，每个桶代表不同范围，把相应的数据插入到每个桶中，然后每个桶分别排序，最后再合并
  * 适合数据量比较大的场景，内存加载不了需要在外部磁盘中进行的外部排序等；数据分布也最好要比较均匀，否则极端情况下时间复杂度会退化成O(nlogn)
  * 下面是最基本的桶排序，当某个桶中的元素较多的时候，可以再次递归利用桶排序进一步划分
+ *
+ * @author Ls J
+ * @date 2019/4/30 9:14 AM
  */
 public class BucketSort implements SortFactory<int[]> {
 

@@ -1,9 +1,10 @@
 package com.lidong.algorithm.backtracking;
 
 /**
+ * 八皇后问题
+ *
  * @author Ls j
  * @date 2020/1/8 19:52
- * 八皇后问题
  */
 public class EightQueens {
 

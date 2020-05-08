@@ -10,9 +10,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
+ * filter -> interceptor -> controller
+ *
  * @author ls J
  * @date 2020/5/8 11:13
- * filter -> interceptor -> controller
  */
 public class RequestRewriteFilter extends OncePerRequestFilter {
 

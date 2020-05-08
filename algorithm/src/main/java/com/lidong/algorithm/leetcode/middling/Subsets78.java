@@ -4,8 +4,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author ls J
- * @date 2019/7/15 9:55 AM
  * 子集（中等-78）
  * 问题描述：
  * 给定一组不含重复元素的整数数组 nums，返回该数组所有可能的子集（幂集）。
@@ -24,6 +22,9 @@ import java.util.List;
  * [1,2],
  * []
  * ]
+ *
+ * @author ls J
+ * @date 2019/7/15 9:55 AM
  */
 public class Subsets78 {
 

@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.easy.dfs;
 
 /**
- * @author ls J
- * @date 2020/4/23 17:28
  * 二叉树最大深度（简单-104）
  * 问题描述：
  * 给定一个二叉树，找出其最大深度。
@@ -17,6 +15,9 @@ package com.lidong.algorithm.leetcode.easy.dfs;
  * /  \
  * 15   7
  * 返回它的最大深度 3 。
+ *
+ * @author ls J
+ * @date 2020/4/23 17:28
  */
 public class MaxDepthOfBinaryTree104 {
 

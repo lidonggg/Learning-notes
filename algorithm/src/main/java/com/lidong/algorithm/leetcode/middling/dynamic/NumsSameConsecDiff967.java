@@ -6,8 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author ls J
- * @date 2019/9/3 8:47 AM
  * 连续差相同的数字（中等-967）
  * 问题描述：
  * 返回所有长度为 N 且满足其每两个连续位上的数字之间的差的绝对值为 K 的非负整数。
@@ -26,6 +24,9 @@ import java.util.List;
  * 提示：
  * 1 <= N <= 9
  * 0 <= K <= 9
+ *
+ * @author ls J
+ * @date 2019/9/3 8:47 AM
  */
 public class NumsSameConsecDiff967 {
 

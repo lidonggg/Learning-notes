@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.easy;
 
 /**
- * @author Ls J
- * @date 2020/3/7 1:51 PM
  * 移除元素（简单-27）
  * 问题描述：
  * 给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
@@ -13,6 +11,9 @@ package com.lidong.algorithm.leetcode.easy;
  * 给定 nums = [3,2,2,3], val = 3,
  * 函数应该返回新的长度 2, 并且 nums 中的前两个元素均为 2。
  * 你不需要考虑数组中超出新长度后面的元素。
+ *
+ * @author Ls J
+ * @date 2020/3/7 1:51 PM
  */
 public class RemoveElement27 {
 

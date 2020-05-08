@@ -6,8 +6,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author ls J
- * @date 2019/7/19 9:41 AM
  * 电话号码的字母组合（中等-17）
  * 问题描述：
  * 给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。
@@ -28,6 +26,9 @@ import java.util.regex.Pattern;
  * 说明:
  * 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
  * <br>
+ *
+ * @author ls J
+ * @date 2019/7/19 9:41 AM
  */
 public class LetterCombinations17 {
 

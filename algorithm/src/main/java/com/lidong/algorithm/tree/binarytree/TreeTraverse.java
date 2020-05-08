@@ -3,10 +3,11 @@ package com.lidong.algorithm.tree.binarytree;
 import java.util.Stack;
 
 /**
- * @author Ls J
- * @date 2019/5/2 11:27 PM
  * 二叉树遍历，包含前后中序遍历的递归和非递归方法
  * 非递归主要使用了堆栈来进行操作
+ *
+ * @author Ls J
+ * @date 2019/5/2 11:27 PM
  */
 public class TreeTraverse {
 

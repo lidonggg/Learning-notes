@@ -3,8 +3,6 @@ package com.lidong.algorithm.leetcode.middling.dynamic;
 import java.util.Arrays;
 
 /**
- * @author ls J
- * @date 2019/7/26 8:49 AM
  * 不同路径（中等-62）
  * 一个机器人位于一个 m x n 网格的左上角，
  * 机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角，
@@ -24,6 +22,9 @@ import java.util.Arrays;
  * 示例 2:
  * 输入: m = 7, n = 3
  * 输出: 28
+ *
+ * @author ls J
+ * @date 2019/7/26 8:49 AM
  */
 public class UniquePaths {
 
@@ -105,6 +106,6 @@ public class UniquePaths {
 
     public static void main(String[] args) {
         UniquePaths uniquePaths = new UniquePaths();
-        System.out.println(uniquePaths.uniquePaths2(7,3));
+        System.out.println(uniquePaths.uniquePaths2(7, 3));
     }
 }

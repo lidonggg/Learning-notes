@@ -4,9 +4,10 @@ import com.lidong.algorithm.designpattern.structure.adaptor.Adaptee;
 import com.lidong.algorithm.designpattern.structure.adaptor.ITarget;
 
 /**
+ * 类适配器：基于继承
+ *
  * @author Ls J
  * @date 2020/4/5 3:54 PM
- * 类适配器：基于继承
  */
 public class Adaptor extends Adaptee implements ITarget {
     @Override

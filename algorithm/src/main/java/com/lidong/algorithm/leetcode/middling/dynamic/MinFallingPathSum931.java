@@ -1,8 +1,6 @@
 package com.lidong.algorithm.leetcode.middling.dynamic;
 
 /**
- * @author ls J
- * @date 2019/9/2 5:46 PM
  * 下降路径最小和（中等-931）
  * 问题描述：
  * 给定一个方形整数数组 A，我们想要得到通过 A 的下降路径的最小和。
@@ -21,6 +19,9 @@ package com.lidong.algorithm.leetcode.middling.dynamic;
  * 提示：
  * 1 <= A.length == A[0].length <= 100
  * -100 <= A[i][j] <= 100
+ *
+ * @author ls J
+ * @date 2019/9/2 5:46 PM
  */
 public class MinFallingPathSum931 {
 

@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author ls J
- * @date 2020/5/8 10:05
  * <p>
  * 大礼包（中等-638）
  * 中文链接：https://leetcode-cn.com/problems/shopping-offers
@@ -41,6 +39,9 @@ import java.util.Map;
  * 最多6种物品， 100种大礼包。
  * 每种物品，你最多只需要购买6个。
  * 你不可以购买超出待购清单的物品，即使更便宜。
+ *
+ * @author ls J
+ * @date 2020/5/8 10:05
  */
 public class ShoppingOffers638 {
 

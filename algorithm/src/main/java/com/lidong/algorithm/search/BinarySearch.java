@@ -5,9 +5,10 @@ import com.lidong.algorithm.common.impl.ArrayForSearch;
 import com.lidong.algorithm.util.ArrayUtil;
 
 /**
+ * 二分查找的各种变形，时间复杂度O(logn)
+ *
  * @author Ls J
  * @version 2019/4/29 13:57
- * 二分查找的各种变形，时间复杂度O(logn)
  */
 public class BinarySearch {
 
@@ -116,7 +117,7 @@ public class BinarySearch {
             if (arr[mid] < key) {
                 low = mid + 1;
             } else {
-                if(mid == 0 || arr[mid - 1] < key){
+                if (mid == 0 || arr[mid - 1] < key) {
                     return mid;
                 }
                 high = mid - 1;
@@ -128,11 +129,12 @@ public class BinarySearch {
 
     /**
      * 查找最后一个小于等于key的元素的位置
+     *
      * @param arr
      * @param key
      * @return 存在则返回该元素的位置，否则返回-1
      */
-    private static int bsLastLe(int[] arr,int key){
+    private static int bsLastLe(int[] arr, int key) {
         int low = 0, high = arr.length - 1;
         int mid;
 
@@ -145,7 +147,7 @@ public class BinarySearch {
                 // arr[mid] <= key
                 // 如果中间值已经是最后一个元素了，则此时就是要找的元素
                 // 如果中间值不是最后一个元素但是中间值后一个元素比key大，说明此中间值就是要找的元素
-                if(mid == arr.length - 1 || arr[mid + 1] > key){
+                if (mid == arr.length - 1 || arr[mid + 1] > key) {
                     return mid;
                 }
                 // 否则继续往后寻找

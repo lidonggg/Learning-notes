@@ -2,7 +2,7 @@ package com.lidong.algorithm.util;
 
 /**
  * @author Ls J
- * @version 2019/4/29 15:09
+ * @date 2019/4/29 15:09
  */
 public class ArrayUtil {
     /**

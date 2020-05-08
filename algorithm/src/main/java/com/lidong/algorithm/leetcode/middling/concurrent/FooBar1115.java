@@ -1,11 +1,12 @@
 package com.lidong.algorithm.leetcode.middling.concurrent;
 
 /**
- * @author ls J
- * @date 2019/7/27 2:23 PM
  * 交替打印 FooBar（中等-1115）
  * 问题描述：
  * 交替打印 FooBar
+ *
+ * @author ls J
+ * @date 2019/7/27 2:23 PM
  */
 public class FooBar1115 {
     private int n;

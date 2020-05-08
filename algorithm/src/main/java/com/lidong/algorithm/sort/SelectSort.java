@@ -3,9 +3,10 @@ package com.lidong.algorithm.sort;
 import com.lidong.algorithm.util.ArrayUtil;
 
 /**
+ * 选择排序，时间复杂度O(n^2)，空间复杂度O(1)，不稳定，原地排序
+ *
  * @author Ls J
  * @version 2019/4/29 16:26
- * 选择排序，时间复杂度O(n^2)，空间复杂度O(1)，不稳定，原地排序
  */
 public class SelectSort implements SortFactory<int[]> {
 

@@ -10,12 +10,12 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.util.Map;
 
 /**
- * @author Ls J
- * @date 2020/5/5 4:07 PM
- * <p>
  * 依赖查找：
  * 1. 通过名称查找
  * 2. 通过类型查找
+ *
+ * @author Ls J
+ * @date 2020/5/5 4:07 PM
  */
 public class DependencyLookupDemo {
 
