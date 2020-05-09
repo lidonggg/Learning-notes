@@ -8,7 +8,7 @@ public class ArrayUtil {
     /**
      * 数组打印
      *
-     * @param arr
+     * @param arr arr
      */
     public static void printArray(int[] arr) {
         for (int a : arr) {

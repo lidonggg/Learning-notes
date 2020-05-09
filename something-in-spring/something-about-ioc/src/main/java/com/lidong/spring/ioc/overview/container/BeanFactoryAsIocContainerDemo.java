@@ -9,7 +9,7 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import java.util.Map;
 
 /**
- * BeanFactory
+ * {@link BeanFactory}
  *
  * @author Ls J
  * @date 2020/5/8 11:34 PM

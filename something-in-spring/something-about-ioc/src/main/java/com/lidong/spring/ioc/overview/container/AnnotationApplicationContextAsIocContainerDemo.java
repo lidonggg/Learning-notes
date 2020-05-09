@@ -3,13 +3,14 @@ package com.lidong.spring.ioc.overview.container;
 import com.lidong.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 import java.util.Map;
 
 /**
- * ApplicationContext annotation
+ * {@link ApplicationContext} annotation
  *
  * @author Ls J
  * @date 2020/5/8 11:32 PM
@@ -38,7 +39,7 @@ public class AnnotationApplicationContextAsIocContainerDemo {
     public User user() {
         User user = new User();
         user.setId(1L);
-        user.setName("小马哥");
+        user.setName("dlif");
         return user;
     }
 

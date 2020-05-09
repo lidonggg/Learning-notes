@@ -1,8 +1,5 @@
 package com.lidong.spring.ioc.overview.util;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.hibernate.validator.HibernateValidator;
 
 import javax.validation.ConstraintViolation;
@@ -118,9 +115,6 @@ public class ValidationUtil {
         }
     }
 
-    @Data
-    @AllArgsConstructor
-    @NoArgsConstructor
     private class ErrorMessage {
 
         private String propertyPath;
