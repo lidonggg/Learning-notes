@@ -1,5 +1,10 @@
 ## 按考点排序
 
+### 数组
+#### 简单
+- [1010.总持续时间可被 60 整除的歌曲](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PairsOfSongsWithTotalDurationsDivisibleby601010.java)
+
+
 ### 链表
 
 #### 简单

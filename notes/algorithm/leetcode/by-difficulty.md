@@ -24,6 +24,7 @@
 - [771.转换成小写字母](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/NumJewelsInStones771.java)
 - [832.翻转图像](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/FlipAndInvertImage832.java)
 - [914.卡牌分组](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/HasGroupsSizeX914.java)
+- [1010.总持续时间可被 60 整除的歌曲](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PairsOfSongsWithTotalDurationsDivisibleby601010.java)
 - [1021.转换成小写字母](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/RemoveOuterParentheses1021.java)
 - [1108.IP地址无效化](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/InvalidateIpAddr1108.java)
 - [17-16.按摩师](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Massage1716.java)
