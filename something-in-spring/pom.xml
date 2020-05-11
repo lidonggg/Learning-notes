@@ -11,6 +11,7 @@
 
     <modules>
         <module>something-about-ioc</module>
+        <module>something-about-spring-bean</module>
     </modules>
 
     <properties>
