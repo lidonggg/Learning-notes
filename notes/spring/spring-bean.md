@@ -11,6 +11,8 @@ BeanDefinition 是 Spring Framework 定义 Bean 的配置元信息接口，包�
 - 其他 Bean 引用，又可称为合作者（Collaborators）或者依赖（Dependencies）
 - 配置设置，如 Bean 属性（properties）
 
+
+
 ### BeanDefinition 元信息
 
 |           属性           |                      说明                       |
@@ -58,9 +60,41 @@ BeanDefinition 构建方式：
 
 ### 命名 Spring Bean
 
+Bean 的名称：
+
+- 每个 Bean 拥有一个或多个标识符(identifiers)，这些标识符在 Bean 所在的容器必须是唯一的。通常，一个 Bean 仅有一个标识符，如果需要额外的，可考虑使用别名(Alias)来扩充。
+- 在基于 XML 的配置元信息中，开发人员可用 id 或者 name 属性（XML 标签的属性）来规定 Bean 的 标识符。通常Bean 的 标识符由字母组成，允许出现特殊字符。如果要想引入 Bean 的别名的话，可在 name 属性使用半角逗号（“,”）或分号（“;”） 来间隔。
+- Bean 的 id 或 name 属性并非必须制定，如果留空的话，容器会为 Bean 自动生成一个唯一的名称。Bean 的命名尽管没有限制，不过官方建议采用驼峰的方式，更符合 Java 的命名约定。
+
+Bean 名称生成器(BeanNameGenerator)，由 Spring Framework 2.0.3 引入，框架內建两种实现:
+
+- DefaultBeanNameGenerator:默认通用 BeanNameGenerator 实现。
+- AnnotationBeanNameGenerator:基于注解扫描的 BeanNameGenerator 实现，起始于 Spring Framework 2.5。
+
 
 
 ### Spring Bean 别名
+
+别名有什么作用：
+
+- 复用现有的 BeanDefinition
+
+- 更具有场景化的命名方式，可以根据不同的场景进行区分，比如：
+
+  ```xml
+  <alias name="myApp-dataSource" alias="subsystemA-dataSource"/> 
+  <alias name="myApp-dataSource" alias="subsystemB-dataSource"/>
+  ```
+
+- 通过别名获取到的 Bean 与通过原名获取的 Bean 是同一个 Bean：
+
+  ```java
+  // 通过原名和别名分别去获取 Bean
+  User user = beanFactory.getBean("user", User.class);
+  User userAlias = beanFactory.getBean("user-alias", User.class);
+  // 是同一个 Bean，输出 true
+  System.out.println(user == userAlias);
+  ```
 
 
 
