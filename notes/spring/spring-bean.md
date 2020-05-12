@@ -13,7 +13,7 @@ BeanDefinition 是 Spring Framework 定义 Bean 的配置元信息接口，包�
 
 
 
-### BeanDefinition 元信息
+### [BeanDefinition 元信息](https://github.com/lidonggg/Learning-notes/blob/master/something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanDefinitionCreatorDemo.java)
 
 |           属性           |                      说明                       |
 | :----------------------: | :---------------------------------------------: |
@@ -73,7 +73,7 @@ Bean 名称生成器(BeanNameGenerator)，由 Spring Framework 2.0.3 引入，�
 
 
 
-### Spring Bean 别名
+### [Spring Bean 别名](https://github.com/lidonggg/Learning-notes/blob/master/something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanAliasDemo.java)
 
 别名有什么作用：
 
