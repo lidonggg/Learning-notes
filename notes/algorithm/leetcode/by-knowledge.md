@@ -98,3 +98,6 @@
 - [113.路径总和II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dfs/PathSumII113.java)
 - [337.打家劫舍III](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dfs/HouseRobberIII337.java)
 - [638.大礼包](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dfs/ShoppingOffers638.java)
+
+#### 困难
+- [99.恢复二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dfs/RecoverBinarySearchTree99.java)
