@@ -106,9 +106,9 @@ public class TrappingRainWater42 {
                 if (stack.isEmpty()) {
                     break;
                 }
-                // 计算当前元素和栈顶元素的距离
+                // 计算当前元素和栈顶元素的距离（宽度）
                 int distance = curIdx - stack.peek() - 1;
-                // 找出界定高度
+                // 找出界定高度（高度）
                 int boundedHeight = Math.min(heights[curIdx], heights[stack.peek()]) - heights[top];
                 res += distance * boundedHeight;
             }

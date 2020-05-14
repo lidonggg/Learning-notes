@@ -100,9 +100,49 @@ Bean 名称生成器(BeanNameGenerator)，由 Spring Framework 2.0.3 引入，�
 
 ### 注册 Spring Bean
 
+BeanDefinition 注册：
 
+- XML 配置元信息：
+
+  ```xml
+  <bean name=”...” ... />
+  ```
+
+- Java 注解配置元信息
+
+  ```java
+  @Bean
+  @Component
+  @Import
+  ```
+
+- Java API 配置元信息
+
+  ```java
+  BeanDefinitionBuilder beanDefinitionBuilder = genericBeanDefinition(User.class);
+  // 命名方式
+  // eanDefinitionRegistry#registerBeanDefinition(String, BeanDefinition)
+  registry.registerBeanDefinition(beanName, beanDefinitionBuilder.getBeanDefinition());
+  // 非命名方式：
+  BeanDefinitionReaderUtils.registerWithGeneratedName(beanDefinitionBuilder.getBeanDefinition(), registry);
+  // 配置类方式（AnnotatedBeanDefinitionReader#register(Class...)）
+  AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
+  applicationContext.register(AnnotationBeanDefinitionDemo.class);
+  ```
+
+  ​
 
 ### 实例化 Spring Bean
+
+- 常规方式：
+  - 通过构造器(配置元信息:XML、Java 注解和 Java API )
+  - 通过静态工厂方法(配置元信息:XML 和 Java API )
+  - 通过 Bean 工厂方法(配置元信息:XML和 Java API )
+  - 通过 FactoryBean(配置元信息:XML、Java 注解和 Java API )
+- 特殊方式：
+  - 通过 ServiceLoaderFactoryBean(配置元信息:XML、Java 注解和 Java API )
+  - 通过 AutowireCapableBeanFactory#createBean(java.lang.Class, int, boolean)
+  - 通过 BeanDefinitionRegistry#registerBeanDefinition(String,BeanDefinition)
 
 
 

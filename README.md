@@ -17,7 +17,9 @@
 
 ## [分布式协议与算法]()
 
-## [RPC](https://github.com/lidonggg/Learning-notes/blob/master/notes/RPC)
+## [RPC](/notes/RPC)
 
-## [面试](https://github.com/lidonggg/Learning-notes/blob/master/notes/interview)
+## [缓存](/notes/缓存)
+
+## [面试](/notes/interview)
 
