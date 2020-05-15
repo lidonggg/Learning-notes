@@ -73,7 +73,7 @@ Bean 名称生成器(BeanNameGenerator)，由 Spring Framework 2.0.3 引入，�
 
 
 
-### [Spring Bean 别名](https://github.com/lidonggg/Learning-notes/blob/master/something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanAliasDemo.java)
+### [Spring Bean 别名](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanAliasDemo.java)
 
 别名有什么作用：
 
@@ -98,7 +98,7 @@ Bean 名称生成器(BeanNameGenerator)，由 Spring Framework 2.0.3 引入，�
 
 
 
-### 注册 Spring Bean
+### [注册 Spring Bean](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/AnnotationBeanDefinitionDemo.java)
 
 BeanDefinition 注册：
 
@@ -134,17 +134,93 @@ BeanDefinition 注册：
 
 ### 实例化 Spring Bean
 
-- 常规方式：
+- [常规方式](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanInstantiationDemo.java)：
+
   - 通过构造器(配置元信息:XML、Java 注解和 Java API )
   - 通过静态工厂方法(配置元信息:XML 和 Java API )
+
+  ```java
+  public static User createUser() {
+      User user = new User();
+      user.setId(1L);
+      user.setName("dlif");
+      return user;
+  }
+
+  // XML
+  <bean id="user-by-static-method" class="com.lidong.spring.ioc.overview.domain.User" factory-method="createUser"/>
+  ```
+
   - 通过 Bean 工厂方法(配置元信息:XML和 Java API )
+
+  ```java
+  public User createUser() {
+      return User.createUser();
+  }
+
+  // XML
+  <bean id="user-by-instance-method" class="com.lidong.spring.bean.factory.DefaultUserFactory" factory-method ="createUser"/>
+
+  ```
+
   - 通过 FactoryBean(配置元信息:XML、Java 注解和 Java API )
-- 特殊方式：
+
+  ```java
+  public class UserFactoryBean implements FactoryBean {
+      @Override
+      public Object getObject() throws Exception {
+          return User.createUser();
+      }
+
+      @Override
+      public Class<?> getObjectType() {
+          return User.class;
+      }
+  }
+
+  // XML
+  <bean id="user-by-factory-bean" class="com.lidong.spring.bean.factory.UserFactoryBean" />
+  ```
+
+- [特殊方式](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/SpecialBeanInstantiationDemo.java)：
+
   - 通过 ServiceLoaderFactoryBean(配置元信息:XML、Java 注解和 Java API )
+
+  ```java
+  // 需要有 /META-INF/services/
+  public static void demoServiceLoader() {
+      ServiceLoader<UserFactory> serviceLoader = load(UserFactory.class, Thread.currentThread().getContextClassLoader());
+      displayServiceLoader(serviceLoader);
+  }
+  ```
+
   - 通过 AutowireCapableBeanFactory#createBean(java.lang.Class, int, boolean)
+
+  ```java
+  ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:/META-INF/special-bean-instantiation-context.xml");
+  // 通过 ApplicationContext 获取 AutowireCapableBeanFactory
+  AutowireCapableBeanFactory beanFactory = applicationContext.getAutowireCapableBeanFactory();
+  // 创建 UserFactory 对象，通过 AutowireCapableBeanFactory
+  UserFactory userFactory = beanFactory.createBean(DefaultUserFactory.class);
+  ```
+
   - 通过 BeanDefinitionRegistry#registerBeanDefinition(String,BeanDefinition)
 
+  ```java
+  // 创建 BeanFactory 容器
+  AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
+  // 注册 Configuration Class（配置类）
+  applicationContext.register(AnnotationBeanDefinitionDemo.class);
+  // 构造 Bean
+  BeanDefinitionBuilder beanDefinitionBuilder = genericBeanDefinition(User.class);
+  beanDefinitionBuilder
+                  .addPropertyValue("id", 1L)
+                  .addPropertyValue("name", "lidong");
+  // 注册
+  applicationContext.registerBeanDefinition("user-dlif", beanDefinitionBuilder.getBeanDefinition());
+  ```
 
+  ​
 
 ### 初始化 Spring Bean
 

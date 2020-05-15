@@ -30,8 +30,8 @@
 - [17-16.按摩师](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Massage1716.java)
 
 #### 中等
-- [17.电话号码的字母组合](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/LetterCombinations17.java)
-- [46.数组全排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/backtrack/FullyArrange46.java)
+- [17.电话号码的字母组合](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/LetterCombinations17.java)
+- [46.数组全排列](../../../algorithm/leetcode/middling/backtrack/FullyArrange46.java)
 - [47.数组全排列2](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/backtrack/FullyArrange47.java)
 - [62.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/62-不同路径.md)
 - [77.组合](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/Combine77.java)

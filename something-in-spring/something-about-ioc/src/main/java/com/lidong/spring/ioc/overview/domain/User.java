@@ -20,6 +20,13 @@ public class User {
 
     private List<City> lifeCities;
 
+    public static User createUser() {
+        User user = new User();
+        user.setId(1L);
+        user.setName("dlif");
+        return user;
+    }
+
     public Long getId() {
         return id;
     }
