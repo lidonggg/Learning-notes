@@ -13,7 +13,7 @@ BeanDefinition 是 Spring Framework 定义 Bean 的配置元信息接口，包�
 
 
 
-### [BeanDefinition 元信息](https://github.com/lidonggg/Learning-notes/blob/master/something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanDefinitionCreatorDemo.java)
+### [<a id='BeanDefinition 元信息'>BeanDefinition 元信息</a>](https://github.com/lidonggg/Learning-notes/blob/master/something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanDefinitionCreatorDemo.java)
 
 |           属性           |                      说明                       |
 | :----------------------: | :---------------------------------------------: |
@@ -98,7 +98,7 @@ Bean 名称生成器(BeanNameGenerator)，由 Spring Framework 2.0.3 引入，�
 
 
 
-### [注册 Spring Bean](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/AnnotationBeanDefinitionDemo.java)
+### [<a id="注册 Spring Bean">注册 Spring Bean</a>](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/AnnotationBeanDefinitionDemo.java)
 
 BeanDefinition 注册：
 
@@ -236,7 +236,7 @@ BeanDefinition 注册：
 
   ​
 
-### [初始化 Spring Bean](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanInitializationDemo.java)
+### [<a id='初始化 Spring Bean'>初始化 Spring Bean</a>](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanInitializationDemo.java)
 
 - @PostConstruct 注解
 - 实现 InitializingBean 接口的 afterPropertiesSet() 方法
@@ -278,11 +278,11 @@ Bean 的销毁是在 ``applicationContext.close();`` 中完成的。
 
 @PreDestroy -> DisposableBean#destroy() -> 自定义销毁方法
 
-执行顺序与 [初始化 Bean](#延迟初始化 Spring Bean) 类似
+执行顺序与 <a href ='#始化 Spring Bean'>初始化 Bean</a> 类似
 
 
 
-### [垃圾回收 Spring Bean](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanGarbageCollectionDemo.java)
+### [<a id='垃圾回收 Spring Bean'>垃圾回收 Spring Bean</a>](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanGarbageCollectionDemo.java)
 
 - 关闭 Spring 容器（应用上下文）
 
@@ -315,7 +315,7 @@ Bean 的销毁是在 ``applicationContext.close();`` 中完成的。
 
 - 什么是 Spring BeanDefinition？
 
-  参考 [定义 Spring Bean](#定义 Spring Bean) 和 [BeanDefinition 元信息](#BeanDefinition 元信息)。
+  参考 <a href='#定义 Spring Bean'>定义 Spring Bean</a>和 <a href='#BeanDefinition 元信息'>BeanDefinition 元信息</a>。
 
 - Spring 容器怎样管理注册 Bean？
 
