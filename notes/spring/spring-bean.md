@@ -130,6 +130,20 @@ BeanDefinition 注册：
   applicationContext.register(AnnotationBeanDefinitionDemo.class);
   ```
 
+- [注册外部单例对象](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/SingletonBeanRegistrationDemo.java)
+
+  ```java
+  // 创建一个外部 UserFactory 对象
+  UserFactory outerUserFactory = new DefaultUserFactory();
+  SingletonBeanRegistry singletonBeanRegistry = applicationContext.getBeanFactory();
+  // 注册外部单例对象
+  singletonBeanRegistry.registerSingleton("outerUserFactory", outerUserFactory);
+  // 通过依赖查找的方式来 获取 UserFactory
+  UserFactory userFactoryByLookup = applicationContext.getBean("outerUserFactory", UserFactory.class);
+  // true
+  System.out.println("outerUserFactory  == userFactoryByLookup : " + (outerUserFactory == userFactoryByLookup));
+  ```
+
   ​
 
 ### 实例化 Spring Bean
@@ -222,20 +236,87 @@ BeanDefinition 注册：
 
   ​
 
-### 初始化 Spring Bean
+### [初始化 Spring Bean](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanInitializationDemo.java)
+
+- @PostConstruct 注解
+- 实现 InitializingBean 接口的 afterPropertiesSet() 方法
+- 自定义初始化方法：
+  - XML 配置:<bean init-method=”init” ... />
+  - Java 注解:@Bean(initMethod=”init”)
+  - Java API:AbstractBeanDefinition#setInitMethodName(String)
+
+以上几种方法的执行顺序是：
+
+@PostConstruct : UserFactory  -> InitializingBean#afterPropertiesSet()  -> 自定义初始化方法
 
 
 
-### 延迟初始化 Spring Bean
+### [延迟初始化 Spring Bean](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanInitializationDemo.java)
+
+- XML：<bean lazy-init="true" … />
+- Java 注解：@Lazy
+
+非延迟初始化与延迟初始化的区别（区别主要在于应用上下文初始化完成之前还是之后执行初始化操作）：
+
+- 非延迟初始化在 Spring 应用上下文启动完成的石斛被初始化，主要体现在 ``applicationContext.refresh();`` 方法中会去直接初始化所有 non-lazy-init（非延迟初始化）实例；
+- 延迟初始化则是一种按需初始化。
 
 
 
-### 销毁 Spring Bean
+### [销毁 Spring Bean](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanInitializationDemo.java)
+
+- @PreDestroy 注解
+- 实现 DisposableBean 接口的 destroy() 方法
+- 自定义销毁方法
+  - XML 配置:<bean destroy="destroy" ... />
+  - Java 注解:@Bean(destroy="destroy")
+  - Java API:AbstractBeanDefinition#setDestroyMethodName(String)
+
+Bean 的销毁是在 ``applicationContext.close();`` 中完成的。
+
+ 以上几种方法的执行顺序是：
+
+@PreDestroy -> DisposableBean#destroy() -> 自定义销毁方法
+
+执行顺序与 [初始化 Bean](#延迟初始化 Spring Bean) 类似
 
 
 
-### 垃圾回收 Spring Bean
+### [垃圾回收 Spring Bean](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/BeanGarbageCollectionDemo.java)
 
+- 关闭 Spring 容器（应用上下文）
 
+  ```java
+  applicationContext.close();
+  ```
+
+- 执行 GC
+
+  ```java
+  System.gc();
+  ```
+
+- Spring Bean 覆盖的 finalize() 方法回调
+
+  ```java
+  @Override
+  public void finalize() throws Throwable {
+      System.out.println("当前 DefaultUserFactory 对象正在被垃圾回收...");
+  }
+  ```
+
+  ​
 
 ### 面试
+
+- 如何注册一个 Spring Bean？
+
+  可以通过 BeanDefinition 和外部单体对象来注册。
+
+- 什么是 Spring BeanDefinition？
+
+  参考 [定义 Spring Bean](#定义 Spring Bean) 和 [BeanDefinition 元信息](#BeanDefinition 元信息)。
+
+- Spring 容器怎样管理注册 Bean？
+
+  IoC 配置元信息读取和解析、依赖查找和注入以及 Bean 生命周期等。
