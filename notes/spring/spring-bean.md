@@ -198,7 +198,9 @@ BeanDefinition 注册：
 
 - [特殊方式](../../something-in-spring/something-about-spring-bean/src/main/java/com/lidong/spring/bean/definition/SpecialBeanInstantiationDemo.java)：
 
-  - 通过 ServiceLoaderFactoryBean(配置元信息:XML、Java 注解和 Java API )
+  - 通过 ServiceLoaderFactoryBean (配置元信息:XML、Java 注解和 Java API )
+
+    它用来定位类路径上的某个接口的实现类。这种方式能够让我们在 Java 运行时动态发现类路径 classpath 上指定接口的某个实现，是一种动态工厂加载模式，这样就分离了 API 模块和它的多个具体实现模块类。Service Loader 有一个约束，需要Jar包里存在一个目录 META-INF/services 目录，在这个目录里有一个文件，文件的名称完全是接口的完整路径名称，而其内容则是指定接口的实现类完整路径名称。
 
   ```java
   // 需要有 /META-INF/services/
