@@ -111,7 +111,7 @@
 ### 双指针
 
 #### 简单
-
+- [26.删除排序数组中的重复项](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/twopointers/RemoveDuplicatesFromSortedArray26.java)
 
 #### 中等
 - [80.删除排序数组中的重复项 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/twopointers/RemoveDuplicatesFromSortedArrayII80.java)

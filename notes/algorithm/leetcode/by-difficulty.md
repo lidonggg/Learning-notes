@@ -4,6 +4,7 @@
 - [1.两数之和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/TwoSum1.java)
 - [7.整数反转](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseSignedInt7.java)
 - [20.有效的括号](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/stack/ValidParentheses20.java)
+- [26.删除排序数组中的重复项](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/twopointers/RemoveDuplicatesFromSortedArray26.java)
 - [27.移除元素](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/RemoveElement27.java)
 - [53.最大子序和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/MaxSubArray53.java)
 - [70.爬楼梯](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/ClimbStairs70.java)
