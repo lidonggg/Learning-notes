@@ -5,6 +5,7 @@
 - [1010.总持续时间可被 60 整除的歌曲](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PairsOfSongsWithTotalDurationsDivisibleby601010.java)
 
 #### 中等
+- [54.螺旋矩阵](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/array/SpiralMatrix54.java)
 - [59.螺旋矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/array/SpiralMatrixII59.java)
 - [78.子集](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/array/Subsets78.java)
 
