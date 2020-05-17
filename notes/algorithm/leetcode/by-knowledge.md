@@ -6,6 +6,7 @@
 
 #### 中等
 - [59.螺旋矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/array/SpiralMatrixII59.java)
+- [78.子集](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/array/Subsets78.java)
 
 #### 困难
 - [42.接雨水](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/array/TrappingRainWater42.java)
