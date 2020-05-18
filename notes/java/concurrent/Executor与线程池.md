@@ -139,6 +139,6 @@ ScheduledExecutorService scheduledExecutorService1 = Executors.newSingleThreadSc
 - 注意对异常的处理，例如通过 ThreadPoolExecutor 对象的 execute() 方法提交任务时，如果任务在执行的过程中出现运行时异常，会导致执行任务的线程终止；不过，最致命的是任务虽然异常了，但是你却获取不到任何通知，这会让你误以为任务都执行得很正常。虽然线程池提供了很多用于异常处理的方法，但是最稳妥和简单的方案还是捕获所有异常并按需处理。
 
 ### 参考
-[1] [深入理解java线程池：ThreadPoolExecutor](https://www.jianshu.com/p/d2729853c4da)
 
+[1] [深入理解java线程池：ThreadPoolExecutor](https://www.jianshu.com/p/d2729853c4da)
 [2] [Java 线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
