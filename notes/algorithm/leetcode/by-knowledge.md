@@ -3,6 +3,7 @@
 ### 数组
 #### 简单
 - [1010.总持续时间可被 60 整除的歌曲](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PairsOfSongsWithTotalDurationsDivisibleby601010.java)
+- [1013.将数组分成和相等的三个部分](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PartitionArrayIntoThreePartsWithEqualSum1013.java)
 
 #### 中等
 - [54.螺旋矩阵](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/array/SpiralMatrix54.java)
@@ -110,6 +111,15 @@
 
 #### 困难
 - [99.恢复二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dfs/RecoverBinarySearchTree99.java)
+
+### 回溯
+
+#### 简单
+- [401.二进制手表](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/backtrack/BinaryWatch401.java)
+
+#### 中等
+
+#### 困难
 
 ### 双指针
 
