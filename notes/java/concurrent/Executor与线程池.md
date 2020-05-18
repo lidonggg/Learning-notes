@@ -73,6 +73,7 @@ public ThreadPoolExecutor(int corePoolSize,
 
 Java 在 1.6 版本还增加了 allowCoreThreadTimeOut(boolean value) 方法，它可以让所有线程都支持超时，这意味着如果项目很闲，就会将项目组的成员都撤走。
 ##### 运行机制
+
 **1. 线程池五种状态**
 
 - **RUNNING**：能接受新提交的任务，也能处理阻塞队列中的任务。
@@ -140,5 +141,5 @@ ScheduledExecutorService scheduledExecutorService1 = Executors.newSingleThreadSc
 
 ### 参考
 
-[1] [深入理解java线程池：ThreadPoolExecutor](https://www.jianshu.com/p/d2729853c4da)
-[2] [Java 线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
+- [1] [深入理解java线程池：ThreadPoolExecutor](https://www.jianshu.com/p/d2729853c4da).
+- [2] [Java 线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html).
