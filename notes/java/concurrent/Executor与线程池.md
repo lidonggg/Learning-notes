@@ -73,6 +73,7 @@ public ThreadPoolExecutor(int corePoolSize,
 
 Java 在 1.6 版本还增加了 allowCoreThreadTimeOut(boolean value) 方法，它可以让所有线程都支持超时，这意味着如果项目很闲，就会将项目组的成员都撤走。
 ##### 运行机制
+
 **1. 线程池五种状态**
 
 - **RUNNING**：能接受新提交的任务，也能处理阻塞队列中的任务。
@@ -90,6 +91,7 @@ Java 在 1.6 版本还增加了 allowCoreThreadTimeOut(boolean value) 方法，�
 <div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/images/ThreadPoolExector-status.png"/></div>
 
 **2. execute()**
+
 通过 new 创建线程池时，除非调用 prestartAllCoreThreads 方法初始化核心线程数，否则此时线程池中有 0 个线程，即使工作队列中存在多个任务，同样不会执行。
 
 我们假设任务数为 x：
@@ -103,6 +105,7 @@ Java 在 1.6 版本还增加了 allowCoreThreadTimeOut(boolean value) 方法，�
 以上处理流程是在 Execute() 方法中执行的，该方法的执行流程如下：
 
 **3. addWorker()**
+
 addWorker() 方法的签名如下：
 ```java
 private boolean addWorker(Runnable firstTask, boolean core);
@@ -110,6 +113,7 @@ private boolean addWorker(Runnable firstTask, boolean core);
 它的主要工作是在线程池中创建一个新的线程并执行，firstTask 参数 用于指定新增的线程执行的第一个任务，core 参数为 true 表示在新增线程时会判断当前活动线程数是否少于 corePoolSize，false 表示新增线程前需要判断当前活动线程数是否少于 maximumPoolSize。
 
 **4. Worker 类**
+
 线程池中的每一个线程被封装成一个 Worker 对象，ThreadPool 维护的其实就是一组 Workder 对象。它类继承了AQS来实现独占锁的功能，并实现了Runnable接口。
     
 #### 2. 为什么不推荐使用 **Executors** ?
@@ -136,5 +140,6 @@ ScheduledExecutorService scheduledExecutorService1 = Executors.newSingleThreadSc
 - 注意对异常的处理，例如通过 ThreadPoolExecutor 对象的 execute() 方法提交任务时，如果任务在执行的过程中出现运行时异常，会导致执行任务的线程终止；不过，最致命的是任务虽然异常了，但是你却获取不到任何通知，这会让你误以为任务都执行得很正常。虽然线程池提供了很多用于异常处理的方法，但是最稳妥和简单的方案还是捕获所有异常并按需处理。
 
 ### 参考
-[1] [深入理解java线程池：ThreadPoolExecutor](https://www.jianshu.com/p/d2729853c4da)
-[2] [Java 线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
+
+- [1] [深入理解java线程池：ThreadPoolExecutor](https://www.jianshu.com/p/d2729853c4da).
+- [2] [Java 线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html).
