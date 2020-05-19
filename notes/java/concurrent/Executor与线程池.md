@@ -77,15 +77,15 @@ Java 在 1.6 版本还增加了 allowCoreThreadTimeOut(boolean value) 方法，�
 **1. 线程池五种状态**
 
 - **RUNNING**：能接受新提交的任务，也能处理阻塞队列中的任务。
-- **SHUTDOWN**：关闭状态，不再接受新提交的任务，但是却可以继续处理阻塞队列中已保存的任务。在线程池处于 RUNNING 状态时，调用 shutdown()方法会使线程池进入到该状态。（finalize() 方法在执行过程中也会调用shutdown()方法进入该状态）。
+- **SHUTDOWN**：关闭状态，不再接受新提交的任务，但是却可以继续处理阻塞队列中已保存的任务。在线程池处于 RUNNING 状态时，调用 shutdown() 方法会使线程池进入到该状态。（finalize() 方法在执行过程中也会调用shutdown()方法进入该状态）。
 - **STOP**：不能接受新任务，也不处理队列中的任务，会中断正在处理任务的线程。在线程池处于 RUNNING 或 SHUTDOWN 状态时，调用 shutdownNow() 方法会使线程池进入到该状态。
 - **TIDYING**：如果所有的任务都已终止了，workerCount (有效线程数)为0，线程池进入该状态后会调用 terminated() 方法进入TERMINATED 状态。
-- **TERMINATED**：在terminated() 方法执行完后进入该状态，默认terminated()方法中什么也没有做。进入TERMINATED的条件如下：
-    - 线程池不是RUNNING状态；
-    - 线程池状态不是TIDYING状态或TERMINATED状态；
-    - 如果线程池状态是SHUTDOWN并且workerQueue为空；
-    - workerCount为0；
-    - 设置TIDYING状态成功。
+- **TERMINATED**：在 terminated() 方法执行完后进入该状态，默认 terminated() 方法中什么也没有做。进入 TERMINATED 的条件如下：
+    - 线程池不是 RUNNING 状态；
+    - 线程池状态不是 TIDYING 状态或 TERMINATED 状态；
+    - 如果线程池状态是 SHUTDOWN 并且 workerQueue 为空；
+    - workerCount 为 0；
+    - 设置 TIDYING 状态成功。
 
 这几种状态之间的转换如下图所示：
 <div align=center><img src="https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/images/ThreadPoolExector-status.png"/></div>
@@ -100,9 +100,9 @@ Java 在 1.6 版本还增加了 allowCoreThreadTimeOut(boolean value) 方法，�
 - 当 x >= corePoolSize && x < nWorks + corePoolSize 时，会启动 <= corePoolSize 个线程，其他任务放到工作队列中；
 - 当 x > corePoolSize && x > nWorks + corePoolSize 时，分为两种情况：
     - 当 x - nWorks <= maximumPoolSize 时，会启动 (x - nWorks) 个线程;
-    - 当 x - nWorks > maximumPoolSize，会启动mSize个线程来执行任务，其余的执行相应的拒绝策略。
+    - 当 x - nWorks > maximumPoolSize，会启动 maximumPoolSize 个线程来执行任务，其余的执行相应的拒绝策略。
 
-以上处理流程是在 Execute() 方法中执行的，该方法的执行流程如下：
+以上处理流程是在 Execute() 方法中执行的。
 
 **3. addWorker()**
 
@@ -110,14 +110,14 @@ addWorker() 方法的签名如下：
 ```java
 private boolean addWorker(Runnable firstTask, boolean core);
 ```
-它的主要工作是在线程池中创建一个新的线程并执行，firstTask 参数 用于指定新增的线程执行的第一个任务，core 参数为 true 表示在新增线程时会判断当前活动线程数是否少于 corePoolSize，false 表示新增线程前需要判断当前活动线程数是否少于 maximumPoolSize。
+它的主要工作是在线程池中创建一个新的线程并执行，firstTask 参数用于指定新增的线程执行的第一个任务，core 参数为 true 表示在新增线程时会判断当前活动线程数是否少于 corePoolSize，false 表示新增线程前需要判断当前活动线程数是否少于 maximumPoolSize。
 
 **4. Worker 类**
 
-线程池中的每一个线程被封装成一个 Worker 对象，ThreadPool 维护的其实就是一组 Workder 对象。它类继承了AQS来实现独占锁的功能，并实现了Runnable接口。
+线程池中的每一个线程被封装成一个 Worker 对象，ThreadPool 维护的其实就是一组 Workder 对象。它类继承了 AQS 来实现独占锁的功能，并实现了 Runnable 接口。
     
 #### 2. 为什么不推荐使用 **Executors** ?
-由于 ThreadPoolExecutor的构造函数比较复杂，java 并发包还提供了一个线程的静态工厂类 Executors，利用它可以快速地创建线程。它提供了六种创建线程的方法：
+由于 ThreadPoolExecutor 的构造函数比较复杂，java 并发包还提供了一个线程的静态工厂类 Executors，利用它可以快速地创建线程。它提供了六种创建线程的方法：
 ```java
 // 创建一个可以根据需要创建新线程的线程池，如果线程池中有空闲线程，则优先使用空闲的线程
 ExecutorService executorService = Executors.newCachedThreadPool();
