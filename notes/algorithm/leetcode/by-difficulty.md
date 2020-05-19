@@ -33,6 +33,7 @@
 - [17-16.按摩师](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Massage1716.java)
 
 #### 中等
+- [3.无重复字符的最长子串](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/slidingwindow/LongestSubstringWithoutRepeatingCharacters3.java)
 - [17.电话号码的字母组合](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/LetterCombinations17.java)
 - [46.数组全排列](../../../algorithm/leetcode/middling/backtrack/FullyArrange46.java)
 - [47.数组全排列2](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/backtrack/FullyArrange47.java)

@@ -12,6 +12,7 @@
     <modules>
         <module>something-about-ioc</module>
         <module>something-about-spring-bean</module>
+        <module>dependency-lookup</module>
     </modules>
 
     <properties>
