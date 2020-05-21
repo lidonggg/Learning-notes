@@ -6,9 +6,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
+ * <T> Future<T> submit(Runnable task, T result) 方法经典用法
+ *
  * @author ls J
  * @date 2019/8/2 10:44 AM
- * <T> Future<T> submit(Runnable task, T result) 方法经典用法
  */
 public class SubmitWithResultDemo {
 
@@ -16,7 +17,7 @@ public class SubmitWithResultDemo {
         ExecutorService es = Executors.newFixedThreadPool(1);
 
         Result result = new Result();
-        Future<Result> future = es.submit(new Task(result),result);
+        Future<Result> future = es.submit(new Task(result), result);
         Result r = future.get();
 
         System.out.println(r.getCode());
@@ -30,7 +31,7 @@ class Task implements Runnable {
      */
     private Result result;
 
-    Task(Result result){
+    Task(Result result) {
         this.result = result;
     }
 

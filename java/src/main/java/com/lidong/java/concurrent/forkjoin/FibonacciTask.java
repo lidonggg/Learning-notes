@@ -4,9 +4,10 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
 /**
+ * 斐波那契数列实现
+ *
  * @author ls J
  * @date 2019/8/15 9:54 AM
- * 斐波那契数列实现
  */
 public class FibonacciTask extends RecursiveTask<Integer> {
 

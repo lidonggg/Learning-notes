@@ -88,6 +88,7 @@ public class IsSymmetric101 {
         }
         if (left.val != right.val) {
             flag = false;
+            return;
         }
         recurse(left.left, right.right);
         recurse(left.right, right.left);

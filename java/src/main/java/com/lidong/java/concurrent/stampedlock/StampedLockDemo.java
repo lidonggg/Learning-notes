@@ -3,9 +3,10 @@ package com.lidong.java.concurrent.stampedlock;
 import java.util.concurrent.locks.StampedLock;
 
 /**
+ * 以下示例来自java8 sdk的官方示例
+ *
  * @author ls J
  * @date 2019/7/8 9:30 AM
- * 以下示例来自java8 sdk的官方示例
  */
 public class StampedLockDemo {
 

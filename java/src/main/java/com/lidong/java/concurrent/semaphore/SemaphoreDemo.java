@@ -3,9 +3,10 @@ package com.lidong.java.concurrent.semaphore;
 import java.util.concurrent.Semaphore;
 
 /**
+ * 信号量demo
+ *
  * @author ls J
  * @date 2019/7/4 9:09 AM
- * 信号量demo
  */
 public class SemaphoreDemo {
 

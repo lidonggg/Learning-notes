@@ -1,9 +1,10 @@
 package com.lidong.java.concurrent.procon;
 
 /**
+ * 中间商
+ *
  * @author Ls J
  * @date 2019/6/28 8:56 PM
- * 中间商
  */
 public class Middleman {
 
@@ -39,7 +40,7 @@ public class Middleman {
             notifyAll();
         } else {
             // num = 0，库存不足，停止消费
-            System.out.println("消费库存 ------> 库存不足："+num);
+            System.out.println("消费库存 ------> 库存不足：" + num);
             try {
                 wait();
             } catch (InterruptedException e) {

@@ -6,9 +6,10 @@ import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 利用 FutureTask 来实现烧水泡茶
+ *
  * @author ls J
  * @date 2019/8/2 10:36 AM
- * 利用 FutureTask 来实现烧水泡茶
  */
 public class BoilTeaWithFutureTask {
 
@@ -27,7 +28,7 @@ class Task1 implements Callable<Boolean> {
      */
     private FutureTask<Boolean> tf2;
 
-    Task1(FutureTask<Boolean> tf2){
+    Task1(FutureTask<Boolean> tf2) {
         this.tf2 = tf2;
     }
 

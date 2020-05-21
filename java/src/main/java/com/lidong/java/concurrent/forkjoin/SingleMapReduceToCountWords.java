@@ -6,9 +6,10 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
 /**
+ * 单机版 MapReduce
+ *
  * @author ls J
  * @date 2019/8/15 3:17 PM
- * 单机版 MapReduce
  */
 public class SingleMapReduceToCountWords extends RecursiveTask<Map<String, Long>> {
 

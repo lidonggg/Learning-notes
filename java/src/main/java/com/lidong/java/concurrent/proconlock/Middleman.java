@@ -5,9 +5,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * 生产者-消费者模型用Lock + Condition来实现
+ *
  * @author ls J
  * @date 2019/7/3 10:53 AM
- * 生产者-消费者模型用Lock + Condition来实现
  */
 public class Middleman {
 

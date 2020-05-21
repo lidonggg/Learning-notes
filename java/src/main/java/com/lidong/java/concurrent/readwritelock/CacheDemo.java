@@ -7,9 +7,10 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
+ * 缓存示例
+ *
  * @author ls J
  * @date 2019/7/5 10:02 AM
- * 缓存示例
  */
 class CacheDemo<K, V> {
     private final Map<K, V> m =

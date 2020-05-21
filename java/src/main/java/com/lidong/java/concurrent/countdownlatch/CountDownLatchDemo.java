@@ -6,10 +6,11 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author ls J
- * @date 2019/7/9 9:15 AM
  * 此示例仅演示CountDownLatch的使用方法，实际执行效果甚至后者要优于前者，
  * 主要是因为前者在执行过程中增加了额外的运算操作，导致了额外的成本的增加
+ *
+ * @author ls J
+ * @date 2019/7/9 9:15 AM
  */
 public class CountDownLatchDemo {
 

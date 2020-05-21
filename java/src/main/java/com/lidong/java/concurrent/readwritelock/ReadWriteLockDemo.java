@@ -5,9 +5,10 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
+ * 读写锁demo
+ *
  * @author ls J
  * @date 2019/7/5 9:31 AM
- * 读写锁demo
  */
 public class ReadWriteLockDemo {
 

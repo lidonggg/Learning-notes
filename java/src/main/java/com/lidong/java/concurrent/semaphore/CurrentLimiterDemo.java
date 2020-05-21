@@ -6,9 +6,10 @@ import java.util.concurrent.Semaphore;
 import java.util.function.Function;
 
 /**
+ * 一个简易的限流器demo
+ *
  * @author ls J
  * @date 2019/7/4 9:23 AM
- * 一个简易的限流器demo
  */
 public class CurrentLimiterDemo<T, K> {
 

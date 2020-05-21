@@ -5,10 +5,11 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * @author ls J
- * @date 2019/8/13 5:50 PM
  * 实现一个类似于 Dobbo 的 Forking Cluster 的功能
  * 并行地调用多个查询服务，只要有一个成功地返回了结果，则整个服务就可以返回了
+ *
+ * @author ls J
+ * @date 2019/8/13 5:50 PM
  */
 public class ForkingDemo {
 

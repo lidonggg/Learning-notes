@@ -5,9 +5,10 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
+ * CopyOnWriteArrayList 示例
+ *
  * @author ls J
  * @date 2019/7/11 11:08 AM
- * CopyOnWriteArrayList 示例
  */
 public class CopyOnWriteArrayListDemo {
 
