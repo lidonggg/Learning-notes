@@ -15,7 +15,9 @@
 - [141.环形链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/linkedlist/LinkedListCircle.java#L10)
 - [226.翻转二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/tree/InvertBinaryTree226.java)
 - [237.删除链表中的节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/DeleteNode237.java)
+- [303.区域和检索 - 数组不可变](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/RangeSumQueryImmutable303.java)
 - [344.反转字符串](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseString344.java)
+- [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulation/FindTheDifference389.java)
 - [401.二进制手表](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/backtrack/BinaryWatch401.java)
 - [461.汉明距离](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/HamMingDistance461.java)
 - [509.斐波那契数列第 n 项的值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Fibonacci101.java)
@@ -45,6 +47,7 @@
 - [80.删除排序数组中的重复项 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/twopointers/RemoveDuplicatesFromSortedArrayII80.java)
 - [96.不同的二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/NumSearchTrees96.java)
 - [102.二叉树的层次遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/bfs/LevelOrder102.java)
+- [103.二叉树的锯齿形层次遍历](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/bfs/BinaryTreeZigzagLevelOrderTraversal103.java)
 - [105.从前序与中序遍历序列构造二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dfs/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java)
 - [113.路径总和II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dfs/PathSumII113.java)
 - [120.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/120-三角形最小路径和.md)
@@ -70,3 +73,4 @@
 - [128.最长连续序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/array/LongestConsecutiveSequence128.java)
 - [146.LRU缓存机制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/linkedlist/Lruache146.java)
 - [239.滑动窗口最大值](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/slidingwindow/SlidingWindowMaximum239.java)
+

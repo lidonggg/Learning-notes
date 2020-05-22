@@ -55,8 +55,10 @@
 #### 简单
 
 - [53.最大子序和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/MaxSubArray53.java)
-- [509.斐波那契数列第 n 项的值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Fibonacci101.java)
 - [70.爬楼梯](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/ClimbStairs70.java)
+- [303.区域和检索 - 数组不可变](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/RangeSumQueryImmutable303.java)
+- [509.斐波那契数列第 n 项的值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Fibonacci101.java)
+
 
 #### 中等
 
@@ -97,6 +99,7 @@
 
 #### 中等
 - [102.二叉树的层次遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/bfs/LevelOrder102.java)
+- [103.二叉树的锯齿形层次遍历](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/bfs/BinaryTreeZigzagLevelOrderTraversal103.java)
 - [199.二叉树的右视图](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/bfs/BinaryTreeRightSideView199.java)
 - [515.在每个树行中找最大值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/bfs/FindLargestValueInEachTreeRow515.java)
 
@@ -142,3 +145,11 @@
 
 #### 困难
 - [239.滑动窗口最大值](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/slidingwindow/SlidingWindowMaximum239.java)
+
+### 位运算
+
+#### 简单
+- [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulation/FindTheDifference389.java)
+#### 中等
+
+#### 困难
