@@ -11,4 +11,5 @@
 
 ## Redis
 
+- [Redis数据持久化](Redis数据持久化.md)
 - [Redlock](redlock.md)
