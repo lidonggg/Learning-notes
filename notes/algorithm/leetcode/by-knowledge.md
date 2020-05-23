@@ -56,6 +56,7 @@
 
 - [53.最大子序和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/MaxSubArray53.java)
 - [70.爬楼梯](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/ClimbStairs70.java)
+- [198.打家劫舍](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/HouseRobber198.java)
 - [303.区域和检索 - 数组不可变](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/RangeSumQueryImmutable303.java)
 - [509.斐波那契数列第 n 项的值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Fibonacci101.java)
 
