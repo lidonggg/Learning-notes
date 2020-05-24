@@ -66,6 +66,7 @@
 - [62.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/62-不同路径.md)
 - [96.不同的二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/NumSearchTrees96.java)
 - [120.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/120-三角形最小路径和.md)
+- [139.单词拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/WordBreak139.java)
 - [264.丑数Ⅱ](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/NthUglyNumber264.java)
 - [413.等差数列划分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/NumberOfArithmeticSlices413.java)
 - [650.只有两个键的键盘](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/KeyboardWith2Keys650.java)

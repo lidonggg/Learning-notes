@@ -52,6 +52,7 @@
 - [105.从前序与中序遍历序列构造二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dfs/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java)
 - [113.路径总和II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dfs/PathSumII113.java)
 - [120.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/120-三角形最小路径和.md)
+- [139.单词拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/dynamic/WordBreak139.java)
 - [142.环形链表II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/linkedlist/LinkedListCircle.java#L68)
 - [143.重排链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/linkedlist/ReorderList143.java)
 - [199.二叉树的右视图](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/bfs/BinaryTreeRightSideView199.java)
