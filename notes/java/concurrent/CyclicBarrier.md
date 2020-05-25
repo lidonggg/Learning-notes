@@ -2,7 +2,9 @@
 
 ### 使用 CyclicBarrier 实现线程同步
 
-CountDownLatch 主要解决一个线程等待多个线程的场景，而 CyclicBarrier 则用来实现一组线程之间的相互等待。例如 [CountDownLatch](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/CountDownLatch.md) 一节中的对账操作，在进行一组数据对账的过程中，其实下一组数据的查询操作就可以开始了，使用 CountDownLatch 只能实现对账操作结束了再进行下一组账单查询，实际上，账单查询和对账还是串行化的。
+CountDownLatch 的实现是基于 AQS 的，而 CycliBarrier是基于 ReentrantLock(ReentrantLock也属于AQS同步器)和 Condition 的。CycliBarrier 要做的事情是让一组线程到达一个屏障（也可以叫同步点）时被阻塞，直到最后一个线程到达屏障时，屏障才会开门，所有被屏障拦截的线程才会继续干活。CyclicBarrier 默认的构造方法是 CyclicBarrier(int parties)，其参数表示屏障拦截的线程数量，每个线程调用 await 方法告诉 CyclicBarrier 我已经到达了屏障，然后当前线程被阻塞。
+
+CyclicBarrier 可以用于多线程计算数据，最后合并计算结果的应用场景。例如 [CountDownLatch](https://github.com/lidonggg/Learning-notes/blob/master/notes/java/concurrent/CountDownLatch.md) 一节中的对账操作，在进行一组数据对账的过程中，其实下一组数据的查询操作就可以开始了，使用 CountDownLatch 只能实现对账操作结束了再进行下一组账单查询，实际上，账单查询和对账还是串行化的。
 
 利用 CyclicBarrier 我们可以这样做(出自极客时间)：
 ```java
@@ -12,6 +14,7 @@ Vector<P> pos;
 Vector<D> dos;
 // 执行回调的线程池 
 Executor executor = Executors.newFixedThreadPool(1);
+// 第二个参数代表当线程到达屏障点的时候，优先执行该 barrierAction 方法（回调）
 final CyclicBarrier barrier =
     new CyclicBarrier(2, ()->{
         executor.execute(()->check());
