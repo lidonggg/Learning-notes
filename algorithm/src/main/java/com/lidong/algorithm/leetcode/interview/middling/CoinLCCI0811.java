@@ -36,8 +36,9 @@ public class CoinLCCI0811 {
     private int[] units = {25, 10, 5, 1};
 
     /**
-     * 动态规划：
-     * dp[i] 存放 i 分可以被表示的不同方法个数
+     * 方法一：动态规划 - 背包方案数问题：
+     * dp[i] 存放 i 分可以被表示的不同方法个数。
+     * 前 i 种硬币，构成面值 v 的方案数量由前 i - 1 种面值构成的一些面值的方案数量决定。
      * <p>
      * 执行用时：42 ms，在所有 Java 提交中击败了 69.44% 的用户
      * 内存消耗：43.5 MB，在所有 Java 提交中击败了 100.00% 的用户
@@ -56,8 +57,28 @@ public class CoinLCCI0811 {
         return dp[n];
     }
 
+    /**
+     * 方法二：数学，等差数列
+     * 先枚举 25 分的硬币的个数
+     * <p>
+     * 来自 leetcode 官方题解：https://leetcode-cn.com/problems/coin-lcci/solution/ying-bi-by-leetcode-solution/
+     *
+     * @param n n
+     * @return res mod 1000000007
+     */
+    public int waysToChange2(int n) {
+        int res = 0;
+        for (int i = 0; i * 25 <= n; ++i) {
+            int rest = n - i * 25;
+            int a = rest / 10;
+            int b = rest % 10 / 5;
+            res = (res + (int) ((long) (a + 1) * (long) (a + b + 1)) % 1000000007) %1000000007;
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
         CoinLCCI0811 cc = new CoinLCCI0811();
-        System.out.println(cc.waysToChange(61));
+        System.out.println(cc.waysToChange2(900750));
     }
 }

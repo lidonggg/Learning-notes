@@ -1,9 +1,9 @@
-package com.lidong.algorithm.leetcode.middling.dynamic;
+package com.lidong.algorithm.leetcodetmp;
 
 import java.util.List;
 
 /**
- * 不同的二叉搜索树 II（中等-95）
+ * 不同的二叉搜索树 II（中等-95）（动态规划）
  * 中文链接：https://leetcode-cn.com/problems/unique-binary-search-trees-ii/
  * 问题描述：
  * 给定一个整数 n，生成所有由 1 ... n 为节点所组成的二叉搜索树。
