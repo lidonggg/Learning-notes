@@ -29,7 +29,6 @@
 ### 回溯算法
 - [八皇后](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/backtracking/EightQueens.java)
 
-### 动态规划
-#### 背包问题
-- [0-1 背包问题](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/category/dynamic/knapsack/Knapsack01.java)
+### [动态规划](common/dynamic)
+- [背包问题](common/dynamic/knapsack.md)
 
