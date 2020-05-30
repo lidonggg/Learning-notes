@@ -11,12 +11,9 @@ package main
 import (
     "container/list"
     "fmt"
-)
 
-type ListNode struct {
-    Val  int
-    Next *ListNode
-}
+    . "lib"
+)
 
 func main() {
     head := &ListNode{
