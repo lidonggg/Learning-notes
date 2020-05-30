@@ -4,7 +4,7 @@
 // @author Ls J
 // @date 2020-05-30 13:49
 //
-package lib
+package common
 
 type ListNode struct {
 

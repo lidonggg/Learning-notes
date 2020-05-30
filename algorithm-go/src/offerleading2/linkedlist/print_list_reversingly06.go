@@ -1,5 +1,6 @@
 //
 // 面试题 6：从尾到头打印链表
+//
 // 问题描述：
 // 输入一个链表的头节点，从尾到头打印链表每个节点的值，要求不改变链表的结构。
 //
@@ -12,19 +13,19 @@ import (
     "container/list"
     "fmt"
 
-    . "lib"
+    "lib/common"
 )
 
 func main() {
-    head := &ListNode{
+    head := &common.ListNode{
         Val:  0,
         Next: nil,
     }
-    node1 := &ListNode{
+    node1 := &common.ListNode{
         Val:  1,
         Next: nil,
     }
-    node2 := &ListNode{
+    node2 := &common.ListNode{
         Val:  3,
         Next: nil,
     }
@@ -40,7 +41,7 @@ func main() {
 // 利用栈 FIFO 的特性，从头到尾遍历链表，将值入栈，然后依次出栈
 // 如果链表过长，使用此方法可能会导致调用栈溢出
 //
-func printListReversinglyIteratively(head *ListNode) {
+func printListReversinglyIteratively(head *common.ListNode) {
     if nil == head {
         return
     }
@@ -59,7 +60,7 @@ func printListReversinglyIteratively(head *ListNode) {
 //
 // 递归解法：每访问到一个链表节点的时候，先递归输出它后面的节点，再输出它本身
 //
-func printListReversinglyRecursively(head *ListNode) {
+func printListReversinglyRecursively(head *common.ListNode) {
     if nil != head {
         if nil != head.Next {
             printListReversinglyRecursively(head.Next)

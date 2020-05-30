@@ -4,7 +4,7 @@
 // @author Ls J
 // @date 2020-05-30 13:40
 //
-package lib
+package common
 
 type BinaryTreeNode struct {
 
