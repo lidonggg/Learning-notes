@@ -33,7 +33,7 @@ func main() {
     node1.Next = node2
 
     printListReversinglyIteratively(head)
-    fmt.Print("\n")
+    fmt.Println()
     printListReversinglyRecursively(head)
 }
 
