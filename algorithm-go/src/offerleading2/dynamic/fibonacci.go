@@ -12,8 +12,8 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println(fibonacciRecurse(5))
-    fmt.Println(fibonacciDynamic(5))
+    fmt.Println(fibonacciRecurse(6))
+    fmt.Println(fibonacciDynamic(6))
 }
 
 //

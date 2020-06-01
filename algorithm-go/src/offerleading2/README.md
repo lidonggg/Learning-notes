@@ -7,7 +7,7 @@
 tip:
 finished: 
 4   5   6   7   8   9   10
-
+11  12  
  
 ---
 
@@ -35,6 +35,18 @@ finished:
 - [9.用两个栈实现队列](stack/implement_queue_with_two_stacks09.go)
 
 ### 算法
+
+#### 排序算法
+
+- [快速排序](sort/quick_sort.go)
+
+#### 搜索算法
+
+- [11.旋转数组的最小数字](search/min_num_of_rotated_array11.go)
+
+#### DFS
+
+- [12.矩阵中的路径](dfs/paths_in_the_matrix12.go)
 
 #### 动态规划
 - [10.斐波那契数列](dynamic/fibonacci.go)

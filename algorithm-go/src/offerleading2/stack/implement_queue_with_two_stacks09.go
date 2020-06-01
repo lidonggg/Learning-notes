@@ -56,6 +56,7 @@ func (queue *CQueue) AppendTail(value int) {
 
 //
 // 队头删除
+//
 func (queue *CQueue) DeleteHead() int {
     // 如果出队栈有元素，那么直接让栈顶元素出栈
     if len(queue.out) != 0 {

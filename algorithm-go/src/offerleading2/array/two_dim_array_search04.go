@@ -20,6 +20,13 @@ func main() {
     fmt.Print(find(arr, 10))
 }
 
+//
+// 从右上角查找某个元素是否存在
+//
+// @param arr [][]int 二维数组
+// @param key int     key
+// @return true if exist
+//
 func find(arr [][]int, key int) bool {
     var rows = len(arr) - 1
     if rows == 0 || len(arr[0]) == 0 {

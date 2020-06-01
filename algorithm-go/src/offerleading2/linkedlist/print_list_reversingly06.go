@@ -13,19 +13,20 @@ import (
     "container/list"
     "fmt"
 
-    "lib/common"
+
+    . "lib/common"
 )
 
 func main() {
-    head := &common.ListNode{
+    head := &ListNode{
         Val:  0,
         Next: nil,
     }
-    node1 := &common.ListNode{
+    node1 := &ListNode{
         Val:  1,
         Next: nil,
     }
-    node2 := &common.ListNode{
+    node2 := &ListNode{
         Val:  3,
         Next: nil,
     }
@@ -41,7 +42,9 @@ func main() {
 // 利用栈 FIFO 的特性，从头到尾遍历链表，将值入栈，然后依次出栈
 // 如果链表过长，使用此方法可能会导致调用栈溢出
 //
-func printListReversinglyIteratively(head *common.ListNode) {
+// @param head ListNode 头节点
+//
+func printListReversinglyIteratively(head *ListNode) {
     if nil == head {
         return
     }
@@ -60,7 +63,9 @@ func printListReversinglyIteratively(head *common.ListNode) {
 //
 // 递归解法：每访问到一个链表节点的时候，先递归输出它后面的节点，再输出它本身
 //
-func printListReversinglyRecursively(head *common.ListNode) {
+// @param head ListNode 头节点
+//
+func printListReversinglyRecursively(head *ListNode) {
     if nil != head {
         if nil != head.Next {
             printListReversinglyRecursively(head.Next)
