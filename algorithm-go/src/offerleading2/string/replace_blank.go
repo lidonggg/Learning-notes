@@ -18,6 +18,9 @@ func main() {
 //
 // 遍历一次字符串，遇到空格就替换成"%20"
 //
+// @param str   string    原字符串
+// @return string   替换后的字符串
+//
 func replaceBlank(str string) string {
     var b []rune
     for _, v := range str {
