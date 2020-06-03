@@ -19,6 +19,8 @@ func main() {
 //
 // 动态规划实现
 //
+// @param n int n
+//
 func fibonacciDynamic(n int) int {
     if n <= 0 {
         return 0
@@ -38,6 +40,8 @@ func fibonacciDynamic(n int) int {
 
 //
 // 递归实现
+//
+// @param n int n
 //
 func fibonacciRecurse(n int) int {
     if n <= 0 {
