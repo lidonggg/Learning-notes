@@ -1,4 +1,4 @@
-package com.lidong.algorithm.leetcode.easy.bitmanipulation;
+package com.lidong.algorithm.leetcode.easy.bitmanipulate;
 
 /**
  * 找不同（简单-389）

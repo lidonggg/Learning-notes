@@ -159,7 +159,7 @@
 ### 位运算
 
 #### 简单
-- [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulation/FindTheDifference389.java)
+- [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/FindTheDifference389.java)
 #### 中等
 
 #### 困难

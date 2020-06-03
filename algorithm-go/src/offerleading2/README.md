@@ -65,3 +65,7 @@ finished:
 - [10.斐波那契数列](dynamic/fibonacci.go)
 - [13.机器人的运动范围](bfs/robots_range_of_motion13.go)
 - [14.剪绳子](dynamic/cut_the_rope14.go)
+
+#### 位运算
+
+- [15.二进制中 1 的个数](bitmanipulate/count_of_1_bits15.go)

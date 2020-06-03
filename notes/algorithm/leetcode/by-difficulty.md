@@ -18,7 +18,7 @@
 - [237.删除链表中的节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/DeleteNode237.java)
 - [303.区域和检索 - 数组不可变](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/RangeSumQueryImmutable303.java)
 - [344.反转字符串](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseString344.java)
-- [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulation/FindTheDifference389.java)
+- [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/FindTheDifference389.java)
 - [401.二进制手表](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/backtrack/BinaryWatch401.java)
 - [461.汉明距离](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/HamMingDistance461.java)
 - [509.斐波那契数列第 n 项的值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Fibonacci101.java)
