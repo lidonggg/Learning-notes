@@ -9,4 +9,4 @@
 
 #### 数组
 
-- [01-07.旋转矩阵](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/middling/array/RotateMatrix0107.java)
+- [01-07.旋转矩阵](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/RotateMatrix0107.java)

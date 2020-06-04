@@ -97,29 +97,29 @@ func dynamic48(s string) int {
     // curLen: 以当前字符结尾的最大子串长度，这里其实是将一维的 dp 数组优化成了常数空间复杂度
     // dp[i] 代表以当前字符为结尾的最长子字符串，因为 dp[i] 的状态只与 dp[i-1] 有关，所有这里可以用 curLen 优化
     // maxLen: 最终的结果
-    curLen, maxLen := 0, 0
+    lastLen, maxLen := 0, 0
 
     for i := 0; i < length; i++ {
         preIdx := positions[sarr[i]-'a']
         // 如果当前字符没有出现过或者当前字符两次出现的间隔大于 curLen (也就是以前一个字符为结尾的最大字串不可能包含当前字符)
         // 说明 curLen 需要 +1 => dp[i] = dp[i-1] + 1
-        if preIdx == -1 || i-preIdx > curLen {
-            curLen++
+        if preIdx == -1 || i-preIdx > lastLen {
+            lastLen++
         } else {
             // 否则比较并交换
-            if curLen > maxLen {
-                maxLen = curLen
+            if lastLen > maxLen {
+                maxLen = lastLen
             }
             // curLen 设置为当前字符与前一次出现的间隔
             // 要命名 curLen 的含义 => curLen = dp[i]
-            curLen = i - preIdx
+            lastLen = i - preIdx
         }
         positions[sarr[i]-'a'] = i
     }
     // 最后一个字符也有可能是第一次出现，所有这里要额外增加一次比较并交换
     // 或者直接 return 两者的最大值即可
-    if curLen > maxLen {
-        maxLen = curLen
+    if lastLen > maxLen {
+        maxLen = lastLen
     }
 
     return maxLen
