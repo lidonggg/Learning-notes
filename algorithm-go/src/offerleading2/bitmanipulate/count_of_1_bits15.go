@@ -49,7 +49,7 @@ func countNumOfOne1(n uint32) int {
 // @param  n  int  n
 // @return count of 1
 //
-func countNumOfOne2(n int) int {
+func countNumOfOne2(n uint) int {
     count := 0
     for n != 0 {
         count++

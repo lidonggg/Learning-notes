@@ -4,10 +4,17 @@
 
 ---
 
+由于在写剑指 offer 算法题的时候，我的 golang 也是刚刚接触不久，因此代码中可能会有一些不是特别恰当的地方=。=
+
+---
+
 tip:
 finished: 
 4   5   6   7   8   9   10
 11  12  13
+
+
+48
  
 ---
 
@@ -20,6 +27,7 @@ finished:
 #### 字符串
 
 - [05.替换空格](string/replace_blank.go)
+- [48.最长的不含重复字符的子字符串](string/longest_substring_without_repeating_characters48.go)
 
 #### 链表
 
@@ -65,6 +73,7 @@ finished:
 - [10.斐波那契数列](dynamic/fibonacci.go)
 - [13.机器人的运动范围](bfs/robots_range_of_motion13.go)
 - [14.剪绳子](dynamic/cut_the_rope14.go)
+- [48.最长的不含重复字符的子字符串](string/longest_substring_without_repeating_characters48.go)
 
 #### 位运算
 
