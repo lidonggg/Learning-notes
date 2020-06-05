@@ -12,6 +12,7 @@
 ## java
 - [基础知识](/notes/java/common)
 - [多线程](/notes/java/concurrent)
+- [JVM](/notes/java/jvm)
 
 ## [Spring](/notes/spring)
 
