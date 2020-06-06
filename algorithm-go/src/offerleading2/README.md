@@ -13,7 +13,7 @@ finished:
 4   5   6   7   8   9   10
 11  12  13
 
-25  27
+25  27  28
 
 
 48
@@ -40,7 +40,8 @@ finished:
 
 - [07.根据前序遍历和中序遍历的结果构造二叉树](tree/build_tree_with_preorder_inorder_array07.go)
 - [08.二叉树中序遍历的下一个节点](tree/next_node_of_inorder_binary_tree08.go)
-- [27.二叉树的镜像](dfs/invert_binary_tree27.go)
+- [27.二叉树的镜像](tree/invert_binary_tree27.go)
+- [28.对称的二叉树](tree/symmetric_tree28.go)
 
 #### 栈
 
@@ -64,12 +65,14 @@ finished:
 
 - [12.矩阵中的路径](dfs/paths_in_the_matrix12.go)
 - [13.机器人的运动范围](bfs/robots_range_of_motion13.go)
-- [27.二叉树的镜像](dfs/invert_binary_tree27.go)
+- [27.二叉树的镜像](tree/invert_binary_tree27.go)
+- [28.对称的二叉树](tree/symmetric_tree28.go)
 
 #### BFS
 
 - [13.机器人的运动范围](bfs/robots_range_of_motion13.go)
-- [27.二叉树的镜像](dfs/invert_binary_tree27.go)
+- [27.二叉树的镜像](tree/invert_binary_tree27.go)
+- [28.对称的二叉树](tree/symmetric_tree28.go)
 
 #### 贪心算法
 

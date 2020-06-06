@@ -97,11 +97,11 @@ func dfs12(board [][]byte, rows int, cols int, i int, j int, word string, k int)
         return true
     }
     // 往上走
-    if 0 <= j-1 && dfs(board, rows, cols, i, j-1, word, k+1) {
+    if 0 <= j-1 && dfs12(board, rows, cols, i, j-1, word, k+1) {
         return true
     }
     // 往下走
-    if j+1 < cols && dfs(board, rows, cols, i, j+1, word, k+1) {
+    if j+1 < cols && dfs12(board, rows, cols, i, j+1, word, k+1) {
         return true
     }
     board[i][j] = temp
