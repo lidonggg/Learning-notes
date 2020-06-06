@@ -13,6 +13,8 @@ finished:
 4   5   6   7   8   9   10
 11  12  13
 
+25  27
+
 
 48
  
@@ -32,6 +34,7 @@ finished:
 #### 链表
 
 - [06.从尾到头打印链表](linkedlist/print_list_reversingly06.go)
+- [25.合并两个有序链表](linkedlist/merge_two_sorted_lists25.go)
 
 #### 树
 
