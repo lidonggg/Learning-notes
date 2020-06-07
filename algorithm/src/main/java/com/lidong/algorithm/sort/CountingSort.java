@@ -48,7 +48,7 @@ public class CountingSort implements SortFactory<int[]> {
 
         // 申请一个临时数组
         int[] tmp = new int[len];
-        // 从后往前便利，能够保证计数排序是稳定的
+        // 从后往前遍历，能够保证计数排序是稳定的
         // 因为插入操作是从后往前进行的，这样能保证相同值的元素的相对位置保持不变
         for (int i = len - 1; i >= 0; i--) {
             // 下标从0开始，所以这里要-1

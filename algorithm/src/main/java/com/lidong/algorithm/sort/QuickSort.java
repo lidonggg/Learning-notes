@@ -51,13 +51,11 @@ public class QuickSort implements SortFactory<int[]> {
         // 每次从未处理区间中取一个元素和pivot对比，如果小于它，则将其放到已处理区间尾部也就是arr[p]的位置
         for (int j = start; j < end; j++) {
             if (arr[j] < pivot) {
-                if (p == j) {
-                    p++;
-                } else {
+                if (p != j) {
                     // 每次交换，都使得左边的元素个数+1，因此p要后移一位
                     ArrayUtil.swap(arr, p, j);
-                    p++;
                 }
+                p++;
             }
         }
 

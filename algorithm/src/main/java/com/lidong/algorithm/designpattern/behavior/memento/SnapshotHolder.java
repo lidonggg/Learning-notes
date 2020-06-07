@@ -15,7 +15,7 @@ public class SnapshotHolder {
      * <p>
      * 如果只用这一个栈，那么撤销操作是不可逆的，我们也可以再额外定义一个存放被撤销的快照的栈，从而可以支持可逆的撤销操作
      */
-    private Stack<Snapshot> snapshots = new Stack<>();
+    private final Stack<Snapshot> snapshots = new Stack<>();
 
     /**
      * 执行撤销操作
