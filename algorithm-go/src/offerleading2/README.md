@@ -11,12 +11,14 @@
 tip:
 finished: 
 4   5   6   7   8   9   10
+
 11  12  13
 
 25  27  28
 
+31
 
-48
+40  48
  
 ---
 
@@ -25,6 +27,7 @@ finished:
 #### 数组
 
 - [04.二维数组查找](array/two_dim_array_search04.go)
+- [40.最小的 k 个数字](array/minimum_k_numbers.go)
 
 #### 字符串
 
@@ -46,6 +49,7 @@ finished:
 #### 栈
 
 - [9.用两个栈实现队列](stack/implement_queue_with_two_stacks09.go)
+- [31.栈的压入、弹出序列](stack/validate_stack_sequences31.go)
 
 ### 算法
 
