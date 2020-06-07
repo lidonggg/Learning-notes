@@ -14,7 +14,7 @@ finished:
 
 11  12  13
 
-25  27  28
+21  25  27  28
 
 31
 
@@ -28,6 +28,7 @@ finished:
 
 - [04.二维数组查找](array/two_dim_array_search04.go)
 - [40.最小的 k 个数字](array/minimum_k_numbers.go)
+- [21.调整数组顺序使奇数位于偶数前面](twopointers/adjust_array_order_to_make_odd_number_precedes_even_number21.go)
 
 #### 字符串
 
@@ -91,3 +92,6 @@ finished:
 #### 位运算
 
 - [15.二进制中 1 的个数](bitmanipulate/count_of_1_bits15.go)
+
+#### 双指针
+- [21.调整数组顺序使奇数位于偶数前面](twopointers/adjust_array_order_to_make_odd_number_precedes_even_number21.go)
