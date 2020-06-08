@@ -120,12 +120,16 @@ private boolean addWorker(Runnable firstTask, boolean core);
 由于 ThreadPoolExecutor 的构造函数比较复杂，java 并发包还提供了一个线程的静态工厂类 Executors，利用它可以快速地创建线程。它提供了六种创建线程的方法：
 ```java
 // 创建一个可以根据需要创建新线程的线程池，如果线程池中有空闲线程，则优先使用空闲的线程
+// 内部使用 SynchronousQueue 作为工作队列
 ExecutorService executorService = Executors.newCachedThreadPool();
-// 创建一个固定大小的线程池，在任何时候，最多只有N个线程在处理任务
+// 创建一个固定大小的线程池，在任何时候，最多只有 N 个线程在处理任务
+// 背后使用的是无界的工作队列，任何时候最多有 nThreads 个工作线程是活动的
 ExecutorService executorService1 = Executors.newFixedThreadPool(2);
 // 能延迟执行、定时执行的线程池
+// 操作一个无界的工作队列，所以它保证了所有任务的都是被顺序执行的
 ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
-// 工作窃取，使用多个队列来减少竞争
+// 工作窃取线程池，使用多个队列来减少竞争
+// 内部会构建 ForkJoinPool，利用 Work-Stealing 算法，并行地处理任务，不保证处理顺序
 ExecutorService executorService2 = Executors.newWorkStealingPool();
 // 单一线程的线程池，只会使用唯一一个线程来执行任务，即使提交再多的任务，也都是会放到等待队列里进行等待
 ExecutorService executorService3 = Executors.newSingleThreadExecutor();
