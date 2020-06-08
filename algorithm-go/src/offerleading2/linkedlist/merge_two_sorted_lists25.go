@@ -27,7 +27,7 @@ func main() {
 // @param   l2   ListNode    链表二的头节点
 // @return  ListNode    合并后的头节点
 //
-func mergeTwoList(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists2(l1 *ListNode, l2 *ListNode) *ListNode {
     if nil == l1 {
         return l2
     }
@@ -61,3 +61,34 @@ func mergeTwoList(l1 *ListNode, l2 *ListNode) *ListNode {
     // head 是哨兵节点，所以这里要返回它的下一个节点
     return head.Next
 }
+
+//
+// 递归，在原链表上进行更改
+//
+// 执行用时：4 ms，在所有 Go 提交中击败了 98.07% 的用户
+// 内存消耗：4.3 MB，在所有 Go 提交中击败了 100.00% 的用户
+//
+// @param   l1   ListNode    链表一的头节点
+// @param   l2   ListNode    链表二的头节点
+// @return  ListNode    合并后的头节点
+//
+func mergeTwoLists2(l1 *ListNode, l2 *ListNode) *ListNode {
+    if l1 == nil {
+        return l2
+    }
+    if l2 == nil {
+        return l1
+    }
+
+    var smallest, nextHead *ListNode
+    if l1.Val <= l2.Val {
+        smallest = l1
+        nextHead = mergeTwoLists2(l1.Next, l2)
+    } else {
+        smallest = l2
+        nextHead = mergeTwoLists2(l1, l2.Next)
+    }
+    smallest.Next = nextHead
+    return smallest
+}
+
