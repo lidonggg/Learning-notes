@@ -27,7 +27,7 @@ func main() {
 // @param   l2   ListNode    链表二的头节点
 // @return  ListNode    合并后的头节点
 //
-func mergeTwoLists2(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists1(l1 *ListNode, l2 *ListNode) *ListNode {
     if nil == l1 {
         return l2
     }

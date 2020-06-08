@@ -18,7 +18,7 @@ finished:
 
 31
 
-40  48
+40  47  48
  
 ---
 
@@ -87,6 +87,7 @@ finished:
 - [10.斐波那契数列](dynamic/fibonacci.go)
 - [13.机器人的运动范围](bfs/robots_range_of_motion13.go)
 - [14.剪绳子](dynamic/cut_the_rope14.go)
+- [47.礼物的最大价值](dynamic/max_value_of_gifts47.go)
 - [48.最长的不含重复字符的子字符串](string/longest_substring_without_repeating_characters48.go)
 
 #### 位运算
