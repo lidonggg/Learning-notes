@@ -18,6 +18,7 @@ func main() {
 }
 
 //
+// 一次遍历，添加一个哨兵节点对边界处理进行优化
 //
 // 执行用时：8 ms，在所有 Go 提交中击败了 82.53% 的用户
 // 内存消耗：4.1 MB，在所有 Go 提交中击败了 100.00% 的用户
@@ -25,6 +26,7 @@ func main() {
 // @param   l1   ListNode    链表一的头节点
 // @param   l2   ListNode    链表二的头节点
 // @return  ListNode    合并后的头节点
+//
 func mergeTwoList(l1 *ListNode, l2 *ListNode) *ListNode {
     if nil == l1 {
         return l2
