@@ -14,7 +14,7 @@ finished:
 
 11  12  13
 
-21  25  27  28
+21  23  25  27  28
 
 31
 
@@ -38,6 +38,8 @@ finished:
 #### 链表
 
 - [06.从尾到头打印链表](linkedlist/print_list_reversingly06.go)
+- [22.链表中倒数第 k 个节点](twopointers/kth_node_from_end_of_list23.go)
+- [23.链表中环的入口](twopointers/entrance_of_cycle_in_the_list23.go)
 - [25.合并两个有序链表](linkedlist/merge_two_sorted_lists25.go)
 
 #### 树
@@ -96,3 +98,5 @@ finished:
 
 #### 双指针
 - [21.调整数组顺序使奇数位于偶数前面](twopointers/adjust_array_order_to_make_odd_number_precedes_even_number21.go)
+- [22.链表中倒数第 k 个节点](twopointers/kth_node_from_end_of_list23.go)
+- [23.链表中环的入口](twopointers/entrance_of_cycle_in_the_list23.go)
