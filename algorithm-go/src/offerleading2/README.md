@@ -14,7 +14,7 @@ finished:
 
 11  12  13
 
-21  23  25  27  28
+21  22  23  24  25  27  28
 
 31
 
@@ -40,6 +40,7 @@ finished:
 - [06.从尾到头打印链表](linkedlist/print_list_reversingly06.go)
 - [22.链表中倒数第 k 个节点](twopointers/kth_node_from_end_of_list23.go)
 - [23.链表中环的入口](twopointers/entrance_of_cycle_in_the_list23.go)
+- [24.链表反转](linkedlist/reverse_linked_list24.go)
 - [25.合并两个有序链表](linkedlist/merge_two_sorted_lists25.go)
 
 #### 树
@@ -63,6 +64,10 @@ finished:
 #### 搜索算法
 
 - [11.旋转数组的最小数字](search/min_num_of_rotated_array11.go)
+
+#### 递归
+
+- [24.链表反转](linkedlist/reverse_linked_list24.go)
 
 #### 回溯算法
 

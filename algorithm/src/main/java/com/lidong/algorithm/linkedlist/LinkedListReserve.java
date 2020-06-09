@@ -63,7 +63,7 @@ public class LinkedListReserve {
         node2.setNext(node3);
         node3.setNext(node4);
 
-        ListNode head = reserve1(node1);
+        ListNode head = reserve2(node1);
 
         while (head != null) {
             // 4 3 2 1
