@@ -10,16 +10,19 @@
 
 tip:
 finished: 
-4   5   6   7   8   9   10
+4      5       6       7      8       9      10
 
-11  12  13
+11    12      13
 
-21  22  23  24  25  27  28
+21    22      23      24      25      27     28
 
 31
 
-40  47  48
-55I 55II
+40    47      48
+
+55I  55II
+
+56I  56II    
  
 ---
 
@@ -30,7 +33,6 @@ finished:
 - [04.二维数组查找](array/two_dim_array_search04.go)
 - [40.最小的 k 个数字](array/minimum_k_numbers.go)
 - [21.调整数组顺序使奇数位于偶数前面](twopointers/adjust_array_order_to_make_odd_number_precedes_even_number21.go)
-- [56-I.数组中只出现一次的两个数](array/two_numbers_that_only_appear_once_in_an_array56I.go)
 
 #### 字符串
 
@@ -113,3 +115,5 @@ finished:
 - [21.调整数组顺序使奇数位于偶数前面](twopointers/adjust_array_order_to_make_odd_number_precedes_even_number21.go)
 - [22.链表中倒数第 k 个节点](twopointers/kth_node_from_end_of_list23.go)
 - [23.链表中环的入口](twopointers/entrance_of_cycle_in_the_list23.go)
+- [！56-I.数组中只出现一次的两个数](array/two_numbers_that_only_appear_once_in_an_array56I.go)
+- [！56-II.数组中只出现一次的一个数](array/one_number_that_only_appear_once_in_an_array56II.go)
