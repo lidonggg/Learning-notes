@@ -19,6 +19,7 @@ finished:
 31
 
 40  47  48
+55I 55II
  
 ---
 
@@ -29,6 +30,7 @@ finished:
 - [04.二维数组查找](array/two_dim_array_search04.go)
 - [40.最小的 k 个数字](array/minimum_k_numbers.go)
 - [21.调整数组顺序使奇数位于偶数前面](twopointers/adjust_array_order_to_make_odd_number_precedes_even_number21.go)
+- [56-I.数组中只出现一次的两个数](array/two_numbers_that_only_appear_once_in_an_array56I.go)
 
 #### 字符串
 
@@ -49,6 +51,8 @@ finished:
 - [08.二叉树中序遍历的下一个节点](tree/next_node_of_inorder_binary_tree08.go)
 - [27.二叉树的镜像](tree/invert_binary_tree27.go)
 - [28.对称的二叉树](tree/symmetric_tree28.go)
+- [55-I.二叉树的深度](tree/depth_of_binary_tree.go)
+- [55-II.平衡二叉树](tree/check_if_a_balanced_binary_tree55II.go)
 
 #### 栈
 
@@ -79,12 +83,15 @@ finished:
 - [13.机器人的运动范围](bfs/robots_range_of_motion13.go)
 - [27.二叉树的镜像](tree/invert_binary_tree27.go)
 - [28.对称的二叉树](tree/symmetric_tree28.go)
+- [55-I.二叉树的深度](tree/depth_of_binary_tree.go)
+- [55-II.平衡二叉树](tree/check_if_a_balanced_binary_tree55II.go)
 
 #### BFS
 
 - [13.机器人的运动范围](bfs/robots_range_of_motion13.go)
 - [27.二叉树的镜像](tree/invert_binary_tree27.go)
 - [28.对称的二叉树](tree/symmetric_tree28.go)
+- [55-I.二叉树的深度](tree/depth_of_binary_tree.go)
 
 #### 贪心算法
 
@@ -100,6 +107,7 @@ finished:
 #### 位运算
 
 - [15.二进制中 1 的个数](bitmanipulate/count_of_1_bits15.go)
+- [56-I.数组中只出现一次的两个数](array/two_numbers_that_only_appear_once_in_an_array56I.go)
 
 #### 双指针
 - [21.调整数组顺序使奇数位于偶数前面](twopointers/adjust_array_order_to_make_odd_number_precedes_even_number21.go)
