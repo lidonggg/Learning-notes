@@ -30,14 +30,11 @@ import java.util.Queue;
  */
 public class IsSymmetric101 {
 
-    private boolean flag = true;
-
     public boolean isSymmetric(TreeNode root) {
         if (root == null) {
-            return flag;
+            return true;
         }
-        recurse(root.left, root.right);
-        return flag;
+        return recurse(root.left, root.right);
     }
 
     /**
@@ -75,27 +72,15 @@ public class IsSymmetric101 {
      * @param left  left node
      * @param right right node
      */
-    private void recurse(TreeNode left, TreeNode right) {
-        if (!flag) {
-            return;
-        }
-        if (left == null && right == null) {
-            return;
-        }
+    private boolean recurse(TreeNode left, TreeNode right) {
         if (left == null || right == null) {
-            flag = false;
-            return;
+            return left == null && right == null;
         }
-        if (left.val != right.val) {
-            flag = false;
-            return;
-        }
-        recurse(left.left, right.right);
-        recurse(left.right, right.left);
+        return left.val == right.val && recurse(left.left, right.right) && recurse(left.right, right.left);
     }
 
 
-    private class TreeNode {
+    private static class TreeNode {
         int val;
 
         TreeNode left;

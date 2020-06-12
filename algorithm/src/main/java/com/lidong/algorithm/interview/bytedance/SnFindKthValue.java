@@ -26,13 +26,17 @@ public class SnFindKthValue {
         if (k >= (2 << tmp) - 1) {
             return -1;
         }
+        // 二分思想
         while (tmp != 0) {
             int slice = 2 << (tmp - 1);
+            // 如果 k 在后半部分，那么将 k 前移
             if ((k << 1) > (2 << tmp)) {
                 k = k - slice;
             } else if (k == slice - 1) {
+                // 如果 k 刚好在当前的中间位置，那么它就等于 tmp+1 本身
                 return tmp + 1;
             }
+            // 压缩范围
             tmp = tmp - 1;
         }
 
