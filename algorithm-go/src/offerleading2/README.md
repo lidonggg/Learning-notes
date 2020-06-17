@@ -16,7 +16,7 @@ finished:
 
 21    22      23      24      25      27     28
 
-31
+31    35
 
 40    47      48
 
@@ -46,6 +46,7 @@ finished:
 - [23.链表中环的入口](twopointers/entrance_of_cycle_in_the_list23.go)
 - [24.链表反转](linkedlist/reverse_linked_list24.go)
 - [25.合并两个有序链表](linkedlist/merge_two_sorted_lists25.go)
+- [35.复杂链表的复制](linkedlist/replication_of_complex_linked_list35.go)
 
 #### 树
 
@@ -109,11 +110,10 @@ finished:
 #### 位运算
 
 - [15.二进制中 1 的个数](bitmanipulate/count_of_1_bits15.go)
-- [56-I.数组中只出现一次的两个数](array/two_numbers_that_only_appear_once_in_an_array56I.go)
+- [！56-I.数组中只出现一次的两个数](bitmanipulate/two_numbers_that_only_appear_once_in_an_array56I.go)
+- [！56-II.数组中只出现一次的一个数](bitmanipulate/one_number_that_only_appear_once_in_an_array56II.go)
 
 #### 双指针
 - [21.调整数组顺序使奇数位于偶数前面](twopointers/adjust_array_order_to_make_odd_number_precedes_even_number21.go)
 - [22.链表中倒数第 k 个节点](twopointers/kth_node_from_end_of_list23.go)
 - [23.链表中环的入口](twopointers/entrance_of_cycle_in_the_list23.go)
-- [！56-I.数组中只出现一次的两个数](array/two_numbers_that_only_appear_once_in_an_array56I.go)
-- [！56-II.数组中只出现一次的一个数](array/one_number_that_only_appear_once_in_an_array56II.go)

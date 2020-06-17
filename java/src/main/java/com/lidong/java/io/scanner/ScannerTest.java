@@ -15,7 +15,6 @@ public class ScannerTest {
         m = reader.nextInt();
         n = reader.nextInt();
         int[][] arr = new int[m][n];
-
         for (int i = 0;i <m;++i) {
             for(int j = 0; j <m;++j) {
                 arr[i][j] = reader.nextInt();

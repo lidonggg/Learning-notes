@@ -39,7 +39,7 @@ func findTwoNums(arr []int) (a int, b int) {
     idxOf1 := findFirstBitIs1(resultExclusiveOr)
 
     a, b = 0, 0
-    // important：按照 idxOf1 位置是不是 1 来对数组分组，这样两组之中每组都有一个只出现一次的数字¬
+    // important：按照 idxOf1 位置是不是 1 来对数组分组，这样两组之中每组都有一个只出现一次的数字
     for i := 0; i < length; i++ {
         if isBit1(arr[i], idxOf1) {
             a ^= arr[i]

@@ -49,11 +49,11 @@ public class QuickSort implements SortFactory<int[]> {
         // 通过游标p把 arr[start...end]分成两部分
         // arr[start..p-1]都是小于pivot的，是已处理区间，arr[p+1...end]是未处理区间
         // 每次从未处理区间中取一个元素和pivot对比，如果小于它，则将其放到已处理区间尾部也就是arr[p]的位置
-        for (int j = start; j < end; j++) {
-            if (arr[j] < pivot) {
-                if (p != j) {
+        for (int i = start; i < end; i++) {
+            if (arr[i] < pivot) {
+                if (p != i) {
                     // 每次交换，都使得左边的元素个数+1，因此p要后移一位
-                    ArrayUtil.swap(arr, p, j);
+                    ArrayUtil.swap(arr, p, i);
                 }
                 p++;
             }

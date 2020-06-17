@@ -77,11 +77,13 @@
 - [1115.交替打印FooBar](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/concurrent/FooBar1115.java)
 - [1116.打印零与奇偶数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/concurrent/ZeroEvenOdd1116.java)
 - [1227.连续差相同的数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/CountSquares1277.java)
+- [1254.统计孤岛的数量](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/NumberOfClosedIslands1254.java)
 
 
 - [08-11.单词拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/medium/CoinLCCI0811.java)
 #### 困难
 - [42.接雨水](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/array/TrappingRainWater42.java)
+- [72.最短编辑距离](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/EditDistance72.java)
 - [99.恢复二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dfs/RecoverBinarySearchTree99.java)
 - [128.最长连续序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/array/LongestConsecutiveSequence128.java)
 - [146.LRU缓存机制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/linkedlist/Lruache146.java)

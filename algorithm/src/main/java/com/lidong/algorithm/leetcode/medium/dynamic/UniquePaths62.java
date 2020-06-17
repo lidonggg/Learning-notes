@@ -26,7 +26,7 @@ import java.util.Arrays;
  * @author ls J
  * @date 2019/7/26 8:49 AM
  */
-public class UniquePaths {
+public class UniquePaths62 {
 
     /**
      * 状态转移方程
@@ -105,7 +105,7 @@ public class UniquePaths {
     }
 
     public static void main(String[] args) {
-        UniquePaths uniquePaths = new UniquePaths();
-        System.out.println(uniquePaths.uniquePaths2(7, 3));
+        UniquePaths62 uniquePaths62 = new UniquePaths62();
+        System.out.println(uniquePaths62.uniquePaths2(7, 3));
     }
 }

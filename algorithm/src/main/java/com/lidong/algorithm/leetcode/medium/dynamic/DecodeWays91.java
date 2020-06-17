@@ -62,7 +62,7 @@ public class DecodeWays91 {
         dp[1] = 1;
 
         for (int i = 2; i <= len; ++i) {
-            // 如果有 0，那么它必须是 >10 的个位数，因此这里要去看一下 source[i - 1] 的值
+            // 如果有 0，那么它必须是 >=10 的个位数，因此这里要去看一下 source[i - 1] 的值
             if (source[i] == 0 && (source[i - 1] > 2 || source[i - 1] == 0)) {
                 return 0;
             }
@@ -112,7 +112,7 @@ public class DecodeWays91 {
         int dp1 = 1, dp2 = 1, curDp = 1;
 
         for (int i = 2; i <= len; ++i) {
-            // 如果有 0，那么它必须是 >10 的个位数，因此这里要去看一下 source[i - 1] 的值
+            // 如果有 0，那么它必须是 >=10 的个位数，因此这里要去看一下 source[i - 1] 的值
             if (source[i] == 0 && (source[i - 1] > 2 || source[i - 1] == 0)) {
                 return 0;
             }

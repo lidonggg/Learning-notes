@@ -32,11 +32,6 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal105 {
     private int[] preorder;
 
     /**
-     * 利用 hash 优化索引查找效率
-     */
-    private Map<Integer, Integer> inMap = new HashMap<>();
-
-    /**
      * 执行用时：3 ms, 在所有 Java 提交中击败了 79.76% 的用户
      * 内存消耗：39.4 MB, 在所有 Java 提交中击败了 83.33% 的用户
      *
@@ -90,6 +85,11 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal105 {
             recurse(root.right, rightVal, rightIdx, inRootIdx + 1, inEnd);
         }
     }
+
+    /**
+     * 利用 hash 优化索引查找效率
+     */
+    private Map<Integer, Integer> inMap = new HashMap<>();
 
     /**
      * 查找找值等于 key 的元素的索引

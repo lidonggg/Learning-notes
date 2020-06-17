@@ -34,12 +34,12 @@ func findMinNum(numbers []int) int {
     right := len(numbers) - 1
     for left < right {
         mid := left + (right-left)>>1
-        // 如果中间值大于右边的最大值，说明中间值还在左边的小数组里，需要left向右移动
+        // 如果中间值大于右边的最大值，说明目标值还在左边的小数组里，需要left向右移动
         if numbers[mid] > numbers[right] {
             left = mid + 1
         } else if numbers[mid] <= numbers[right] {
             // 如果中间值小于等于当前右边最大值，至少说明了当前右边的 right 值不是最小值了或者不是唯一的最小值，需要慢慢向左移动一位
-            right = right - 1
+            right--
         }
         fmt.Printf("left: %d,right: %d", left, right)
     }
