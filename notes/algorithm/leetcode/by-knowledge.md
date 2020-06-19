@@ -124,6 +124,7 @@
 - [104.二叉树最大深度](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dfs/MaxDepthOfBinaryTree104.java)
 
 #### 中等
+- [79.单词搜索](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/WordSearch79.java)
 - [105.从前序与中序遍历序列构造二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java)
 - [113.路径总和II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/PathSumII113.java)
 - [130.被围绕的区域](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/SurroundedRegions130.java)
