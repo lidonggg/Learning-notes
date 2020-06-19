@@ -155,6 +155,15 @@
 
 #### 困难
 
+### 贪心算法
+
+#### 简单
+
+#### 中等
+- [55.跳跃游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/JumpGame55.java)
+
+#### 困难
+
 ### 双指针
 
 #### 简单

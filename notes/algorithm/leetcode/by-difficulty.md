@@ -44,6 +44,7 @@
 - [46.数组全排列](../../../algorithm/leetcode/medium/backtrack/FullyArrange46.java)
 - [47.数组全排列2](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/backtrack/FullyArrange47.java)
 - [54.螺旋矩阵](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrix54.java)
+- [55.跳跃游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/JumpGame55.java)
 - [59.螺旋矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrixII59.java)
 - [62.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/62-不同路径.md)
 - [75.颜色分类](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SortColors75.java)
