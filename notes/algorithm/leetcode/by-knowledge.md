@@ -6,9 +6,11 @@
 - [1013.将数组分成和相等的三个部分](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PartitionArrayIntoThreePartsWithEqualSum1013.java)
 
 #### 中等
+
 - [54.螺旋矩阵](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrix54.java)
 - [59.螺旋矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrixII59.java)
 - [78.子集](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/Subsets78.java)
+- [240.搜索二维矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SearchIn2DMatrixII240.java)
 
 #### 困难
 - [42.接雨水](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/array/TrappingRainWater42.java)
@@ -22,7 +24,7 @@
 - [141.环形链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/linkedlist/LinkedListCircle.java#L10)
 
 #### 中等
-
+- [2.两数相加](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/AddTwoNumbers2.java)
 - [142.环形链表II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/linkedlist/LinkedListCircle.java#L68)
 - [143.重排链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ReorderList143.java)
 - [1019.链表中下一个更大节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/NextGreaterNodeInLinkedList1019.java)
@@ -124,6 +126,7 @@
 #### 中等
 - [105.从前序与中序遍历序列构造二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java)
 - [113.路径总和II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/PathSumII113.java)
+- [130.被围绕的区域](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/SurroundedRegions130.java)
 - [337.打家劫舍III](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/HouseRobberIII337.java)
 - [638.大礼包](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ShoppingOffers638.java)
 - [1254.统计孤岛的数量](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/NumberOfClosedIslands1254.java)
@@ -158,6 +161,9 @@
 - [26.删除排序数组中的重复项](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/twopointers/RemoveDuplicatesFromSortedArray26.java)
 
 #### 中等
+- [15.三数之和](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SumOf3Nums15.java)
+- [19.删除链表中的倒数第 N 个节点](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/RemoveNthNodeFromEndOfList19.java)
+- [75.颜色分类](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SortColors75.java)
 - [80.删除排序数组中的重复项 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/RemoveDuplicatesFromSortedArrayII80.java)
 
 
