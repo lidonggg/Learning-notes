@@ -52,6 +52,7 @@
 - [78.子集](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/Subsets78.java)
 - [79.单词搜索](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/WordSearch79.java)
 - [80.删除排序数组中的重复项 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/RemoveDuplicatesFromSortedArrayII80.java)
+- [81.搜索旋转排序数组 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/SearchInRotatedSortedArrayII81.java)
 - [91.解码方法](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/DecodeWays91.java)
 - [94.二叉树的中序遍历（迭代）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/BinaryTreeInorderTraversal94.java)
 - [96.不同的二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/NumSearchTrees96.java)
