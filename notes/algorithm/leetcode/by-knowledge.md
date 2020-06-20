@@ -40,6 +40,7 @@
 
 #### 中等
 - [94.二叉树的中序遍历（迭代）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/BinaryTreeInorderTraversal94.java)
+- [98.验证二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/ValidateBinarySearchTree98.java)
 - [236.二叉树的最近公共祖先](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LowestCommonAncestorOfaBinaryTree236.java)
 
 #### 困难
@@ -129,6 +130,7 @@
 - [105.从前序与中序遍历序列构造二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java)
 - [113.路径总和II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/PathSumII113.java)
 - [130.被围绕的区域](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/SurroundedRegions130.java)
+- [200.岛屿数量](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/NumberOfIslands200.java)
 - [337.打家劫舍III](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/HouseRobberIII337.java)
 - [638.大礼包](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ShoppingOffers638.java)
 - [1254.统计孤岛的数量](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/NumberOfClosedIslands1254.java)
@@ -164,6 +166,8 @@
 
 #### 中等
 - [55.跳跃游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/JumpGame55.java)
+
+- [300.最长上升子序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/LongestIncreasingSubsequence300.java)
 
 #### 困难
 

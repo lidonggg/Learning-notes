@@ -28,6 +28,9 @@ public class SearchInRotatedSortedArrayII81 {
 
     /**
      * 二分搜索
+     * <p>
+     * 执行用时： 0 ms，在所有 Java 提交中击败了 100.00% 的用户
+     * 内存消耗： 39.5 MB，在所有 Java 提交中击败了 33.33% 的用户
      *
      * @param nums   nums
      * @param target target
