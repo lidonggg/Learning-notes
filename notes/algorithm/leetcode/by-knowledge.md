@@ -115,6 +115,7 @@
 - [107.二叉树的层次遍历II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/LevelOrderBottom107.java)
 - [111.二叉树的最小深度](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/MinDepth111.java)
 - [559.N叉树的最大深度](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/MaxDepth559.java)
+- [1162.地图分析](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/AsFarFromLandAsPossible1162.java)
 
 #### 中等
 - [102.二叉树的层次遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/LevelOrder102.java)

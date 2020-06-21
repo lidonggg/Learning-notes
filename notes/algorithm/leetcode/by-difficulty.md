@@ -97,6 +97,7 @@
 - [1027.最长等差序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/LongestArithmeticSequence1027.java)
 - [1115.交替打印FooBar](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/concurrent/FooBar1115.java)
 - [1116.打印零与奇偶数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/concurrent/ZeroEvenOdd1116.java)
+- [1162.地图分析](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/AsFarFromLandAsPossible1162.java)
 - [1227.连续差相同的数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/CountSquares1277.java)
 - [1254.统计孤岛的数量](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/NumberOfClosedIslands1254.java)
 - [1391.检查网格中的有效路径](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/CheckValidPathInGrid1391.java)
