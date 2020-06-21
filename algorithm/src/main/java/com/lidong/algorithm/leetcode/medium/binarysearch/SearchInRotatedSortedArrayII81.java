@@ -45,12 +45,12 @@ public class SearchInRotatedSortedArrayII81 {
             if (nums[mid] == target) {
                 return true;
             }
-            // 如果相等，我们不能确定 l ~ mid 到底是不是生序，这里将 l + 1 即可
+            // 如果相等，我们不能确定 l ~ mid 到底是不是升序，这里将 l + 1 即可
             if (nums[l] == nums[mid]) {
                 l++;
                 continue;
             }
-            // 此时 l ~ mid 是生序的
+            // 此时 l ~ mid 是升序的
             if (nums[mid] > nums[l]) {
                 if (target >= nums[l] && target < nums[mid]) {
                     r = mid - 1;
@@ -58,7 +58,7 @@ public class SearchInRotatedSortedArrayII81 {
                     l = mid;
                 }
             } else {
-                // 此时 mid ~ r 是生序的
+                // 此时 mid ~ r 是升序的
                 if (target > nums[mid] && target <= nums[r]) {
                     l = mid;
                 } else {
