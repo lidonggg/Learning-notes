@@ -124,6 +124,7 @@
 - [199.二叉树的右视图](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/BinaryTreeRightSideView199.java)
 - [515.在每个树行中找最大值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/FindLargestValueInEachTreeRow515.java)
 - [542.0-1 矩阵](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/MatrixZeroOne542.java)
+- [994.腐烂的橘子](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/RottingOranges994.java)
 ### dfs
 #### 简单
 - [104.二叉树最大深度](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dfs/MaxDepthOfBinaryTree104.java)
