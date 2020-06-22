@@ -82,6 +82,7 @@
 - [413.等差数列划分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/NumberOfArithmeticSlices413.java)
 - [513.找树左下角的值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/FindBottomLeftTreeValue513.java)
 - [515.在每个树行中找最大值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/FindLargestValueInEachTreeRow515.java)
+- [529.扫雷游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/Minesweeper529.java)
 - [542.0-1 矩阵](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/MatrixZeroOne542.java)
 - [638.大礼包](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ShoppingOffers638.java)
 - [646.最长数对链](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/MaximumLengthOfPairChain646.java)
