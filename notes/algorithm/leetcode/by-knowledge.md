@@ -161,10 +161,12 @@
 
 #### 中等
 - [34.在排序数组中查找元素的第一个和最后一个位置](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/FindFirstAndLastPositionOfElementInSortedArray34.java)
+- [74.搜索二维矩阵](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/Search2DMatrix74.java)
 - [81.搜索旋转排序数组 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/SearchInRotatedSortedArrayII81.java)
 - [162.寻找峰值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/FindPeakElement162.java)
 - [287.寻找重复数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/FindDuplicateNumber287.java)
 - [1011.在 D 天内送达包裹的能力](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/CapacityToShipPackagesWithinDDays1011.java)
+- [1482.制作 m 束花所需的最少天数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/MinimumNumberOfDaysToMakeMBouquets1482.java)
 
 #### 困难
 

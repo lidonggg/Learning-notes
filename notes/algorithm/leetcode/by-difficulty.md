@@ -50,6 +50,7 @@
 - [55.跳跃游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/JumpGame55.java)
 - [59.螺旋矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrixII59.java)
 - [62.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/62-不同路径.md)
+- [74.搜索二维矩阵](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/Search2DMatrix74.java)
 - [75.颜色分类](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SortColors75.java)
 - [77.组合](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/Combine77.java)
 - [78.子集](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/Subsets78.java)
@@ -113,6 +114,7 @@
 - [1302.层数最深的叶子节点的和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/DeepestLeavesSum1302.java)
 - [1306.跳跃游戏 III](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/JumpGameIII1306.java)
 - [1391.检查网格中的有效路径](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/CheckValidPathInGrid1391.java)
+- [1482.制作 m 束花所需的最少天数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/MinimumNumberOfDaysToMakeMBouquets1482.java)
 
 
 - [08-11.单词拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/medium/CoinLCCI0811.java)
