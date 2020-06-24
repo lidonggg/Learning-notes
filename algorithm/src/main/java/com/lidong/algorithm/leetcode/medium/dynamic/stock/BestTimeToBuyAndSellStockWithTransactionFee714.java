@@ -1,4 +1,4 @@
-package com.lidong.algorithm.leetcode.medium.dfs.stock;
+package com.lidong.algorithm.leetcode.medium.dynamic.stock;
 
 /**
  * 买卖股票的最佳时机含手续费（中等-714）

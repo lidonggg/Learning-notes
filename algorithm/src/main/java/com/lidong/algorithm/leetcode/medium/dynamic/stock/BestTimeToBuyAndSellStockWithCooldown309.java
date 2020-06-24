@@ -1,4 +1,4 @@
-package com.lidong.algorithm.leetcode.medium.dfs.stock;
+package com.lidong.algorithm.leetcode.medium.dynamic.stock;
 
 /**
  * 最佳买卖股票时机含冷冻期（中等-309）

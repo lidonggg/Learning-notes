@@ -93,7 +93,7 @@ public class BestTimeToBuyAndSellStockIV188 {
         // 遍历每一天，模拟 k 次交易，计算并更新状态
         for (int p : prices) {
             // 第 1 次买
-            dp[0][0] = Math.max(dp[0][0], 0 - p);
+            dp[0][0] = Math.max(dp[0][0], -p);
             // 第 1 次卖
             dp[0][1] = Math.max(dp[0][1], dp[0][0] + p);
             for (int i = 1; i < k; i++) {
