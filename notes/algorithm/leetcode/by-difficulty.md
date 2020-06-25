@@ -39,6 +39,7 @@
 #### 中等
 - [2.两数相加](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/AddTwoNumbers2.java)
 - [3.无重复字符的最长子串](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/LongestSubstringWithoutRepeatingCharacters3.java)
+- [8.字符串转换整数 (atoi)](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/string/StringToInteger8.java)
 - [15.三数之和](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SumOf3Nums15.java)
 - [17.电话号码的字母组合](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/LetterCombinations17.java)
 - [19.删除链表中的倒数第 N 个节点](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/RemoveNthNodeFromEndOfList19.java)
@@ -116,6 +117,7 @@
 - [1115.交替打印FooBar](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/concurrent/FooBar1115.java)
 - [1116.打印零与奇偶数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/concurrent/ZeroEvenOdd1116.java)
 - [1162.地图分析](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/AsFarFromLandAsPossible1162.java)
+- [1219.黄金矿工](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/backtrack/PathWithMaximumGold1219.java)
 - [1227.连续差相同的数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/CountSquares1277.java)
 - [1254.统计孤岛的数量](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/NumberOfClosedIslands1254.java)
 - [1302.层数最深的叶子节点的和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/DeepestLeavesSum1302.java)
