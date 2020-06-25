@@ -57,6 +57,7 @@
 - [20.有效的括号](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/stack/ValidParentheses20.java)
 
 #### 中等
+- [144.二叉树的前序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/BinaryTreePreorderTraversal144.java)
 - [739.每日温度（单调递减栈）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/DailyTemperatures739.java)
 
 #### 困难

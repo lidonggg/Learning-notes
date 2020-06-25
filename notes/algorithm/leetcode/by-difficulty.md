@@ -77,6 +77,7 @@
 - [139.单词拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/WordBreak139.java)
 - [142.环形链表II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/linkedlist/LinkedListCircle.java#L68)
 - [143.重排链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ReorderList143.java)
+- [144.二叉树的前序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/BinaryTreePreorderTraversal144.java)
 - [162.寻找峰值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/FindPeakElement162.java)
 - [188.买卖股票的最佳时机 IV](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/stock/BestTimeToBuyAndSellStockIV188.java)
 - [199.二叉树的右视图](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/BinaryTreeRightSideView199.java)
