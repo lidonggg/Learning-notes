@@ -35,6 +35,7 @@
 
 #### 中等
 - [2.两数相加](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/AddTwoNumbers2.java)
+- [61.旋转链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/RotateList61.java)
 - [92.反转链表 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ReverseLinkedListII92.java)
 - [109.有序链表转换二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ConvertSortedListToBinarySearchTree109.java)
 - [138.复制带随机指针的链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/CopyListWithRandomPointer138.java)

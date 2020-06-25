@@ -49,7 +49,7 @@ public class PathWithMaximumGold1219 {
 
     /**
      * 很基本的 dfs + 回溯
-     * 执行用时：25 ms，在所有 Java 提交中击败了 40.94% 的用户
+     * 执行用时：24 ms，在所有 Java 提交中击败了 49.90% 的用户
      * 内存消耗：37.5 MB，在所有 Java 提交中击败了 16.67% 的用户
      *
      * @param grid grid
