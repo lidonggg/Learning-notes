@@ -71,7 +71,6 @@ public class NumberOfClosedIslands1254 {
         grid[x][y] = 1;
         // 之所以不直接 return 四个 dfs 的 &&
         // 是因为这里要确保所有相连的岛屿都能被遍历到
-
         boolean up = dfs(x - 1, y, m, n);
         boolean down = dfs(x + 1, y, m, n);
         boolean left = dfs(x, y - 1, m, n);

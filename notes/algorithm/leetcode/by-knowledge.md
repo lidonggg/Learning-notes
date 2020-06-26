@@ -18,6 +18,7 @@
 
 - [31.下一个排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/NextPermutation31.java)
 - [54.螺旋矩阵](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrix54.java)
+- [56.合并区间](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/MergeIntervals56.java)
 - [59.螺旋矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrixII59.java)
 - [78.子集](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/Subsets78.java)
 - [240.搜索二维矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SearchIn2DMatrixII240.java)
@@ -35,6 +36,7 @@
 
 #### 中等
 - [2.两数相加](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/AddTwoNumbers2.java)
+- [24.两两交换链表中的节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/SwapNodesInPairs24.java)
 - [61.旋转链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/RotateList61.java)
 - [92.反转链表 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ReverseLinkedListII92.java)
 - [109.有序链表转换二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ConvertSortedListToBinarySearchTree109.java)
@@ -57,7 +59,20 @@
 #### 中等
 - [94.二叉树的中序遍历（迭代）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/BinaryTreeInorderTraversal94.java)
 - [98.验证二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/ValidateBinarySearchTree98.java)
+- [114.二叉树展开为链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FlattenBinaryTreeToLinkedList114.java)
 - [236.二叉树的最近公共祖先](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LowestCommonAncestorOfaBinaryTree236.java)
+- [951.翻转等价二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FlipEquivalentBinaryTrees951.java)
+
+#### 困难
+
+### 哈希表
+
+#### 简单
+
+#### 中等
+- [274.H 指数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/hash/HIndex274.java)
+
+
 
 #### 困难
 
@@ -198,6 +213,8 @@
 
 #### 中等
 
+- [22.括号生成](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/backtrack/GenerateParentheses22.java)
+
 #### 困难
 
 ### 贪心算法
@@ -230,7 +247,7 @@
 
 #### 中等
 - [3.无重复字符的最长子串](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/LongestSubstringWithoutRepeatingCharacters3.java)
-
+- [1423.可获得的最大点数](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/MaximumPointsCanObtainFromCards1423.java)
 
 #### 困难
 - [239.滑动窗口最大值](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/slidingwindow/SlidingWindowMaximum239.java)
