@@ -11,6 +11,7 @@
 
 ### 数组
 #### 简单
+- [283.移动零](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/MoveZeroes283.java)
 - [1010.总持续时间可被 60 整除的歌曲](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PairsOfSongsWithTotalDurationsDivisibleby601010.java)
 - [1013.将数组分成和相等的三个部分](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PartitionArrayIntoThreePartsWithEqualSum1013.java)
 
@@ -38,11 +39,13 @@
 - [2.两数相加](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/AddTwoNumbers2.java)
 - [24.两两交换链表中的节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/SwapNodesInPairs24.java)
 - [61.旋转链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/RotateList61.java)
+- [82.删除排序链表中的重复元素 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/RemoveDuplicatesFromSortedListII82.java)
 - [92.反转链表 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ReverseLinkedListII92.java)
 - [109.有序链表转换二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ConvertSortedListToBinarySearchTree109.java)
 - [138.复制带随机指针的链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/CopyListWithRandomPointer138.java)
 - [142.环形链表II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/linkedlist/LinkedListCircle.java#L68)
 - [143.重排链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ReorderList143.java)
+- [147.对链表进行插入排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/InsertionSortList147.java)
 - [328.奇偶链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/OddEvenLinkedList328.java)
 - [1019.链表中下一个更大节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/NextGreaterNodeInLinkedList1019.java)
 
@@ -61,6 +64,7 @@
 - [98.验证二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/ValidateBinarySearchTree98.java)
 - [114.二叉树展开为链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FlattenBinaryTreeToLinkedList114.java)
 - [236.二叉树的最近公共祖先](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LowestCommonAncestorOfaBinaryTree236.java)
+- [623.在二叉树中增加一行](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/AddOneRowToTree623.java)
 - [951.翻转等价二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FlipEquivalentBinaryTrees951.java)
 
 #### 困难
@@ -71,6 +75,7 @@
 
 #### 中等
 - [274.H 指数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/hash/HIndex274.java)
+- [508.出现次数最多的子树元素和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/hash/MostFrequentSubtreeSum508.java)
 
 
 
@@ -110,6 +115,7 @@
 - [120.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/120-三角形最小路径和.md)
 - [123.买卖股票的最佳时机 III](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/stock/BestTimeToBuyAndSellStockIII123.java)
 - [139.单词拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/WordBreak139.java)
+- [221.最大正方形](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/MaximalSquare221.java)
 - [264.丑数Ⅱ](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/NthUglyNumber264.java)
 - [309.最佳买卖股票时机含冷冻期](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/stock/BestTimeToBuyAndSellStockWithCooldown309.java)
 - [338.比特位计数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/CountingBits338.java)
