@@ -32,7 +32,7 @@ public class TrappingRainWater42 {
     public static int trap(int[] heights) {
         int len = heights.length;
         int res = 0;
-        // 从左往右查找当前元素与它右边最高的元素差
+        // 查找当前元素左右两侧比它高的最高的元素值
         for (int i = 1; i < len - 1; ++i) {
             int maxLeft = heights[i], maxRight = heights[i];
             for (int j = i + 1; j < len; ++j) {
@@ -44,6 +44,7 @@ public class TrappingRainWater42 {
             for (int j = i - 1; j >= 0; --j) {
                 maxLeft = Math.max(maxLeft, heights[j]);
             }
+            // 当前元素上方能盛放的最大水量等于两者与 heights[i] 差的最小值
             res += maxLeft > maxRight ? maxRight - heights[i] : maxLeft - heights[i];
         }
 
