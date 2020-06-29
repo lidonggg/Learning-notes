@@ -63,7 +63,7 @@ public class LongestIncreasingSubsequence300 {
      * 方法二：贪心+二分查找
      * 来自 leetcode 官方题解：https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-by-leetcode-soluti/
      * 如果我们要使上升子序列尽可能的长，则我们需要让序列上升得尽可能慢，因此我们希望每次在上升子序列最后加上的那个数尽可能的小。
-     * 基于上面的贪心思路，我们维护一个数组 d[i] ，表示长度为 ii 的最长上升子序列的末尾元素的最小值，
+     * 基于上面的贪心思路，我们维护一个数组 d[i] ，表示长度为 i 的最长上升子序列的末尾元素的最小值，
      * 用 len 记录目前最长上升子序列的长度，起始时 len 为 1，d[1] = nums[0]。
      *
      * <p>
