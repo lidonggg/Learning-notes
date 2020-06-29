@@ -181,6 +181,7 @@
 #### 中等
 - [79.单词搜索](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/WordSearch79.java)
 - [105.从前序与中序遍历序列构造二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java)
+- [106.从中序与后续遍历序列构造二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java)
 - [113.路径总和II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/PathSumII113.java)
 - [116.填充每个节点的下一个右侧节点指针](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/PopulatingNextRightPointersInEachNode116.java)
 - [130.被围绕的区域](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/SurroundedRegions130.java)
@@ -257,6 +258,14 @@
 
 #### 困难
 - [239.滑动窗口最大值](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/slidingwindow/SlidingWindowMaximum239.java)
+
+### 区间问题
+
+#### 简单
+
+#### 中等
+- [986.区间列表的交集](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/interval/IntervalListIntersections986.java)
+#### 困难
 
 ### 位运算
 

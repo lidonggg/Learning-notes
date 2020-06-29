@@ -63,6 +63,51 @@ public class ReverseLinkedListII92 {
         return hair.next;
     }
 
+    /**
+     * 方法二：递归
+     * <p>
+     * 执行用时：0 ms，在所有 Java 提交中击败了 100.00% 的用户
+     * 内存消耗：37.1 MB，在所有 Java 提交中击败了 8.70% 的用户
+     *
+     * @param head head
+     * @param m    m
+     * @param n    n
+     * @return new head
+     */
+    public ListNode reverseBetween2(ListNode head, int m, int n) {
+        if (m == 1) {
+            return reverseN(head, n);
+        }
+        head.next = reverseBetween2(head.next, m - 1, n - 1);
+        return head;
+    }
+
+    /**
+     * 记录后驱节点
+     */
+    private ListNode successor = null;
+
+    /**
+     * 递归反转前 n 个节点
+     *
+     * @param head head
+     * @param n    n
+     * @return new head
+     */
+    private ListNode reverseN(ListNode head, int n) {
+        if (n == 1) {
+            // 记录第 n + 1 个节点
+            successor = head.next;
+            return head;
+        }
+        // 以 head.next 为起点，需要反转前 n - 1 个节点
+        ListNode last = reverseN(head.next, n - 1);
+        head.next.next = head;
+        // 让反转之后的 head 节点（变成了反转部分的最后一个节点）和后面的节点连起来
+        head.next = successor;
+        return last;
+    }
+
     private static class ListNode {
 
         int val;
