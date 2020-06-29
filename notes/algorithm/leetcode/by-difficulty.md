@@ -138,6 +138,7 @@
 - [1254.统计孤岛的数量](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/NumberOfClosedIslands1254.java)
 - [1302.层数最深的叶子节点的和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/DeepestLeavesSum1302.java)
 - [1306.跳跃游戏 III](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/JumpGameIII1306.java)
+- [1367.二叉树中的链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LinkedListInBinaryTree1367.java)
 - [1391.检查网格中的有效路径](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/CheckValidPathInGrid1391.java)
 - [1423.可获得的最大点数](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/MaximumPointsCanObtainFromCards1423.java)
 - [1482.制作 m 束花所需的最少天数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/MinimumNumberOfDaysToMakeMBouquets1482.java)

@@ -66,7 +66,7 @@
 - [236.二叉树的最近公共祖先](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LowestCommonAncestorOfaBinaryTree236.java)
 - [623.在二叉树中增加一行](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/AddOneRowToTree623.java)
 - [951.翻转等价二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FlipEquivalentBinaryTrees951.java)
-
+- [1367.二叉树中的链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LinkedListInBinaryTree1367.java)
 #### 困难
 
 ### 哈希表
