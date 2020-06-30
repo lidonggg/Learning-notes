@@ -125,9 +125,11 @@
 - [931.下降路径最小和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/MinFallingPathSum931.java)
 - [946.验证栈序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/ValidateStackSequences946.java)
 - [951.翻转等价二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FlipEquivalentBinaryTrees951.java)
+- [958.二叉树的完全性检验](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/CheckCompletenessOfABinaryTree958.java)
 - [967.连续差相同的数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/NumsSameConsecDiff967.java)
 - [986.区间列表的交集](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/interval/IntervalListIntersections986.java)
 - [994.腐烂的橘子](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/RottingOranges994.java)
+- [1008.先序遍历构造二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ConstructBinarySearchTreeFromPreorderTraversal1008.java)
 - [1011.在 D 天内送达包裹的能力](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/CapacityToShipPackagesWithinDDays1011.java)
 - [1019.链表中下一个更大节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/NextGreaterNodeInLinkedList1019.java)
 - [1027.最长等差序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/LongestArithmeticSequence1027.java)
@@ -143,6 +145,7 @@
 - [1367.二叉树中的链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LinkedListInBinaryTree1367.java)
 - [1391.检查网格中的有效路径](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/CheckValidPathInGrid1391.java)
 - [1423.可获得的最大点数](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/MaximumPointsCanObtainFromCards1423.java)
+- [1429.N 叉树层序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/NaryTreeLevelOrderTraversal429.java)
 - [1482.制作 m 束花所需的最少天数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/MinimumNumberOfDaysToMakeMBouquets1482.java)
 
 

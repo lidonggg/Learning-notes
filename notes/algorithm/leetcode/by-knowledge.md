@@ -67,7 +67,9 @@
 - [623.在二叉树中增加一行](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/AddOneRowToTree623.java)
 - [814.二叉树剪枝](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/BinaryTreePruning814.java)
 - [951.翻转等价二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FlipEquivalentBinaryTrees951.java)
+- [958.二叉树的完全性检验](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/CheckCompletenessOfABinaryTree958.java)
 - [1367.二叉树中的链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LinkedListInBinaryTree1367.java)
+- [1429.N 叉树层序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/NaryTreeLevelOrderTraversal429.java)
 #### 困难
 
 ### 哈希表
@@ -191,6 +193,7 @@
 - [513.找树左下角的值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/FindBottomLeftTreeValue513.java)
 - [638.大礼包](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ShoppingOffers638.java)
 - [695.岛屿的最大面积](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/MaxAreaOfIsland695.java)
+- [1008.先序遍历构造二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ConstructBinarySearchTreeFromPreorderTraversal1008.java)
 - [1110.删点成林](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/DeleteNodesAndReturnForest1110.java)
 - [1254.统计孤岛的数量](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/NumberOfClosedIslands1254.java)
 - [1302.层数最深的叶子节点的和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/DeepestLeavesSum1302.java)
