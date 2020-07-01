@@ -262,7 +262,7 @@
 - [19.删除链表中的倒数第 N 个节点](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/RemoveNthNodeFromEndOfList19.java)
 - [75.颜色分类](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SortColors75.java)
 - [80.删除排序数组中的重复项 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/RemoveDuplicatesFromSortedArrayII80.java)
-
+- [763.划分字母区间](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/PartitionLabels763.java)
 
 #### 困难
 
