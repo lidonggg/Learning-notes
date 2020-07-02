@@ -51,7 +51,7 @@ public class CourseSchedule207 {
     public boolean canFinish(int n, int[][] pqs) {
         // 某个点入度
         int[] inDegree = new int[n];
-        // 邻接表（入度）
+        // 邻接表
         List<List<Integer>> adjacency = new ArrayList<>();
         for (int i = 0; i < n; ++i) {
             adjacency.add(new ArrayList<>());
