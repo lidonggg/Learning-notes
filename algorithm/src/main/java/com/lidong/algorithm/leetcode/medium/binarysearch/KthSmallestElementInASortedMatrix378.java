@@ -65,8 +65,8 @@ public class KthSmallestElementInASortedMatrix378 {
     private boolean check(int[][] matrix, int n, int k, int mid) {
         int i = n - 1, j = 0, count = 0;
         while (i >= 0 && j < n) {
-            // 从最后一行开始看第一列，如果当前元素比 mid 小，则当前列可以贡献出 (i + 1) 个不比 mid 大的元素
-            // 如果当前元素比 mid 小的话，由于每一列都是递增的，那么当前元素上方的每个元素都不比 mid 大
+            // 从最后一行开始看第一列，如果当前元素不比 mid 大，则当前列可以贡献出 (i + 1) 个不比 mid 大的元素
+            // 如果当前元素不比 mid 大的话，由于每一列都是递增的，那么当前元素上方的每个元素都不比 mid 大
             if (matrix[i][j] <= mid) {
                 // 每次都加上当前列所有不大于 mid 的元素个数
                 count += i + 1;
