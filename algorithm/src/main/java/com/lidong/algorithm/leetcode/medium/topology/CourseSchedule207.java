@@ -84,6 +84,13 @@ public class CourseSchedule207 {
 
     /**
      * 方法二：拓扑排序 + dfs
+     * <p>
+     * 执行用时：4 ms，在所有 Java 提交中击败了 92.68% 的用户
+     * 内存消耗：40.2 MB，在所有 Java 提交中击败了 90.00% 的用户
+     * <p>
+     * 时间复杂度：O(N + M)
+     * 空间复杂度：O(N + M)
+     * N -- 节点数量，M -- 邻边数量
      *
      * @param n   n
      * @param pqs pqs
