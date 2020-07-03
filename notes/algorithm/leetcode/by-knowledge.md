@@ -48,6 +48,7 @@
 - [143.重排链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ReorderList143.java)
 - [147.对链表进行插入排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/InsertionSortList147.java)
 - [328.奇偶链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/OddEvenLinkedList328.java)
+- [725.分割链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/SplitLinkedListInParts725.java)
 - [1019.链表中下一个更大节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/NextGreaterNodeInLinkedList1019.java)
 
 #### 困难
