@@ -63,6 +63,7 @@
 
 #### 中等
 - [94.二叉树的中序遍历（迭代）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/BinaryTreeInorderTraversal94.java)
+- [95.不同的二叉搜索树 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/UniqueBinarySearchTreesII95.java)
 - [98.验证二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/ValidateBinarySearchTree98.java)
 - [114.二叉树展开为链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FlattenBinaryTreeToLinkedList114.java)
 - [236.二叉树的最近公共祖先](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LowestCommonAncestorOfaBinaryTree236.java)

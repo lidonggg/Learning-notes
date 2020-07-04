@@ -119,10 +119,7 @@ public class WildcardMatching44 {
             while (i < pn && p.charAt(i) == '*') {
                 i++;
             }
-            if (i == pn) {
-                return true;
-            }
-            return false;
+            return i == pn;
         }
     }
 

@@ -68,6 +68,7 @@
 - [91.解码方法](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/DecodeWays91.java)
 - [92.反转链表 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ReverseLinkedListII92.java)
 - [94.二叉树的中序遍历（迭代）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/BinaryTreeInorderTraversal94.java)
+- [95.不同的二叉搜索树 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/UniqueBinarySearchTreesII95.java)
 - [96.不同的二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/NumSearchTrees96.java)
 - [98.验证二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/ValidateBinarySearchTree98.java)
 - [102.二叉树的层次遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/LevelOrder102.java)
