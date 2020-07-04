@@ -1,5 +1,6 @@
 package com.lidong.algorithm.leetcode.medium.priorityqueue;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
@@ -52,22 +53,21 @@ public class SortCharactersByFrequency451 {
      * @return string
      */
     public String frequencySort(String s) {
-        Map<Character, Integer> map = new HashMap<>();
+        Map<Character, Integer> countMap = new HashMap<>();
         for (char curChar : s.toCharArray()) {
-            map.put(curChar, map.getOrDefault(curChar, 0) + 1);
+            countMap.put(curChar, countMap.getOrDefault(curChar, 0) + 1);
         }
 
         // 大顶堆
-        PriorityQueue<Map.Entry<Character, Integer>> maxHeap = new PriorityQueue<>(
-                (e1, e2) -> e2.getValue() - e1.getValue()
+        PriorityQueue<Character> maxHeap = new PriorityQueue<>(
+                (c1, c2) -> countMap.get(c2) - countMap.get(c1)
         );
-        maxHeap.addAll(map.entrySet());
+        maxHeap.addAll(countMap.keySet());
 
         StringBuilder sb = new StringBuilder(s.length());
         while (!maxHeap.isEmpty()) {
-            Map.Entry<Character, Integer> entry = maxHeap.poll();
-            char c = entry.getKey();
-            sb.append(String.valueOf(c).repeat(Math.max(0, entry.getValue())));
+            char c = maxHeap.poll();
+            sb.append(String.valueOf(c).repeat(Math.max(0, countMap.get(c))));
         }
         return sb.toString();
     }

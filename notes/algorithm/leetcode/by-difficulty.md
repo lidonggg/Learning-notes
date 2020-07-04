@@ -110,6 +110,7 @@
 - [337.打家劫舍III](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/HouseRobberIII337.java)
 - [338.比特位计数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/CountingBits338.java)
 - [343.整数拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/IntegerBreak343.java)
+- [347.前 k 个高频元素](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/priorityqueue/TopKFrequentElements347.java)
 - [378.有序矩阵中第 K 小的元素](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/KthSmallestElementInASortedMatrix378.java)
 - [413.等差数列划分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/NumberOfArithmeticSlices413.java)
 - [451.根据字符出现频率排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/priorityqueue/SortCharactersByFrequency451.java)
