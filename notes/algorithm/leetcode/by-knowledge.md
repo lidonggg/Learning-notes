@@ -161,6 +161,7 @@
 - [08-11.单词拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/medium/CoinLCCI0811.java)
 
 #### 困难
+- [44.通配符匹配](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/WildcardMatching44.java)
 - [72.最短编辑距离](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/EditDistance72.java)
 - [188.买卖股票的最佳时机 IV](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/stock/BestTimeToBuyAndSellStockIV188.java)
 
