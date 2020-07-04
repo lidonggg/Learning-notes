@@ -1,6 +1,7 @@
 package com.lidong.algorithm.leetcode.medium.sort;
 
 import java.util.PriorityQueue;
+import java.util.Random;
 
 /**
  * 数组中的第 K 个最大元素（中等-215）
@@ -24,10 +25,12 @@ import java.util.PriorityQueue;
  */
 public class KthLargestElementInAnArray215 {
 
+    Random random = new Random();
+
     /**
-     * 方法一：利用快速排序 partition 思想，找到第 k 个位置的分区点，那么这个值就是所求的目标值
+     * 方法一：利用快速排序 partition 思想，找到第 k 个位置的分区点，那么这个值就是所求的目标值（快速选择）
      * <p>
-     * 执行用时：11 ms，在所有 Java 提交中击败了 24.39% 的用户
+     * 执行用时：1 ms，在所有 Java 提交中击败了 99.51% 的用户
      * 内存消耗：40.6 MB，在所有 Java 提交中击败了 6.12% 的用户
      *
      * @param nums nums
@@ -35,33 +38,49 @@ public class KthLargestElementInAnArray215 {
      * @return target
      */
     public int findKthLargest(int[] nums, int k) {
-        return partition(nums, nums.length - k, 0, nums.length - 1);
+        // 因为是寻找第 k 大元素，所以就是第 len - k 小的元素
+        return quickSelect(nums, 0, nums.length - 1, nums.length - k);
     }
 
-    public int partition(int[] nums, int k, int s, int e) {
-        int i = s;
-        int j = e;
-        int flag = nums[s];
-        while (i < j) {
-            while (i < j && nums[j] >= flag) {
-                j--;
-            }
-            swap(nums, i, j);
-            while (i < j && nums[i] <= flag) {
-                i++;
-            }
-            swap(nums, i, j);
-        }
-        if (i == k) {
-            return flag;
-        } else if (i > k) {
-            return partition(nums, k, s, i - 1);
+    private int quickSelect(int[] nums, int l, int r, int index) {
+        int p = randomPartition(nums, l, r);
+        if (p == index) {
+            return nums[p];
         } else {
-            return partition(nums, k, i + 1, e);
+            // 如果找到的分区比 index 小，说明目标元素在 nums[q+1...r] 之间
+            // 否则在 nums[l...q-1] 之间
+            // 注意这里的 index 是 len - k
+            return p < index ? quickSelect(nums, p + 1, r, index) : quickSelect(nums, l, p - 1, index);
         }
     }
 
-    public void swap(int[] nums, int i, int j) {
+    private int randomPartition(int[] nums, int l, int r) {
+        int i = random.nextInt(r - l + 1) + l;
+        swap(nums, i, r);
+        return partition(nums, l, r);
+    }
+
+    /**
+     * 确定分区点
+     * 从小到大的顺序排列
+     *
+     * @param nums nums
+     * @param l    left
+     * @param r    right
+     * @return partition
+     */
+    private int partition(int[] nums, int l, int r) {
+        int x = nums[r], i = l - 1;
+        for (int j = l; j < r; ++j) {
+            if (nums[j] <= x) {
+                swap(nums, ++i, j);
+            }
+        }
+        swap(nums, i + 1, r);
+        return i + 1;
+    }
+
+    private void swap(int[] nums, int i, int j) {
         int tmp = nums[i];
         nums[i] = nums[j];
         nums[j] = tmp;
