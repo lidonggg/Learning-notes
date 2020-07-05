@@ -8,26 +8,26 @@ package com.lidong.algorithm.leetcode.medium.dfs;
  * 一番侦察之后，聪明的小偷意识到“这个地方的所有房屋的排列类似于一棵二叉树”。
  * 如果两个直接相连的房子在同一天晚上被打劫，房屋将自动报警。
  * 计算在不触动警报的情况下，小偷一晚能够盗取的最高金额。
- *
+ * <p>
  * 示例 1:
  * 输入: [3,2,3,null,3,null,1]
- *
- *      3
- *     / \
- *    2   3
- *     \   \
- *      3   1
+ * <p>
+ * 3
+ * / \
+ * 2   3
+ * \   \
+ * 3   1
  * 输出: 7
  * 解释: 小偷一晚能够盗取的最高金额 = 3 + 3 + 1 = 7.
- *
+ * <p>
  * 示例 2:
  * 输入: [3,4,5,1,3,null,1]
- *
- *      3
- *     / \
- *    4   5
- *   / \   \
- *  1   3   1
+ * <p>
+ * 3
+ * / \
+ * 4   5
+ * / \   \
+ * 1   3   1
  * 输出: 9
  * 解释: 小偷一晚能够盗取的最高金额 = 4 + 5 = 9.
  *
@@ -81,14 +81,14 @@ public class HouseRobberIII337 {
         HouseRobberIII337 robberIII = new HouseRobberIII337();
         System.out.println(robberIII.rob(root));
     }
-}
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-    TreeNode(int x) {
-        val = x;
+        TreeNode(int x) {
+            val = x;
+        }
     }
 }

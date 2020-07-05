@@ -34,12 +34,15 @@ public class BinaryTreeInorderTraversal94 {
         Stack<TreeNode> stack = new Stack<>();
         TreeNode curNode = root;
         while (null != curNode || !stack.isEmpty()) {
+            // 如果有左节点，则一直找到最左子节点
             while (null != curNode) {
                 stack.push(curNode);
                 curNode = curNode.left;
             }
+            // 栈中最上面保存的是最左子节点，出栈
             curNode = stack.pop();
             res.add(curNode.val);
+            // 同样的方法处理它的右子树
             curNode = curNode.right;
         }
         return res;
