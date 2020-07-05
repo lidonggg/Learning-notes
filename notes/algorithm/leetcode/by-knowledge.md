@@ -78,6 +78,8 @@
 - [1367.二叉树中的链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LinkedListInBinaryTree1367.java)
 - [1379.找出克隆二叉树中的相同节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FindCorrespondingNodeInCloneTree1379.java)
 - [1429.N 叉树层序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/NaryTreeLevelOrderTraversal429.java)
+
+- [面试题04-06.二叉搜索树的后继者](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/SuccessorOfBst0406.java)
 #### 困难
 
 ### 哈希表

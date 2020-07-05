@@ -52,7 +52,7 @@ public class SwapNodesInPairs24 {
 
         ListNode prevNode = dummy;
 
-        while ((head != null) && (head.next != null)) {
+        while ((null != head) && (null != head.next)) {
             ListNode firstNode = head;
             ListNode secondNode = head.next;
 
