@@ -1,6 +1,7 @@
 package com.lidong.algorithm.leetcode.medium.interval;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * 无重叠区间（中等-435）
@@ -48,7 +49,7 @@ public class NonOverlappingIntervals435 {
     public int eraseOverlapIntervals(int[][] intervals) {
         int n = intervals.length;
         // 先根据区间左端点进行排序
-        Arrays.sort(intervals, (a1, a2) -> Integer.compare(a1[0], a2[0]));
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 
         int rem = 0;
         // 保存最后留下来的区间
