@@ -64,7 +64,7 @@ public class CheckCompletenessOfABinaryTree958 {
         return true;
     }
 
-    private class TreeNode {
+    private static class TreeNode {
         int val;
 
         TreeNode left;
