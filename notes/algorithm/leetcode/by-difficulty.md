@@ -13,6 +13,7 @@
 - [107.二叉树的层次遍历II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/LevelOrderBottom107.java)
 - [108.将有序数组转换为二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dfs/ConvertSortedArrayToBinarySearchTree108.java)
 - [111.二叉树的最小深度](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/MinDepth111.java)
+- [112.路径总和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dfs/PathSum112.java)
 - [141.环形链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/linkedlist/LinkedListCircle.java#L10)
 - [198.打家劫舍](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/HouseRobber198.java)
 - [226.翻转二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/tree/InvertBinaryTree226.java)

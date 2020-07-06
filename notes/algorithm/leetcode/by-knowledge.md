@@ -223,6 +223,7 @@
 #### 简单
 - [104.二叉树最大深度](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dfs/MaxDepthOfBinaryTree104.java)
 - [108.将有序数组转换为二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dfs/ConvertSortedArrayToBinarySearchTree108.java)
+- [112.路径总和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dfs/PathSum112.java)
 
 #### 中等
 - [79.单词搜索](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/WordSearch79.java)

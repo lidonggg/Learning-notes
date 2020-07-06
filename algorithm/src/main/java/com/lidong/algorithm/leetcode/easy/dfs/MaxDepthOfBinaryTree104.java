@@ -38,7 +38,7 @@ public class MaxDepthOfBinaryTree104 {
         return Math.max(leftHeight, rightHeight) + 1;
     }
 
-    class TreeNode {
+    private static class TreeNode {
         int val;
 
         TreeNode left;
