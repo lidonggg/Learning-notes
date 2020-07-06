@@ -50,6 +50,7 @@
 - [328.奇偶链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/OddEvenLinkedList328.java)
 - [445.两数相加 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/AddTwoNumbersII445.java)
 - [725.分割链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/SplitLinkedListInParts725.java)
+- [817.链表组件](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/LinkedListComponents817.java)
 - [1019.链表中下一个更大节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/NextGreaterNodeInLinkedList1019.java)
 
 #### 困难
@@ -124,6 +125,15 @@
 #### 中等
 - [215.数组中的第 K 个最大元素](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/sort/KthLargestElementInAnArray215.java)
 - [973.最接近原点的 K 个点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/sort/KClosestPointsToOrigin973.java)
+#### 困难
+
+### 图
+
+#### 简单
+
+#### 中等
+- [785.判断二分图](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/graph/IsGraphBipartite785.java)
+
 #### 困难
 
 
