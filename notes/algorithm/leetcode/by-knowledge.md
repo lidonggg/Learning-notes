@@ -41,6 +41,7 @@
 - [24.两两交换链表中的节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/SwapNodesInPairs24.java)
 - [61.旋转链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/RotateList61.java)
 - [82.删除排序链表中的重复元素 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/RemoveDuplicatesFromSortedListII82.java)
+- [86.分隔链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/PartitionList86.java)
 - [92.反转链表 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ReverseLinkedListII92.java)
 - [109.有序链表转换二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ConvertSortedListToBinarySearchTree109.java)
 - [138.复制带随机指针的链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/CopyListWithRandomPointer138.java)
