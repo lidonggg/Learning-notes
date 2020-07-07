@@ -117,6 +117,7 @@
 #### 中等
 - [347.前 k 个高频元素](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/priorityqueue/TopKFrequentElements347.java)
 - [451.根据字符出现频率排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/priorityqueue/SortCharactersByFrequency451.java)
+- [692.前 k 个高频单词](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/priorityqueue/TopKFrequentWords692.java)
 #### 困难
 
 ### 排序
