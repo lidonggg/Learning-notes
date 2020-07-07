@@ -133,6 +133,7 @@
 - [646.最长数对链](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/MaximumLengthOfPairChain646.java)
 - [647.回文子串](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/PalindromicSubstrings647.java)
 - [650.只有两个键的键盘](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/KeyboardWith2Keys650.java)
+- [652.寻找重复的子树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FindDuplicateSubtrees652.java)
 - [692.前 k 个高频单词](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/priorityqueue/TopKFrequentWords692.java)
 - [695.岛屿的最大面积](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/MaxAreaOfIsland695.java)
 - [698.划分为k个相等的子集](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/PartitionToKEqualSumSubsets698.java)
