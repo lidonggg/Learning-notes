@@ -93,6 +93,7 @@
 - [143.重排链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/ReorderList143.java)
 - [144.二叉树的前序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/BinaryTreePreorderTraversal144.java)
 - [147.对链表进行插入排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/InsertionSortList147.java)
+- [148.排序链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/sort/SortList148.java)
 - [153.寻找旋转排序数组中的最小值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/FindMinimumInRotatedSortedArray153.java)
 - [162.寻找峰值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/FindPeakElement162.java)
 - [188.买卖股票的最佳时机 IV](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/stock/BestTimeToBuyAndSellStockIV188.java)

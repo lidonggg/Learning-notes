@@ -47,12 +47,13 @@ public class SumOfNodesWithEvenValuedGrandparent1315 {
         if (null == root) {
             return;
         }
+        // 如果当前节点的值不是偶数，那去递归遍历它的左右子树
         if (root.val % 2 != 0) {
             dfs(root.left);
             dfs(root.right);
             return;
         }
-
+        // 否则 sum + 左右孙子节点值
         if (null != root.left) {
             sum += null == root.left.left ? 0 : root.left.left.val;
             sum += null == root.left.right ? 0 : root.left.right.val;

@@ -35,8 +35,15 @@ package com.lidong.algorithm.leetcode.medium.tree;
  */
 public class ValidateBinarySearchTree98 {
 
+    /**
+     * 执行用时：0 ms，在所有 Java 提交中击败了 100.00% 的用户
+     * 内存消耗：39.4 MB，在所有 Java 提交中击败了 17.39% 的用户
+     *
+     * @param root root
+     * @return true / false
+     */
     public boolean isValidBST(TreeNode root) {
-        return helper(root, null, null);
+        return dfs(root, null, null);
     }
 
     /**
@@ -47,7 +54,7 @@ public class ValidateBinarySearchTree98 {
      * @param upper 当前子树值上界
      * @return true 如果当前子树是一棵搜索树
      */
-    private boolean helper(TreeNode root, Integer lower, Integer upper) {
+    private boolean dfs(TreeNode root, Integer lower, Integer upper) {
         if (null == root) {
             return true;
         }
@@ -58,10 +65,10 @@ public class ValidateBinarySearchTree98 {
         if (null != upper && val >= upper) {
             return false;
         }
-        if (!helper(root.right, val, upper)) {
+        if (!dfs(root.right, val, upper)) {
             return false;
         }
-        return helper(root.left, lower, val);
+        return dfs(root.left, lower, val);
     }
 
     private static class TreeNode {
