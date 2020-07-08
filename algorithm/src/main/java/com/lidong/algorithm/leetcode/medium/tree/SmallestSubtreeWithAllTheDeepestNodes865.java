@@ -30,6 +30,8 @@ package com.lidong.algorithm.leetcode.medium.tree;
 public class SmallestSubtreeWithAllTheDeepestNodes865 {
 
     /**
+     * 方法一：判断左右子树是否包含最深的节点
+     *
      * 执行用时：0 ms，在所有 Java 提交中击败了 100.00% 的用户
      * 内存消耗：37.4 MB，在所有 Java 提交中击败了 50.00% 的用户
      *
@@ -67,14 +69,14 @@ public class SmallestSubtreeWithAllTheDeepestNodes865 {
             return null;
         }
         // 分别判断左右子树是否包含最深叶子节点
-        boolean leftFlag = isCurNodeIncludeDeepest(node.left, curDepth + 1, maxDepth);
-        boolean rightFlag = isCurNodeIncludeDeepest(node.right, curDepth + 1, maxDepth);
+        boolean ld = isCurNodeIncludeDeepest(node.left, curDepth + 1, maxDepth);
+        boolean rd = isCurNodeIncludeDeepest(node.right, curDepth + 1, maxDepth);
         // 如果都包含，那么当前节点就是所求的节点
-        if (leftFlag && rightFlag) {
+        if (ld && rd) {
             return node;
         }
         // 如果只有左子树包含，那么再递归去找左子树
-        if (leftFlag) {
+        if (ld) {
             return minRoot(node.left, curDepth + 1, maxDepth);
         }
         return minRoot(node.right, curDepth + 1, maxDepth);
@@ -93,6 +95,40 @@ public class SmallestSubtreeWithAllTheDeepestNodes865 {
             return curDepth == maxDepth;
         }
         return isCurNodeIncludeDeepest(node.left, curDepth + 1, maxDepth) || isCurNodeIncludeDeepest(node.right, curDepth + 1, maxDepth);
+    }
+    
+    /**
+     * 方法二：直接比较左右子树的深度
+     *
+     * 执行用时：0 ms，在所有 Java 提交中击败了 100.00% 的用户
+     * 内存消耗：37.4 MB，在所有 Java 提交中击败了 50.00% 的用户
+     *
+     * @param root root
+     * @return lowest root
+     */
+    public TreeNode subtreeWithAllDeepest(TreeNode root) {
+        if (root == null) {
+            return null;
+        }
+        // 计算左右深度
+        int ld = depth(root.left);
+        int rd = depth(root.right);
+        if (ld == rd) {
+            return root;
+        } else if (ld > rd) {
+            return subtreeWithAllDeepest(root.left);
+        } else {
+            return subtreeWithAllDeepest(root.right);
+        }
+    }
+
+    private int depth(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+        int left = depth(node.right);
+        int right = depth(node.left);
+        return Math.max(left, right) + 1;
     }
 
     private static class TreeNode {
