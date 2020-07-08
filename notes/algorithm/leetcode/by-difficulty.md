@@ -140,6 +140,7 @@
 - [698.划分为k个相等的子集](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/PartitionToKEqualSumSubsets698.java)
 - [714.买卖股票的最佳时机含手续费](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/stock/BestTimeToBuyAndSellStockWithTransactionFee714.java)
 - [725.分割链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/SplitLinkedListInParts725.java)
+- [735.行星碰撞](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/MinimumRemoveToMakeValidParentheses1249.java)
 - [739.每日温度（单调递减栈）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/DailyTemperatures739.java)
 - [740.删除与获得点数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/DeleteAndEarn740.java)
 - [763.划分字母区间](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/PartitionLabels763.java)

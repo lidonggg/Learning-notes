@@ -107,6 +107,7 @@
 #### 中等
 - [144.二叉树的前序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/BinaryTreePreorderTraversal144.java)
 - [503.下一个更大元素 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/NextGreaterElementII503.java)
+- [735.行星碰撞](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/MinimumRemoveToMakeValidParentheses1249.java)
 - [739.每日温度（单调递减栈）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/DailyTemperatures739.java)
 - [946.验证栈序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/ValidateStackSequences946.java)
 - [1249.移除无效的括号](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/MinimumRemoveToMakeValidParentheses1249.java)
