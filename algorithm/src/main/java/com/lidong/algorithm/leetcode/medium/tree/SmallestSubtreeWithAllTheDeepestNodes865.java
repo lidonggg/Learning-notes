@@ -77,11 +77,7 @@ public class SmallestSubtreeWithAllTheDeepestNodes865 {
         if (leftFlag) {
             return minRoot(node.left, curDepth + 1, maxDepth);
         }
-        // 右子树同理
-        if (rightFlag) {
-            return minRoot(node.right, curDepth + 1, maxDepth);
-        }
-        return null;
+        return minRoot(node.right, curDepth + 1, maxDepth);
     }
 
     /**
