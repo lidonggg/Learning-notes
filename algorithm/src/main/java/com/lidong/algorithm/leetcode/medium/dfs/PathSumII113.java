@@ -1,6 +1,7 @@
 package com.lidong.algorithm.leetcode.medium.dfs;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -126,6 +127,38 @@ public class PathSumII113 {
         }
         // 进行回溯
         vals.remove(vals.size() - 1);
+    }
+    
+    /**
+     * 方法三
+     *
+     * 执行用时：1 ms，在所有 Java 提交中击败了 100.00% 的用户
+     * 内存消耗：40.3 MB，在所有 Java 提交中击败了 5.26% 的用户
+     *
+     * @param root root
+     * @param sum  sum
+     * @return res
+     */
+    public List<List<Integer>> pathSum3(TreeNode root, int sum) {
+        List<List<Integer>> res = new ArrayList<>();
+        dfs(root, 0, sum, new LinkedList<>(), res);
+        return res;
+    }
+
+    private void dfs(TreeNode root, int curSum, int sum, LinkedList<Integer> tmpList, List<List<Integer>> resList) {
+        if (null == root) {
+            return;
+        }
+        curSum += root.val;
+        tmpList.add(root.val);
+        if (curSum == sum && null == root.left && null == root.right) {
+            resList.add(new ArrayList<>(tmpList));
+        }
+
+        dfs(root.left, curSum, sum, tmpList, resList);
+        dfs(root.right, curSum, sum, tmpList, resList);
+        // 回溯
+        tmpList.removeLast();
     }
 
     private static class TreeNode {
