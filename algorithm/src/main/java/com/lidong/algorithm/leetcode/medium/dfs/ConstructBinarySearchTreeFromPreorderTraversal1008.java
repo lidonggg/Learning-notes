@@ -131,7 +131,7 @@ public class ConstructBinarySearchTreeFromPreorderTraversal1008 {
      * 这种方法效率比较低
      */
 
-    private class TreeNode {
+    private static class TreeNode {
         int val;
 
         TreeNode left;

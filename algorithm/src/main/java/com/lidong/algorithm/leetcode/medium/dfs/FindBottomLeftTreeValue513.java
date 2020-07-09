@@ -45,4 +45,16 @@ public class FindBottomLeftTreeValue513 {
             dfs(root.right, curDepth + 1);
         }
     }
+
+    private static class TreeNode {
+        int val;
+
+        TreeNode left;
+
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
 }
