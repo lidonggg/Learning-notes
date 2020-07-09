@@ -144,6 +144,14 @@
 
 #### 困难
 
+### 字典树（Trie）
+#### 简单
+
+#### 中等
+- [面试题17_13.恢复空格](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/trie/ReSpaceI1713.java)
+
+#### 困难
+
 
 ### 动态规划
 
