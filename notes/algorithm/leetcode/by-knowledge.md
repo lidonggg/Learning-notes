@@ -338,6 +338,8 @@
 - [80.删除排序数组中的重复项 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/RemoveDuplicatesFromSortedArrayII80.java)
 - [763.划分字母区间](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/PartitionLabels763.java)
 
+- [面试题16_06.最小差](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SmallestDifference1606.java)
+
 #### 困难
 
 ### Sliding window
