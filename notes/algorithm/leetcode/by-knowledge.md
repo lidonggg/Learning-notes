@@ -328,6 +328,7 @@
 
 #### 中等
 - [15.三数之和](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SumOf3Nums15.java)
+- [18.四数之和](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SumFour18.java)
 - [19.删除链表中的倒数第 N 个节点](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/RemoveNthNodeFromEndOfList19.java)
 - [75.颜色分类](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SortColors75.java)
 - [80.删除排序数组中的重复项 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/RemoveDuplicatesFromSortedArrayII80.java)
