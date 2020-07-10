@@ -63,18 +63,18 @@ public class ReSpaceI1713 {
             for (int j = i; j >= 1; --j) {
                 int t = sentence.charAt(j - 1) - 'a';
                 // 如果当前字符不存在，那么说明字符 j ~ i 不能构成一个单词
-                if (null == curPos.next[t]) {
+                if (null == curPos.nexts[t]) {
                     break;
                 }
                 // 如果找到了一个单词，那么 dp[i] = min(dp[i], dp[j - 1])
-                if (curPos.next[t].isEnd) {
+                if (curPos.nexts[t].isEnd) {
                     dp[i] = Math.min(dp[i], dp[j - 1]);
                 }
                 if (dp[i] == 0) {
                     break;
                 }
                 // 当前是单词的一部分，继续去看前面一个单词
-                curPos = curPos.next[t];
+                curPos = curPos.nexts[t];
             }
         }
 
@@ -82,11 +82,11 @@ public class ReSpaceI1713 {
     }
 
     private static class Trie {
-        Trie[] next;
+        Trie[] nexts;
         boolean isEnd;
 
         Trie() {
-            this.next = new Trie[26];
+            this.nexts = new Trie[26];
             this.isEnd = false;
         }
 
@@ -102,10 +102,10 @@ public class ReSpaceI1713 {
                 int n = word.length();
                 for (int i = n - 1; i >= 0; --i) {
                     int idx = word.charAt(i) - 'a';
-                    if (null == curPos.next[idx]) {
-                        curPos.next[idx] = new Trie();
+                    if (null == curPos.nexts[idx]) {
+                        curPos.nexts[idx] = new Trie();
                     }
-                    curPos = curPos.next[idx];
+                    curPos = curPos.nexts[idx];
                 }
                 curPos.isEnd = true;
             }
