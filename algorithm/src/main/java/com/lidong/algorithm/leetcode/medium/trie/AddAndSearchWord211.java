@@ -85,6 +85,9 @@ public class AddAndSearchWord211 {
          * @param word word
          */
         void insert(String word) {
+            if (null == word || word.length() == 0) {
+                return;
+            }
             Trie curPos = this;
             for (int i = 0; i < word.length(); ++i) {
                 int idx = word.charAt(i) - 'a';

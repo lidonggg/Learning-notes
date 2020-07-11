@@ -151,7 +151,8 @@
 #### 简单
 
 #### 中等
-- [211.添加与搜索单词 - 数据结构设计(https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/trie/AddAndSearchWord211.java)
+- [208.实现 trie 树（前缀树）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/trie/ImplementTrie208.java)
+- [211.添加与搜索单词 - 数据结构设计](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/trie/AddAndSearchWord211.java)
 
 - [648.单词替换](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/trie/ReplaceWords648.java)
 

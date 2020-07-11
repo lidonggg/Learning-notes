@@ -98,6 +98,9 @@ public class ReSpaceI1713 {
          */
         void init(String[] dictionary) {
             for (String word : dictionary) {
+                if (null == word || word.length() == 0) {
+                    continue;
+                }
                 Trie curPos = this;
                 int n = word.length();
                 for (int i = n - 1; i >= 0; --i) {
