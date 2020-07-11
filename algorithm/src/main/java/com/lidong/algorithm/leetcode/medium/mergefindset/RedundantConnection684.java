@@ -9,7 +9,7 @@ package com.lidong.algorithm.leetcode.medium.mergefindset;
  * 输入一个图，该图由一个有着N个节点 (节点值不重复1, 2, ..., N) 的树及一条附加的边构成。
  * 附加的边的两个顶点包含在1到N中间，这条附加的边不属于树中已存在的边。
  * 结果图是一个以边组成的二维数组。每一个边的元素是一对[u, v] ，满足 u < v，表示连接顶点u 和v的无向图的边。
- * 返回一条可以删去的边，使得结果图是一个有着N个节点的树。如果有多个答案，则返回二维数组中最后出现的边。答案边 [u, v] 应满足相同的格式 u < v。
+ * 返回一条可以删去的边，使得结果图是一个有着 N 个节点的树。如果有多个答案，则返回二维数组中最后出现的边。答案边 [u, v] 应满足相同的格式 u < v。
  * <p>
  * 示例 1：
  * 输入: [[1,2], [1,3], [2,3]]
@@ -49,10 +49,11 @@ public class RedundantConnection684 {
         int n = edges.length;
         int[] parent = new int[n + 1];
         // 最初始的状态每个节点都是自己的代表，也是自己所在集合的代表
-        for (int i = 1; i < n; ++i) {
+        for (int i = 1; i <= n; ++i) {
             parent[i] = i;
         }
         for (int[] edge : edges) {
+            // 说明出现了环
             if (find(parent, edge[0]) == find(parent, edge[1])) {
                 return edge;
             } else {
@@ -70,11 +71,10 @@ public class RedundantConnection684 {
      * @return 代表节点
      */
     private int find(int[] parent, int x) {
-        int tp = x;
-        while (parent[tp] != tp) {
-            tp = parent[tp];
+        while (parent[x] != x) {
+            x = parent[x];
         }
-        return tp;
+        return x;
     }
 
     /**

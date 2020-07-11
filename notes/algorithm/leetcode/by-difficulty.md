@@ -124,7 +124,7 @@
 - [378.有序矩阵中第 K 小的元素](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/KthSmallestElementInASortedMatrix378.java)
 - [413.等差数列划分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/NumberOfArithmeticSlices413.java)
 - [426.二叉搜索树转换为双向循环链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/BstToLinkedList426.java)
-- [430.扁平化多级双向链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/FlattenMultilevelDoublyLinkedList430.java
+- [430.扁平化多级双向链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/FlattenMultilevelDoublyLinkedList430.java)
 - [435.无重叠区间](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/interval/NonOverlappingIntervals435.java)
 - [445.两数相加 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/AddTwoNumbersII445.java)
 - [451.根据字符出现频率排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/priorityqueue/SortCharactersByFrequency451.java)
@@ -160,6 +160,7 @@
 - [875.爱吃香蕉的珂珂](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/KokoEatingBananas875.java)
 - [931.下降路径最小和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/MinFallingPathSum931.java)
 - [946.验证栈序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/ValidateStackSequences946.java)
+- [947.移除最多的同行或同列石头](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/mergefindset/MostStonesRemovedWithSameRowOrColumn947.java)
 - [951.翻转等价二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FlipEquivalentBinaryTrees951.java)
 - [958.二叉树的完全性检验](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/CheckCompletenessOfABinaryTree958.java)
 - [967.连续差相同的数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/NumsSameConsecDiff967.java)
