@@ -158,6 +158,16 @@
 
 - [面试题17_13.恢复空格](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/trie/ReSpaceI1713.java)
 
+### 并查集
+
+#### 简单
+
+#### 中等
+- [684.冗余连接](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/mergefindset/RedundantConnection684.java)
+
+#### 困难
+
+
 #### 困难
 
 
