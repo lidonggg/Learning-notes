@@ -90,6 +90,8 @@ public class DungeonGame174 {
 
     /**
      * 方法二：直接 dp，从后往前
+     * 从后往前可以保证我们所求的结果就是最小的，因为我们是按照到达最后一格之后，剩余的最小生命值为 1 来看的。
+     * 这种情况正是所需初始 hp 最小时到达终点的情况。
      * <p>
      * 来自 leetcode 官方题解：https://leetcode-cn.com/problems/dungeon-game/solution/di-xia-cheng-you-xi-by-leetcode-solution/
      * <p>
