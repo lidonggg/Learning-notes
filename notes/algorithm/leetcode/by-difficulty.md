@@ -167,6 +167,7 @@
 - [973.最接近原点的 K 个点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/sort/KClosestPointsToOrigin973.java)
 - [979.在二叉树中分配硬币](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/DistributeCoinsInBinaryTree979.java)
 - [986.区间列表的交集](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/interval/IntervalListIntersections986.java)
+- [990.等式方程的可满足性](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/mergefindset/SatisfiabilityOfEqualityEquations990.java)
 - [994.腐烂的橘子](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/RottingOranges994.java)
 - [1008.先序遍历构造二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ConstructBinarySearchTreeFromPreorderTraversal1008.java)
 - [1011.在 D 天内送达包裹的能力](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/CapacityToShipPackagesWithinDDays1011.java)

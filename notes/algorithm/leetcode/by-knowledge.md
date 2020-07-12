@@ -165,6 +165,7 @@
 #### 中等
 - [684.冗余连接](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/mergefindset/RedundantConnection684.java)
 - [947.移除最多的同行或同列石头](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/mergefindset/MostStonesRemovedWithSameRowOrColumn947.java)
+- [990.等式方程的可满足性](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/mergefindset/SatisfiabilityOfEqualityEquations990.java)
 #### 困难
 
 
