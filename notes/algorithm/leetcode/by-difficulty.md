@@ -122,6 +122,7 @@
 - [338.比特位计数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/CountingBits338.java)
 - [343.整数拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/IntegerBreak343.java)
 - [347.前 k 个高频元素](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/priorityqueue/TopKFrequentElements347.java)
+- [357.计算各个位数不同的数字个数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/CountNumbersWithUniqueDigits357.java)
 - [378.有序矩阵中第 K 小的元素](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/KthSmallestElementInASortedMatrix378.java)
 - [413.等差数列划分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/NumberOfArithmeticSlices413.java)
 - [426.二叉搜索树转换为双向循环链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/BstToLinkedList426.java)
