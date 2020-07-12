@@ -216,6 +216,7 @@
 #### 困难
 - [44.通配符匹配](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/WildcardMatching44.java)
 - [72.最短编辑距离](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/EditDistance72.java)
+- [174.地下城游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/stock/DungeonGame174.java)
 - [188.买卖股票的最佳时机 IV](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/stock/BestTimeToBuyAndSellStockIV188.java)
 
 
