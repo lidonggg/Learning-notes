@@ -77,6 +77,7 @@
 - [652.寻找重复的子树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FindDuplicateSubtrees652.java)
 - [814.二叉树剪枝](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/BinaryTreePruning814.java)
 - [865.具有所有最深结点的最小子树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/SmallestSubtreeWithAllTheDeepestNodes865.java)
+- [894.所有可能的满二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/AllPossibleFullBinaryTrees894.java)
 - [951.翻转等价二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FlipEquivalentBinaryTrees951.java)
 - [958.二叉树的完全性检验](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/CheckCompletenessOfABinaryTree958.java)
 - [979.在二叉树中分配硬币](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/DistributeCoinsInBinaryTree979.java)
