@@ -363,6 +363,7 @@
 
 #### 中等
 - [3.无重复字符的最长子串](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/LongestSubstringWithoutRepeatingCharacters3.java)
+- [1343.大小为 K 且平均值大于等于阈值的子数组数目](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/NumOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold1343.java)
 - [1423.可获得的最大点数](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/MaximumPointsCanObtainFromCards1423.java)
 
 #### 困难
