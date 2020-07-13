@@ -198,6 +198,7 @@
 - [1429.N 叉树层序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/NaryTreeLevelOrderTraversal429.java)
 - [1462.课程表 IV](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/graph/CourseScheduleIV1462.java)
 - [1482.制作 m 束花所需的最少天数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/MinimumNumberOfDaysToMakeMBouquets1482.java)
+- [1493.删掉一个元素以后全为 1 的最长子数组](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/LongestSubarrayOf1AfterDeletingOneElement1493.java)
 
 
 - [面试题04-06.二叉搜索树的后继者](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/SuccessorOfBst0406.java)

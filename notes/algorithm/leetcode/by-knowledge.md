@@ -25,7 +25,7 @@
 - [59.螺旋矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrixII59.java)
 - [78.子集](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/Subsets78.java)
 - [240.搜索二维矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SearchIn2DMatrixII240.java)
-
+- [1493.删掉一个元素以后全为 1 的最长子数组](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/LongestSubarrayOf1AfterDeletingOneElement1493.java)
 #### 困难
 - [42.接雨水](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/array/TrappingRainWater42.java)
 - [128.最长连续序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/array/LongestConsecutiveSequence128.java)
