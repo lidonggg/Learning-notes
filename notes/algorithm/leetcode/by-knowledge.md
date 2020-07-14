@@ -97,6 +97,7 @@
 #### 中等
 - [274.H 指数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/hash/HIndex274.java)
 - [508.出现次数最多的子树元素和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/hash/MostFrequentSubtreeSum508.java)
+- [1338.数组大小减半](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/hash/ReduceArraySizeToTheHalf1338.java)
 
 
 

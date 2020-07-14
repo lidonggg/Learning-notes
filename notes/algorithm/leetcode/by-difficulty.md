@@ -191,6 +191,7 @@
 - [1306.跳跃游戏 III](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bfs/JumpGameIII1306.java)
 - [1315.祖父节点值为偶数的节点和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/SumOfNodesWithEvenValuedGrandparent1315.java)
 - [1329.将矩阵按照对角线排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/sort/SortMatrixDiagonally1329.java)
+- [1338.数组大小减半](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/hash/ReduceArraySizeToTheHalf1338.java)
 - [1343.大小为 K 且平均值大于等于阈值的子数组数目](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/NumOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold1343.java)
 - [1367.二叉树中的链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LinkedListInBinaryTree1367.java)
 - [1379.找出克隆二叉树中的相同节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FindCorrespondingNodeInCloneTree1379.java)
