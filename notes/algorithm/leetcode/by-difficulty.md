@@ -205,6 +205,7 @@
 
 
 - [面试题04-06.二叉搜索树的后继者](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/SuccessorOfBst0406.java)
+- [面试题04_12.求和路径](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/PathsWithSumI0412.java)
 - [面试题08-11.单词拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/medium/CoinLCCI0811.java)
 - [面试题16_06.最小差](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SmallestDifference1606.java)
 - [面试题17_13.恢复空格](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/trie/ReSpaceI1713.java)
