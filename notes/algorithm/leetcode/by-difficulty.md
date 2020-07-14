@@ -161,6 +161,7 @@
 - [817.链表组件](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/LinkedListComponents817.java)
 - [841.钥匙和房间](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/KeysAndRooms841.java)
 - [865.具有所有最深结点的最小子树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/SmallestSubtreeWithAllTheDeepestNodes865.java)
+- [889.根据前序和后序遍历构造二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ConstructBinaryTreeFromPreorderAndPostorderTraversal889.java)
 - [894.所有可能的满二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/AllPossibleFullBinaryTrees894.java)
 - [875.爱吃香蕉的珂珂](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/KokoEatingBananas875.java)
 - [931.下降路径最小和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/MinFallingPathSum931.java)
