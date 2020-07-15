@@ -206,6 +206,7 @@
 - [343.整数拆分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/IntegerBreak343.java)
 - [357.计算各个位数不同的数字个数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/CountNumbersWithUniqueDigits357.java)
 - [413.等差数列划分](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/NumberOfArithmeticSlices413.java)
+- [583.两个字符串的删除操作](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/DeleteOperationForTwoStrings583.java)
 - [646.最长数对链](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/MaximumLengthOfPairChain646.java)
 - [647.回文子串](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/PalindromicSubstrings647.java)
 - [650.只有两个键的键盘](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/KeyboardWith2Keys650.java)
