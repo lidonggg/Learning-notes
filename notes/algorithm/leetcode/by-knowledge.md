@@ -176,6 +176,14 @@
 
 #### 困难
 
+### 递归
+
+#### 简单
+
+#### 中等
+- [1387.将整数按权重排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/recurse/SortIntegersByWeight1387.java)
+#### 困难
+
 
 ### 动态规划
 

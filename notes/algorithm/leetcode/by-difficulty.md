@@ -201,6 +201,7 @@
 - [1343.大小为 K 且平均值大于等于阈值的子数组数目](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/NumOfSubarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold1343.java)
 - [1367.二叉树中的链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/LinkedListInBinaryTree1367.java)
 - [1379.找出克隆二叉树中的相同节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/FindCorrespondingNodeInCloneTree1379.java)
+- [1387.将整数按权重排序](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/recurse/SortIntegersByWeight1387.java)
 - [1391.检查网格中的有效路径](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/CheckValidPathInGrid1391.java)
 - [1423.可获得的最大点数](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/MaximumPointsCanObtainFromCards1423.java)
 - [1429.N 叉树层序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/NaryTreeLevelOrderTraversal429.java)
