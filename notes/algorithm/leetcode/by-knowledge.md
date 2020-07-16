@@ -91,6 +91,7 @@
 
 
 #### 困难
+- [297.二叉树的序列化与反序列化](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/tree/SerializeAndDeserializeBinaryTree297.java)
 
 ### 哈希表
 

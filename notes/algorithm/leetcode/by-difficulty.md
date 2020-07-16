@@ -226,4 +226,5 @@
 - [146.LRU缓存机制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/linkedlist/Lruache146.java)
 - [174.地下城游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/dynamic/stock/DungeonGame174.java)
 - [239.滑动窗口最大值](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/slidingwindow/SlidingWindowMaximum239.java)
+- [297.二叉树的序列化与反序列化](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/tree/SerializeAndDeserializeBinaryTree297.java)
 
