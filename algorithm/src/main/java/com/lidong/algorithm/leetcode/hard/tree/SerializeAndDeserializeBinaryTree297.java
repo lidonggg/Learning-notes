@@ -62,7 +62,7 @@ public class SerializeAndDeserializeBinaryTree297 {
      */
     public TreeNode deserialize(String data) {
         String[] arr = data.split(",");
-        List<String> list = new LinkedList<String>(Arrays.asList(arr));
+        List<String> list = new LinkedList<>(Arrays.asList(arr));
         return deserializeHelper(list);
     }
 

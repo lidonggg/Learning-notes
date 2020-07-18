@@ -347,6 +347,8 @@
 
 - [300.最长上升子序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/LongestIncreasingSubsequence300.java)
 
+- [1414.和为 K 的最少斐波那契数字数目](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/FindMinimumNumOfFibNumsWhoseSumIsK1414.java)
+
 #### 困难
 
 ### 拓扑排序
