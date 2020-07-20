@@ -200,7 +200,7 @@
 
 
 #### 中等
-
+- [5.最长回文子串](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/LongestPalindromicSubstring5.java)
 - [62.三角形最小路径和](https://github.com/lidonggg/Learning-notes/blob/master/notes/algorithm/leetcode/dynamic/62-不同路径.md)
 - [63.不同路径 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/UniquePathsII63.java)
 - [91.解码方法](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/DecodeWays91.java)

@@ -42,6 +42,7 @@
 #### 中等
 - [2.两数相加](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/AddTwoNumbers2.java)
 - [3.无重复字符的最长子串](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/LongestSubstringWithoutRepeatingCharacters3.java)
+- [5.最长回文子串](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/LongestPalindromicSubstring5.java)
 - [8.字符串转换整数 (atoi)](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/string/StringToInteger8.java)
 - [12.整数转罗马数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/string/IntegerToRoman12.java)
 - [15.三数之和](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/twopointers/SumOf3Nums15.java)
