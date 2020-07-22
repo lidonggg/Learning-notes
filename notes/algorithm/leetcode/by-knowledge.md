@@ -327,6 +327,8 @@
 - [面试题04-06.二叉搜索树的后继者](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/SuccessorOfBst0406.java)
 
 #### 困难
+- [154.寻找旋转排序数组中的最小值 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/binarysearch/FindMinimumInRotatedSortedArrayII154.java)
+
 
 ### 回溯
 
