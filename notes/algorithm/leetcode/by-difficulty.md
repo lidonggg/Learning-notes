@@ -207,6 +207,7 @@
 - [1414.和为 K 的最少斐波那契数字数目](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/FindMinimumNumOfFibNumsWhoseSumIsK1414.java)
 - [1423.可获得的最大点数](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/MaximumPointsCanObtainFromCards1423.java)
 - [1429.N 叉树层序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/tree/NaryTreeLevelOrderTraversal429.java)
+- [1442.形成两个异或相等数组的三元组数目](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bitmanipulate/CountTripletsCanFormTwoArraysOfEqualXOR1442.java)
 - [1462.课程表 IV](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/graph/CourseScheduleIV1462.java)
 - [1482.制作 m 束花所需的最少天数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/MinimumNumberOfDaysToMakeMBouquets1482.java)
 - [1493.删掉一个元素以后全为 1 的最长子数组](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/LongestSubarrayOf1AfterDeletingOneElement1493.java)

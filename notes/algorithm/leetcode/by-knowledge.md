@@ -410,4 +410,5 @@
 - [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/FindTheDifference389.java)
 #### 中等
 - [260.只出现一次的数字 III](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bitmanipulate/SingleNumberIII260.java)
+- [1442.形成两个异或相等数组的三元组数目](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bitmanipulate/CountTripletsCanFormTwoArraysOfEqualXOR1442.java)
 #### 困难
