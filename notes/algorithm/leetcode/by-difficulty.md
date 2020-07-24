@@ -182,6 +182,7 @@
 - [1008.先序遍历构造二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/ConstructBinarySearchTreeFromPreorderTraversal1008.java)
 - [1011.在 D 天内送达包裹的能力](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/CapacityToShipPackagesWithinDDays1011.java)
 - [1019.链表中下一个更大节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/NextGreaterNodeInLinkedList1019.java)
+- [1025.除数博弈](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/DivisorGame1025.java)
 - [1027.最长等差序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/LongestArithmeticSequence1027.java)
 - [1053.交换一次的先前排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/PreviousPermutationWithOneSwap1053.java)
 - [1110.删点成林](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/DeleteNodesAndReturnForest1110.java)
