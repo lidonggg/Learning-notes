@@ -331,6 +331,7 @@
 #### 困难
 - [154.寻找旋转排序数组中的最小值 II](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/binarysearch/FindMinimumInRotatedSortedArrayII154.java)
 
+- [410.分割数组的最大值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/binarysearch/SplitArrayLargestSum410.java)
 
 ### 回溯
 
