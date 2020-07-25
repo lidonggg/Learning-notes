@@ -106,7 +106,7 @@ public class SmallestSubtreeWithAllTheDeepestNodes865 {
      * @param root root
      * @return lowest root
      */
-    public TreeNode subtreeWithAllDeepest(TreeNode root) {
+    public TreeNode subtreeWithAllDeepest2(TreeNode root) {
         if (root == null) {
             return null;
         }
@@ -116,9 +116,9 @@ public class SmallestSubtreeWithAllTheDeepestNodes865 {
         if (ld == rd) {
             return root;
         } else if (ld > rd) {
-            return subtreeWithAllDeepest(root.left);
+            return subtreeWithAllDeepest2(root.left);
         } else {
-            return subtreeWithAllDeepest(root.right);
+            return subtreeWithAllDeepest2(root.right);
         }
     }
 
