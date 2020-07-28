@@ -250,6 +250,7 @@
 #### 中等
 - [46.数组全排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/backtrack/FullyArrange46.java)
 - [47.数组全排列2](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/backtrack/FullyArrange47.java)
+- [216.组合总和 III](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/backtrack/CombinationSumIII216.java)
 
 - [1219.黄金矿工](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/backtrack/PathWithMaximumGold1219.java)
 #### 困难
