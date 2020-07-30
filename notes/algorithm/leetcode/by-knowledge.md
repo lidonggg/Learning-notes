@@ -163,6 +163,8 @@
 
 - [648.单词替换](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/trie/ReplaceWords648.java)
 
+- [1268.搜索推荐系统](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/trie/SearchSuggestionsSystem1268.java)
+
 - [面试题17_13.恢复空格](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/trie/ReSpaceI1713.java)
 
 ### 并查集
