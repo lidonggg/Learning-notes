@@ -155,6 +155,7 @@
 - [695.岛屿的最大面积](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/MaxAreaOfIsland695.java)
 - [698.划分为k个相等的子集](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/PartitionToKEqualSumSubsets698.java)
 - [714.买卖股票的最佳时机含手续费](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/stock/BestTimeToBuyAndSellStockWithTransactionFee714.java)
+- [718.最长重复子数组](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/MaximumLengthOfRepeatedSubarray718.java)
 - [725.分割链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/SplitLinkedListInParts725.java)
 - [735.行星碰撞](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/MinimumRemoveToMakeValidParentheses1249.java)
 - [739.每日温度（单调递减栈）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/stack/DailyTemperatures739.java)
