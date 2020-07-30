@@ -15,6 +15,7 @@
 - [283.移动零](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/MoveZeroes283.java)
 - [1010.总持续时间可被 60 整除的歌曲](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PairsOfSongsWithTotalDurationsDivisibleby601010.java)
 - [1013.将数组分成和相等的三个部分](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PartitionArrayIntoThreePartsWithEqualSum1013.java)
+- [1304.和为零的 N 个唯一整数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/FindNUniqueIntegersSumUpToZero1304.java)
 
 #### 中等
 

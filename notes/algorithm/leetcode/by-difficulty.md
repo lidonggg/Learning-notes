@@ -37,6 +37,7 @@
 - [1013.将数组分成和相等的三个部分](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/PartitionArrayIntoThreePartsWithEqualSum1013.java)
 - [1021.转换成小写字母](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/RemoveOuterParentheses1021.java)
 - [1108.IP地址无效化](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/InvalidateIpAddr1108.java)
+- [1304.和为零的 N 个唯一整数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/FindNUniqueIntegersSumUpToZero1304.java)
 - [17-16.按摩师](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Massage1716.java)
 
 #### 中等
