@@ -353,8 +353,10 @@
 
 #### 简单
 
+- [55.跳跃游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/greedy/JumpGame55.java)
+
 #### 中等
-- [55.跳跃游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/JumpGame55.java)
+- [605.种花问题](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/CanPlaceFlowers605.java)
 
 - [300.最长上升子序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/LongestIncreasingSubsequence300.java)
 
