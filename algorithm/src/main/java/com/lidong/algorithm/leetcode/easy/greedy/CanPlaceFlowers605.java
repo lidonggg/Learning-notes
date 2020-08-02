@@ -53,6 +53,9 @@ public class CanPlaceFlowers605 {
                 flowerbed[i] = 1;
                 ++cnt;
             }
+            if (cnt >= k) {
+                return true;
+            }
         }
         // 边界特殊处理
         if (flowerbed[n - 1] == 0 && flowerbed[n - 2] == 0) {
