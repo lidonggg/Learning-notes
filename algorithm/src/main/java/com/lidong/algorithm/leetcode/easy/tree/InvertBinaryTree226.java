@@ -26,18 +26,19 @@ public class InvertBinaryTree226 {
         invert(node.left);
         invert(node.right);
     }
-}
 
+    private static class TreeNode {
 
-class TreeNode {
+        int val;
 
-    int val;
+        TreeNode left;
 
-    TreeNode left;
+        TreeNode right;
 
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
+        TreeNode(int x) {
+            val = x;
+        }
     }
 }
+
+

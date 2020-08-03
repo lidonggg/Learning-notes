@@ -30,6 +30,7 @@
 - [590.N 叉树的后序遍历](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/tree/NaryTreePostorderTraversal590.java)
 - [617.合并二叉树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/MergeTrees617.java)
 - [657.机器人能否返回原点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/JudgeCircle657.java)
+- [669.修剪二叉搜索树](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/tree/TrimBinarySearchTree669.java)
 - [709.转换成小写字母](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ToLowerCase709.java)
 - [771.转换成小写字母](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/NumJewelsInStones771.java)
 - [832.翻转图像](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/FlipAndInvertImage832.java)
