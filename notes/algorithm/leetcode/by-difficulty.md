@@ -43,6 +43,8 @@
 - [1304.和为零的 N 个唯一整数](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/FindNUniqueIntegersSumUpToZero1304.java)
 - [17-16.按摩师](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Massage1716.java)
 
+- [面试题17_04.消失的数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/MissingNumberI1704.java)
+
 #### 中等
 - [2.两数相加](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/AddTwoNumbers2.java)
 - [3.无重复字符的最长子串](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/slidingwindow/LongestSubstringWithoutRepeatingCharacters3.java)
