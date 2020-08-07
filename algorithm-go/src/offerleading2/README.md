@@ -16,13 +16,15 @@ finished:
 
 21    22      23      24      25      27     28
 
-31    35
+31    35      39
 
 40    47      48
 
 55I  55II
 
-56I  56II    
+56I  56II  
+
+66  
  
 ---
 
@@ -31,8 +33,10 @@ finished:
 #### 数组
 
 - [04.二维数组查找](array/two_dim_array_search04.go)
-- [40.最小的 k 个数字](array/minimum_k_numbers.go)
 - [21.调整数组顺序使奇数位于偶数前面](twopointers/adjust_array_order_to_make_odd_number_precedes_even_number21.go)
+- [39.数组中出现次数超过一半的数字](array/number_in_array_appears_more_than_half_the_time39.go)
+- [40.最小的 k 个数字](array/minimum_k_numbers40.go)
+- [66.构建乘积数组](array/building_product_array66.go)
 
 #### 字符串
 
