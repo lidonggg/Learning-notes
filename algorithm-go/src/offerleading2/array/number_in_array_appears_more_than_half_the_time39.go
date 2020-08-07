@@ -17,6 +17,12 @@
 //
 package main
 
+//
+// 投票
+//
+// @param nums nums
+// @return arr
+//
 func majorityElement(nums []int) int {
     res, cnt := 0, 0
     for _, num := range nums {

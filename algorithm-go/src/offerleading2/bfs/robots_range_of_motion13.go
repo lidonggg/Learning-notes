@@ -36,7 +36,7 @@ type point struct {
 }
 
 func main() {
-    m, n, k := 10, 10, 12
+    m, n, k := 1, 2, 1
     fmt.Println(bfs13(m, n, k))
     fmt.Println(dfs13Helper(m, n, k))
     fmt.Println(dynamic13(m, n, k))
@@ -51,8 +51,11 @@ func main() {
 // @return  total int 总格子数
 //
 func bfs13(m, n, k int) int {
-    if m == 0 || n == 0 || k == 0 {
+    if m == 0 || n == 0 {
         return 0
+    }
+    if k == 0 {
+        return 1
     }
     // visited 数组
     visited := make([][]bool, m)
@@ -98,8 +101,11 @@ func bfs13(m, n, k int) int {
 // @return  total int 总格子数
 //
 func dfs13Helper(m, n, k int) int {
-    if m == 0 || n == 0 || k == 0 {
+    if m == 0 || n == 0 {
         return 0
+    }
+    if k == 0 {
+        return 1
     }
     // visited 数组
     visited := make([][]bool, m)
@@ -150,8 +156,11 @@ func dfs13(m, n, k, x, y int, visited [][]bool) int {
 // @return  total int 总格子数
 //
 func dynamic13(m, n, k int) int {
-    if m == 0 || n == 0 || k == 0 {
+    if m == 0 || n == 0 {
         return 0
+    }
+    if k == 0 {
+        return 1
     }
     // visited 数组，这里用 int 类型来保存，方便下面的计算，res 可以直接加 visited[i][j]
     visited := make([][]int, m)
@@ -163,7 +172,7 @@ func dynamic13(m, n, k int) int {
     visited[0][0] = 1
 
     for i := 0; i < m; i++ {
-        for j := 0; j < m; j++ {
+        for j := 0; j < n; j++ {
             if (i == 0 && j == 0) || getSum(i)+getSum(j) > k {
                 continue
             }

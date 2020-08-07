@@ -19,6 +19,12 @@
 //
 package main
 
+//
+// 前缀和后缀乘积
+//
+// @param a arr
+// @return arr
+//
 func constructArr(a []int) []int {
 
     n := len(a)
