@@ -24,6 +24,7 @@
 - [344.反转字符串](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseString344.java)
 - [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/FindTheDifference389.java)
 - [401.二进制手表](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/backtrack/BinaryWatch401.java)
+- [405.数字转换为十六进制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/ConvertNumberToHexadecimal405.java)
 - [461.汉明距离](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/HamMingDistance461.java)
 - [476.数字的补数](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/NumberComplement476.java)
 - [509.斐波那契数列第 n 项的值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/interview/easy/Fibonacci101.java)

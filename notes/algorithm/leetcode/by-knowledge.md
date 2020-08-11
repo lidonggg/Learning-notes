@@ -419,6 +419,7 @@
 
 #### 简单
 - [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/FindTheDifference389.java)
+- [405.数字转换为十六进制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/ConvertNumberToHexadecimal405.java)
 - [476.数字的补数](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/NumberComplement476.java)
 
 - [面试题17_04.消失的数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/MissingNumberI1704.java)
