@@ -22,6 +22,7 @@
 - [283.移动零](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/array/MoveZeroes283.java)
 - [303.区域和检索 - 数组不可变](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dynamic/RangeSumQueryImmutable303.java)
 - [344.反转字符串](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/ReverseString344.java)
+- [371.两整数之和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/SumOfTwoIntegers371.java)
 - [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/FindTheDifference389.java)
 - [401.二进制手表](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/backtrack/BinaryWatch401.java)
 - [405.数字转换为十六进制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/ConvertNumberToHexadecimal405.java)

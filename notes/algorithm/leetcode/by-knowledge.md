@@ -418,6 +418,7 @@
 ### 位运算
 
 #### 简单
+- [371.两整数之和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/SumOfTwoIntegers371.java)
 - [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/FindTheDifference389.java)
 - [405.数字转换为十六进制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/ConvertNumberToHexadecimal405.java)
 - [476.数字的补数](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/NumberComplement476.java)
