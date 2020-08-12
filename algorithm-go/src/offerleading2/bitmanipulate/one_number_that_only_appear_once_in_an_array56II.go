@@ -28,6 +28,7 @@ func main() {
 //
 // @param   arr    []int    输入数组
 // @return   一个只出现一次的数字
+//
 func findOneNum(arr []int) (num int) {
     length := len(arr)
     if length <= 0 {
@@ -39,17 +40,16 @@ func findOneNum(arr []int) (num int) {
     for i := 0; i < length; i++ {
         bitMask := 1
         for j := 31; j >= 0; j-- {
-            bit := arr[i] & bitMask
-            if bit != 0 {
+            if (arr[i] & bitMask) != 0 {
                 bitSum[j] += 1
             }
-            bitMask = bitMask << 1
+            bitMask <<= 1
         }
     }
 
     num = 0
     for i := 0; i < 32; i++ {
-        num = num << 1
+        num <<= 1
         num += bitSum[i] % 3
     }
     return
