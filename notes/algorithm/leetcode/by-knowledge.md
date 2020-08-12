@@ -7,6 +7,7 @@
 #### 中等
 - [8.字符串转换整数 (atoi)](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/string/StringToInteger8.java)
 - [12.整数转罗马数字](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/string/IntegerToRoman12.java)
+- [43.字符串相乘](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/string/MultiplyStrings43.java)
 - [93.复原IP地址](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/string/RestoreIPAddresses93.java)
 
 #### 困难

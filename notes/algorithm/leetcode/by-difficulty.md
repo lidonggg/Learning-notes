@@ -62,6 +62,7 @@
 - [24.两两交换链表中的节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/SwapNodesInPairs24.java)
 - [31.下一个排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/NextPermutation31.java)
 - [34.在排序数组中查找元素的第一个和最后一个位置](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/binarysearch/FindFirstAndLastPositionOfElementInSortedArray34.java)
+- [43.字符串相乘](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/string/MultiplyStrings43.java)
 - [46.数组全排列](../../../algorithm/leetcode/medium/backtrack/FullyArrange46.java)
 - [47.数组全排列2](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/backtrack/FullyArrange47.java)
 - [48.旋转图像](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/RotateImage48.java)
