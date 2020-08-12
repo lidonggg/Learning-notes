@@ -27,6 +27,7 @@
 - [59.螺旋矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrixII59.java)
 - [78.子集](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/Subsets78.java)
 - [240.搜索二维矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SearchIn2DMatrixII240.java)
+- [289.生命游戏 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/medium/array/game_of_life_289.go)
 - [1053.交换一次的先前排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/PreviousPermutationWithOneSwap1053.java)
 - [1222.可以攻击国王的王后](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/QueensCanAttackTheKing1222.java)
 - [1493.删掉一个元素以后全为 1 的最长子数组](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/LongestSubarrayOf1AfterDeletingOneElement1493.java)
@@ -418,7 +419,7 @@
 ### 位运算
 
 #### 简单
-- [371.两整数之和](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/SumOfTwoIntegers371.java)
+- [371.两整数之和（不用加减法）](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/SumOfTwoIntegers371.java)
 - [389.找不同](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/FindTheDifference389.java)
 - [405.数字转换为十六进制](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/ConvertNumberToHexadecimal405.java)
 - [476.数字的补数](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/bitmanipulate/NumberComplement476.java)
