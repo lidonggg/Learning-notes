@@ -151,6 +151,7 @@
 - [513.找树左下角的值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/FindBottomLeftTreeValue513.java)
 - [515.在每个树行中找最大值](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/FindLargestValueInEachTreeRow515.java)
 - [529.扫雷游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/Minesweeper529.java)
+- [540.有序数组中的单一元素 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/medium/binarysearch/single_elementin_sorted_array540.go)
 - [542.0-1 矩阵](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/MatrixZeroOne542.java)
 - [547.朋友圈](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dfs/FriendCircles547.java)
 - [583.两个字符串的删除操作](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/dynamic/DeleteOperationForTwoStrings583.java)

@@ -29,6 +29,9 @@ public class MultiplyStrings43 {
     /**
      * 执行用时：13 ms，在所有 Java 提交中击败了 35.23% 的用户
      * 内存消耗：40 MB，在所有 Java 提交中击败了 41.50% 的用户
+     * <p>
+     * 时间复杂度：O(mn + n^2)
+     * 空间复杂度：O(mn + n^2)
      *
      * @param num1 num1
      * @param num2 num2
@@ -47,7 +50,7 @@ public class MultiplyStrings43 {
         for (int i = 0; i <= m + n - 1; ++i) {
             int sum = left;
             for (int j = n - 1; j >= 0; --j) {
-                sum += its[j].charAt(i) - '0' ;
+                sum += its[j].charAt(i) - '0';
             }
             left = sum / 10;
             sb.append(sum % 10);
@@ -107,6 +110,50 @@ public class MultiplyStrings43 {
         // m + idx = m + n - (n - idx)
         while (sb.length() < m + n) {
             sb.append(0);
+        }
+        return sb.toString();
+    }
+
+    /**
+     * 方法二：
+     * 来自 leetcode 官方题解2：https://leetcode-cn.com/problems/multiply-strings/solution/zi-fu-chuan-xiang-cheng-by-leetcode-solution/
+     * 使用数组代替字符串存储结果，减少对字符串的操作
+     * <p>
+     * 执行用时：2 ms，在所有 Java 提交中击败了 100.00% 的用户
+     * 内存消耗：40.1 MB，在所有 Java 提交中击败了 31.73% 的用户
+     * <p>
+     * 时间复杂度：O(mn)
+     * 空间复杂度：O(m + n)
+     *
+     * @param num1 num1
+     * @param num2 num2
+     * @return num str
+     */
+    public String multiply2(String num1, String num2) {
+        if ("0".equals(num1) || "0".equals(num2)) {
+            return "0";
+        }
+        int m = num1.length(), n = num2.length();
+        // 一个 m 位的数与一个 n 位的数相乘最终的结果的长度不会大于 m + n
+        int[] ansArr = new int[m + n];
+        // 分别相乘每一位，然后存入到对应的数组元素中
+        for (int i = m - 1; i >= 0; i--) {
+            int x = num1.charAt(i) - '0';
+            for (int j = n - 1; j >= 0; j--) {
+                int y = num2.charAt(j) - '0';
+                ansArr[i + j + 1] += x * y;
+            }
+        }
+        // 循环进位
+        for (int i = m + n - 1; i > 0; i--) {
+            ansArr[i - 1] += ansArr[i] / 10;
+            ansArr[i] %= 10;
+        }
+        int index = ansArr[0] == 0 ? 1 : 0;
+        StringBuilder sb = new StringBuilder();
+        while (index < m + n) {
+            sb.append(ansArr[index]);
+            index++;
         }
         return sb.toString();
     }

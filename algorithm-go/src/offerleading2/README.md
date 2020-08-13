@@ -18,7 +18,7 @@ finished:
 
 31    35      39
 
-40    47      48
+40    47      48      49
 
 55I  55II
 
@@ -113,6 +113,7 @@ finished:
 - [14.剪绳子](dynamic/cut_the_rope14.go)
 - [47.礼物的最大价值](dynamic/max_value_of_gifts47.go)
 - [48.最长的不含重复字符的子字符串](string/longest_substring_without_repeating_characters48.go)
+- [49.丑数](dynamic/ugly_number49.go)
 
 #### 位运算
 
