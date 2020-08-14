@@ -77,6 +77,7 @@ finished:
 #### 搜索算法
 
 - [11.旋转数组的最小数字](search/min_num_of_rotated_array11.go)
+- [53-I.在排序数组中查找数字](search/find_target_in_sorted_array_I53.go)
 
 #### 递归
 
