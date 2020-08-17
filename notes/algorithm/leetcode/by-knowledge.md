@@ -29,6 +29,7 @@
 - [78.子集](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/Subsets78.java)
 - [240.搜索二维矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SearchIn2DMatrixII240.java)
 - [289.生命游戏 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/medium/array/game_of_life_289.go)
+- [565. 数组嵌套 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/medium/array/array_nesting565.go)
 - [1053.交换一次的先前排列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/PreviousPermutationWithOneSwap1053.java)
 - [1222.可以攻击国王的王后](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/QueensCanAttackTheKing1222.java)
 - [1493.删掉一个元素以后全为 1 的最长子数组](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/LongestSubarrayOf1AfterDeletingOneElement1493.java)
