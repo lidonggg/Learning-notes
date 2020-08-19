@@ -44,6 +44,8 @@
 
 - [141.环形链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/linkedlist/LinkedListCircle.java#L10)
 
+- [面试题 02_06. 回文链表 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/easy/linkedlist/is_palindromeI0206.go)
+
 #### 中等
 - [2.两数相加](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/AddTwoNumbers2.java)
 - [24.两两交换链表中的节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/SwapNodesInPairs24.java)
@@ -61,6 +63,7 @@
 - [725.分割链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/SplitLinkedListInParts725.java)
 - [817.链表组件](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/LinkedListComponents817.java)
 - [1019.链表中下一个更大节点](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/linkedlist/NextGreaterNodeInLinkedList1019.java)
+
 
 #### 困难
 - [23.合并 k 个有序链表](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/hard/linkedlist/MergeKSortedLists23.java)
