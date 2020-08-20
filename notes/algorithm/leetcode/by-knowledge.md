@@ -26,6 +26,7 @@
 - [54.螺旋矩阵](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrix54.java)
 - [56.合并区间](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/MergeIntervals56.java)
 - [59.螺旋矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SpiralMatrixII59.java)
+- [73.矩阵置零 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/medium/array/set_matrix_zeroes73.go)
 - [78.子集](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/Subsets78.java)
 - [240.搜索二维矩阵 II](../../../algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/array/SearchIn2DMatrixII240.java)
 - [289.生命游戏 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/medium/array/game_of_life_289.go)
