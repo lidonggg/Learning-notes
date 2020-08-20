@@ -369,9 +369,14 @@
 - [55.跳跃游戏](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/greedy/JumpGame55.java)
 
 #### 中等
-- [605.种花问题](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/CanPlaceFlowers605.java)
 
 - [300.最长上升子序列](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/LongestIncreasingSubsequence300.java)
+
+- [452.用最少数量的箭引爆气球 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/medium/greedy/minimum_number_of_arrows_to_burst_balloons452.go)
+
+- [605.种花问题](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/CanPlaceFlowers605.java)
+
+
 
 - [1414.和为 K 的最少斐波那契数字数目](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/greedy/FindMinimumNumOfFibNumsWhoseSumIsK1414.java)
 
