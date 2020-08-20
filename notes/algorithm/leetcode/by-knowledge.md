@@ -289,6 +289,7 @@
 - [542.0-1 矩阵](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/MatrixZeroOne542.java)
 - [994.腐烂的橘子](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/RottingOranges994.java)
 
+- [1091.二进制矩阵中的最短路径 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/medium/bfs/shortest_path_in_binary_matrix1091.go)
 ### dfs
 #### 简单
 - [104.二叉树最大深度](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dfs/MaxDepthOfBinaryTree104.java)
