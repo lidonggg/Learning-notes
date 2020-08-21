@@ -291,6 +291,7 @@
 - [994.腐烂的橘子](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/medium/bfs/RottingOranges994.java)
 
 - [1091.二进制矩阵中的最短路径 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/medium/bfs/shortest_path_in_binary_matrix1091.go)
+- [1466.重新规划路线 go](https://github.com/lidonggg/Learning-notes/blob/master/algorithm-go/src/leetcode/medium/bfs/reorder_routes_to_make_all_paths_lead_to_the_city_zero1466.go)
 ### dfs
 #### 简单
 - [104.二叉树最大深度](https://github.com/lidonggg/Learning-notes/blob/master/algorithm/src/main/java/com/lidong/algorithm/leetcode/easy/dfs/MaxDepthOfBinaryTree104.java)
