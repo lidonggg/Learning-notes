@@ -14,7 +14,7 @@ finished:
 
 11    12      13
 
-21    22      23      24      25      27     28
+21    22      23      24      25      27     28      29
 
 31    35      39
 
@@ -34,6 +34,7 @@ finished:
 
 - [04.二维数组查找](array/two_dim_array_search04.go)
 - [21.调整数组顺序使奇数位于偶数前面](twopointers/adjust_array_order_to_make_odd_number_precedes_even_number21.go)
+- [29.顺时针打印矩阵](array/spiral_order_to_print_matrix29.go)
 - [39.数组中出现次数超过一半的数字](array/number_in_array_appears_more_than_half_the_time39.go)
 - [40.最小的 k 个数字](array/minimum_k_numbers40.go)
 - [57-II.和为s的连续正数序列](array/sequence_of_continuous_positive_numbers_with_sum_s57_II.go)
