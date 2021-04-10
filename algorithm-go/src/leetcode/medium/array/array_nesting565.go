@@ -29,26 +29,26 @@ package array
 // 内存消耗：5.9 MB，在所有 Go 提交中击败了 100.00% 的用户
 //
 func arrayNesting(nums []int) int {
-    res := 0
-    for i := 0; i < len(nums); i++ {
-        if nums[i] != 20000 {
-            start, count := nums[i], 0
-            for nums[start] != 20000 {
-                count++
-                tmp := start
-                start = nums[start]
-                // 模拟标记为已访问
-                nums[tmp] = 20000
-            }
-            res = max(res, count)
-        }
-    }
-    return res
+	res := 0
+	for i := 0; i < len(nums); i++ {
+		if nums[i] != 20000 {
+			start, count := nums[i], 0
+			for nums[start] != 20000 {
+				count++
+				tmp := start
+				start = nums[start]
+				// 模拟标记为已访问
+				nums[tmp] = 20000
+			}
+			res = max(res, count)
+		}
+	}
+	return res
 }
 
 func max(a, b int) int {
-    if a >= b {
-        return a
-    }
-    return b
+	if a >= b {
+		return a
+	}
+	return b
 }
